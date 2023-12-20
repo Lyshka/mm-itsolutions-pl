@@ -3,9 +3,7 @@ import {
   funcMain,
   seoMain,
   smmMain,
-  outMain,
   targetMain,
-  video,
 } from "@/assets/img";
 
 export const priceList = [
@@ -13,50 +11,35 @@ export const priceList = [
     id: 1,
     title: "SMM",
     description:
-      "Эффективное продвижение в социальных сетях: привлечение новых клиентов через Instagram, Facebook, TikTok, VK, OK.",
+      "Skuteczna promocja w mediach społecznościowych: pozyskiwanie nowych klientów za pośrednictwem Instagram, Facebook, TikTok, VK, OK.",
     img: smmMain,
   },
   {
     id: 2,
-    title: "Таргетированная реклама",
+    title: "Reklama ukierunkowana",
     description:
-      "Подтолкните cвой бизнес на новый уровень: эффективная таргетированная реклама для расширения вашего рынка и увеличения прибыли",
+      "Podnieś swoją firmę na wyższy poziom: skuteczna reklama ukierunkowana dla poszerzenia rynku i zwiększenia zysków.",
     img: targetMain,
   },
   {
     id: 3,
-    title: "Создание продающих сайтов",
+    title: "Tworzenie stron internetowych zwiększających sprzedaż",
     description:
-      "Максимизируйте потенциал вашего бизнеса: создание продающего сайта, который превращает посетителей в лояльных клиентов",
+      "Zwiększ potencjał swojego biznesu: tworzenie stron internetowych, które przekształcają odwiedzających w lojalnych klientów.",
     img: webMain,
   },
   {
     id: 4,
-    title: "SEO  |   Контекстная реклама   |  Тех. поддержка сайта",
+    title: "SEO | Reklama kontekstowa | Obsługa techniczna strony",
     description:
-      "Доверьтесь профессионалам: команда SEO-специалистов, экспертов контекстной рекламы и опытных технических поддержки, готовых помочь вашему сайту процветать.",
+      "Zaufaj profesjonalistom: nasz zespół specjalistów SEO, ekspertów w zakresie reklamy kontekstowej i doświadczonego wsparcia technicznego jest gotów pomóc Twojej stronie kwitnąć.",
     img: seoMain,
   },
   {
     id: 5,
-    title: "Дизайн  |  Контент",
+    title: "Projektowanie | Treść",
     description:
-      "Мы воплотим ваше видение в реальность: наша команда экспертов по дизайну и контенту готова создать неповторимый облик вашего проекта.",
+      "Rzeczywistość Twojej wizji: nasz zespół ekspertów ds. projektowania i treści gotów przekształcić Twój projekt, nadając mu niepowtarzalny wygląd.",
     img: funcMain,
-  },
-  {
-    id: 6,
-    title: "Оффлайн реклама",
-    description:
-      "Уличная реклама с хорошей видимостью: мы предлагаем разнообразные форматы и места размещения, чтобы ваш бренд привлекал внимание и оставлял яркое впечатление у прохожих.",
-    img: outMain,
-  },
-  {
-    id: 7,
-    title: "Фото и видеосъемка",
-    description:
-      "При помощи качественной фото и видеосъёмке мы создаём контент, который захватывает внимание. Звук у нас не просто дополнение, это второе дыхание вашего контента – мы записываем его и тщательно обрабатываем, чтобы каждая нота звучала в гармонии.",
-    img: video,
-    newPrice: true,
   },
 ];

@@ -11,7 +11,7 @@ export const Recaptcha = ({ recaptchaRef }: IRecaptcha) => {
       size="invisible"
       ref={recaptchaRef}
       sitekey="6LeUhyYpAAAAAIr-5CqLpzF5k25cz4OTsDca-dtm"
-      hl="RU"
+      hl="pl"
     />
   );
 };

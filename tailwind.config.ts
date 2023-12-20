@@ -12,7 +12,7 @@ const config: Config = {
     extend: {
       colors: {
         main: {
-          DEFAULT: "#FF3A2D",
+          DEFAULT: "#4144F3",
         },
       },
     },

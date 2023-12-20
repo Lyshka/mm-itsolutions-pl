@@ -23,16 +23,16 @@ export const Contacts = ({ dark = true }: IContacts) => {
     >
       <div className="container flex 2xl:flex-row flex-col-reverse gap-6 2xl:py-[104px] pt-10 2xl:items-center items-start">
         <div className="flex flex-col 2xl:justify-between justify-center 2xl:gap-10 gap-8 2xl:h-[360px] h-full">
-          <Title text="Контакты" />
+          <Title text="Kontakty" />
 
           <div className="flex flex-col 2xl:gap-4 gap-2 2xl:w-[527px] w-full">
             <h6 className="2xl:text-[22px] text-base font-medium leading-6">
-              Давайте создадим что-то прекрасное вместе!
+              Stwórzmy coś pięknego razem!
             </h6>
 
             <p className="2xl:text-base text-xs 2xl:leading-6 leading-4">
-              Свяжитесь с нами и получите бесплатную консультацию вашего бизнеса
-              прямо сейчас
+              Skontaktuj się z nami i uzyskaj darmową konsultację
+              <br className="2xl:block hidden"/> Twojego biznesu już teraz
             </p>
           </div>
 
@@ -42,16 +42,13 @@ export const Contacts = ({ dark = true }: IContacts) => {
                 <RiPhoneFill className="2xl:w-6 w-4 2xl:h-6 h-4" />
 
                 <span className="flex-1 2xl:text-base text-sm font-medium 2xl:leading-6 left-4">
-                  Телефон:
+                  Telefon:
                 </span>
               </div>
 
               <ul className="flex flex-col gap-2">
                 <li className="2xl:text-sm text-xs 2xl:leading-6 leading-4">
-                  <Link href={"tel:+375296308999"}>+375 (29) 630-89-99</Link>
-                </li>
-                <li className="2xl:text-sm text-xs 2xl:leading-6 leading-4">
-                  <Link href={"tel:+375298538872"}>+375 (29) 853-88-72</Link>
+                  <Link href={"tel:+48799464873"}>+48799464873</Link>
                 </li>
               </ul>
             </div>
@@ -61,13 +58,15 @@ export const Contacts = ({ dark = true }: IContacts) => {
                 <MailIcon className="2xl:w-6 w-4 2xl:h-6 h-4" />
 
                 <span className="flex-1 2xl:text-base text-sm font-medium 2xl:leading-6 left-4">
-                  E-mail:
+                  Email:
                 </span>
               </div>
 
               <ul className="flex flex-col gap-2">
                 <li className="2xl:text-sm text-xs 2xl:leading-6 leading-4">
-                  <Link href={"mailto:mail@smm-ibis.by"}>mail@smm-ibis.by</Link>
+                  <Link href={"mailto:mail@mm-itsolutions.pl"}>
+                    mail@mm-itsolutions.pl
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -77,7 +76,7 @@ export const Contacts = ({ dark = true }: IContacts) => {
                 <LocationIcon className="2xl:w-6 w-4 2xl:h-6 h-4" />
 
                 <span className="flex-1 2xl:text-base text-sm font-medium 2xl:leading-6 left-4">
-                  Адрес:
+                  Adres:
                 </span>
               </div>
 
@@ -85,10 +84,10 @@ export const Contacts = ({ dark = true }: IContacts) => {
                 <li className="2xl:text-sm text-xs 2xl:leading-6 leading-4">
                   <Link
                     href={
-                      "https://yandex.by/maps/158/mogilev/house/Z0kYdQRjQUIHQFtpfXR4dHhgYQ==/?ll=30.333870%2C53.895435&z=17"
+                      "https://yandex.by/maps/104114/lublin-voivodeship/house/ZksYcwJoS0MHQFtrfX51dn1mZw==/?ll=22.558260%2C51.247153&z=16.82"
                     }
                   >
-                    г.Могилев, ул. Ленинская 11
+                    Hugo Kołłątaja 6/3, 20-006 Lublin, PL
                   </Link>
                 </li>
               </ul>

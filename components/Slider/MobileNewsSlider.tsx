@@ -52,7 +52,7 @@ export const MobileNewsSlider = () => {
                 {description}
               </p>
 
-              <Button className="2xl:py-2">Подробнее</Button>
+              <Button className="2xl:py-2">Szczegóły</Button>
             </div>
           </Link>
         );

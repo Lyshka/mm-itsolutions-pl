@@ -6,16 +6,15 @@ export const Price = () => {
   return (
     <section className="flex justify-center items-center">
       <div className="container 2xl:py-[100px] py-6 flex flex-col 2xl:gap-10 gap-6 items-start">
-        <Title text="Услуги" />
+        <Title text="Usługi" />
 
         <div className="border-t border-[#BBBBBB] w-full">
-          {priceList.map(({ description, id, img, title, newPrice }) => (
+          {priceList.map(({ description, id, img, title }) => (
             <CardPrice
               key={id}
               description={description}
               img={img}
               title={title}
-              newPrice={newPrice}
             />
           ))}
         </div>

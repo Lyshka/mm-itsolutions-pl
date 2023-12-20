@@ -15,7 +15,6 @@ export const PriceCard = ({ priceCard }: IPriceCard) => {
   const {
     includeServices,
     valuableBYN,
-    valuableRUB,
     month,
     description,
     title,
@@ -36,25 +35,15 @@ export const PriceCard = ({ priceCard }: IPriceCard) => {
       <div>
         <div className="p-6 flex flex-1 flex-col items-center gap-4 bg-main text-white">
           <div className="flex gap-3 items-end font-bold leading-6 2xl:text-lg text-base">
-            <span>От</span>
+            <span>od</span>
             <p className="2xl:text-[64px] text-[56px] font-black 2xl:leading-[64px] leading-[56px]">
               {valuableBYN}
             </p>
-            <span className="flex-1">BYN{month && "/месяц"}</span>
+            <span className="flex-1">zł{month && "/miesiąc"}</span>
           </div>
         </div>
 
         <div className="p-6 pt-0 flex flex-1 flex-col items-center gap-4 bg-main text-white">
-          {valuableRUB && (
-            <div className="flex gap-3 items-end font-bold leading-6 2xl:text-lg text-base">
-              <span>От</span>
-              <p className="2xl:text-[64px] text-[56px] font-black 2xl:leading-[64px] leading-[56px]">
-                {valuableRUB}
-              </p>
-              <span className="flex-1">RUB{month && "/месяц"}</span>
-            </div>
-          )}
-
           <p
             className="text-base font-semibold leading-4"
             dangerouslySetInnerHTML={{ __html: description || "" }}
@@ -68,7 +57,7 @@ export const PriceCard = ({ priceCard }: IPriceCard) => {
           className="flex py-4 px-6 justify-center items-center gap-2"
         >
           <span className="text-center text-base font-bold leading-4">
-            Подробнее
+            Szczegóły
           </span>
           <IoIosArrowDown className="w-4 h-4" />
         </button>
@@ -99,7 +88,7 @@ export const PriceCard = ({ priceCard }: IPriceCard) => {
           href={"#formService"}
           className="flex py-3 px-6 justify-center items-center rounded-[100px] border-2 border-main text-center text-sm font-extrabold leading-6 w-full uppercase"
         >
-          Запросить предложение
+          OTRZYMAĆ OFERTĘ
         </Link>
       </div>
     </div>

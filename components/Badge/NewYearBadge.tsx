@@ -23,7 +23,7 @@ export const NewYearBadge = ({ textBadge }: INewYearBadge) => {
       />
       <div className="text-white flex flex-col 2xl:gap-8 gap-4 2xl:w-[390px]  w-full relative z-20">
         <h5 className="text-xl font-extrabold leading-6">
-          Новогодние подарки от IBIS
+          Noworoczne prezenty od ITSolutions
         </h5>
 
         <div className="flex flex-col 2xl:gap-4 gap-2">
@@ -33,7 +33,7 @@ export const NewYearBadge = ({ textBadge }: INewYearBadge) => {
 
           <Link href={"#formService"}>
             <button className="py-2 px-4 rounded-[100px] bg-white text-center text-base font-medium leading-4 text-main">
-              Получить подарок
+              Otrzymać prezent
             </button>
           </Link>
         </div>

@@ -36,12 +36,11 @@ export const DiscountPopup = () => {
                 <h6
                   className={`${delagothicone.className} 2xl:text-[32px] text-lg 2xl:leading-10 leading-6`}
                 >
-                  Скидка специально для Вас!
+                  Rabat specjalnie dla Ciebie!
                 </h6>
 
                 <p className="2xl:text-lg text-xs 2xl:leading-6 leading-4">
-                  Отправляйте заявку прямо сейчас и именно для Вас мы составим
-                  специальное предложение!
+                Składaj teraz zgłoszenie, a specjalnie dla Ciebie przygotujemy indywidualną ofertę!
                 </p>
               </div>
 

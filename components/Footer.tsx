@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-import { calibry } from "@/assets/font";
 import { footerMenuJobs } from "@/constants/menu";
 import { social } from "@/constants/social";
+import { LogoWhite } from "@/assets/img/LogoWhite";
 
 export const Footer = () => {
   return (
@@ -11,17 +11,13 @@ export const Footer = () => {
         <div className="flex flex-col gap-6 2xl:w-[307px] w-full items-start">
           <Link
             href={"/"}
-            className="w-17 h-16 2xl:p-2 p-0 flex justify-center items-center"
+            className="2xl:h-20 2xl:w-16 h-16 w-12 2xl:p-2 p-0 flex justify-center items-center"
           >
-            <h1
-              className={`${calibry.className} text-[47.972px] tracking-[-3.838px] logo-background w-[60px] h-[60px] flex justify-center items-center`}
-            >
-              IBIS
-            </h1>
+            <LogoWhite />
           </Link>
 
           <p className="font-medium 2xl:text-base text-sm">
-            Ибис маркетинг — цифровое маркетинговое агентство полного цикла.
+            ITSolutions - pełnokrotna agencja marketingu cyfrowego.
           </p>
 
           <ul className="flex flex-col">
@@ -31,14 +27,14 @@ export const Footer = () => {
               </li>
             ))}
           </ul>
-
-          <p className="footer-ul-jobs 2xl:block hidden">УНП 791294932</p>
         </div>
 
         <div className="2xl:w-[307px] w-full 2xl:mt-0 mt-10">
           <div className="flex flex-col gap-6 2xl:items-end items-start">
             <div className="flex flex-col gap-4">
-              <p className="font-medium 2xl:text-right">Социальные сети:</p>
+              <p className="font-medium 2xl:text-right">
+                Media społecznościowe:
+              </p>
 
               <div className="text-white flex gap-6 items-center">
                 {social.map(({ icon, id, url }) => (
@@ -58,7 +54,7 @@ export const Footer = () => {
             </div>
 
             <p className="text-left text-[#BBBBBB] text-sm">
-              © Все права защищены Ибис Маркетинг {new Date().getFullYear()}
+            © Wszelkie prawa zastrzeżone ITSolutions {new Date().getFullYear()}
             </p>
           </div>
         </div>

@@ -1,30 +1,30 @@
-import { TelegramIcon } from "@/assets/img/TelegramIcon";
-import { FaInstagram, FaBehance, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaLinkedinIn,
+  FaWhatsapp,
+  FaFacebook,
+} from "react-icons/fa";
 
 export const social = [
   {
     id: 1,
     icon: <FaInstagram className="group-hover:fill-main" />,
-    url: "https://www.instagram.com/ibis.marketing/",
+    url: "https://www.instagram.com/mm_it_solutions.pl/",
   },
   {
     id: 2,
-    icon: <FaBehance className="group-hover:fill-main" />,
-    url: "https://www.behance.net/smmibis",
+    icon: <FaLinkedinIn className="group-hover:fill-main" />,
+    url: "https://www.linkedin.com/company/mmitsolutionspol/",
   },
   {
     id: 3,
-    icon: <FaLinkedinIn className="group-hover:fill-main" />,
-    url: "https://www.linkedin.com/company/ibis-digital-marketing-agency/",
+    icon: <FaWhatsapp className="group-hover:fill-main" />,
+    url: "https://wa.me/48799464873",
   },
+
   {
     id: 4,
-    icon: <TelegramIcon className="group-hover:fill-main" />,
-    url: "https://t.me/Ibis_marketing",
-  },
-  {
-    id: 5,
-    icon: <FaWhatsapp className="group-hover:fill-main" />,
-    url: "https://wa.me/375339157676",
+    icon: <FaFacebook className="group-hover:fill-main" />,
+    url: "https://www.facebook.com/people/MM-it-solutions/100092399065653/?mibextid=hIlR13",
   },
 ];

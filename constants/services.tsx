@@ -4,14 +4,10 @@ import {
   developmentOfAUniqueDesign,
   functionalMarketingDepartment,
   otherServices,
-  outdoorAdvertising,
-  promotionOnMarketplaces,
   seoPromotion,
   siteCreation,
   smmPromotion,
   targetedAdvertising,
-  tiktokPromotion,
-  videoProduction,
   websiteMaintenance,
 } from "@/assets/img";
 
@@ -19,159 +15,151 @@ export const services = [
   {
     id: 1,
     url: "site-creation",
-    title: "Разработка сайта",
+    title: "Tworzenie stron internetowych",
     img: siteCreation,
     advantages: {
-      title: "Преимущества наших сайтов",
+      title: "Zalety naszych stron",
       list: [
         {
           id: 1,
-          title: "Узнаваемость бренда",
+          title: "Rozpoznawalność marki",
           description:
-            "Учитываем ваши идеи и фирменный стиль организации. Увеличиваем количество клиентов, так же повышаем узнаваемость бренда",
+            "Bierzemy pod uwagę Twoje pomysły i korporacyjny styl organizacji. Zwiększamy liczbę klientów, a także zwiększamy świadomość marki",
         },
         {
           id: 2,
-          title: "Понятный интерфейс",
+          title: "Przejrzysty interfejs",
           description:
-            "Благодаря нашему креативному отделу мы доносим до клиента главные преимущества продукта или услуги",
+            "Dzięki naszemu działowi kreatywnemu przekazujemy klientowi główne zalety produktu lub usługi.",
         },
         {
           id: 3,
-          title: "Надежный сервис",
+          title: "Niezawodna obsługa",
           description:
-            "Наш отдел разработки обеспечит стабильную и беспрерывную работу вашего сервиса или сайта",
+            "Nasz dział rozwoju zadba o stabilne i nieprzerwane działanie Twojego serwisu lub serwisu",
         },
       ],
     },
     textBadge:
-      "Закажи любой тариф по разработке сайта и получи Контекстную рекламу + CEO в подарок",
+      "Zamów dowolny plan rozwoju strony internetowej i otrzymaj w prezencie Reklamę Kontekstową + CEO",
     cards: [
       {
         id: 1,
-        valuableBYN: "400",
-        valuableRUB: "15000",
+        valuableBYN: "1500",
         month: false,
-        title: "Стандарт",
-        description:
-          "3 месяца фикс 700 BYN; с 4-ого месяца фикс 500 BYN + бонусы за запросы, которые в ТОП-10",
+        title: "Standard",
         includeServices: [
           {
             id: 1,
-            title: "Лэндинг до 4 экранов",
+            title: "Landing page do 4 ekranów",
           },
           {
             id: 2,
-            title: "Со стандартным дизайном",
+            title: "Z projektem standardowym",
           },
           {
             id: 3,
-            title: "без CMS",
+            title: "Bez CMS",
           },
           {
             id: 4,
-            title: "помощь в регистрации домена",
+            title: "Pomoc w rejestracji domeny",
           },
           {
             id: 5,
-            title: "размещение на хостинге",
+            title: "Umieszczenie na hosting",
           },
         ],
       },
       {
         id: 2,
-        valuableBYN: "800",
-        valuableRUB: "25000",
+        valuableBYN: "2500",
         month: false,
-        title: "Премиум",
-        description:
-          "3 месяца фикс 700 BYN; с 4-ого месяца фикс 500 BYN + бонусы за запросы, которые в ТОП-10",
+        title: "Premium",
         includeServices: [
           {
             id: 1,
-            title: "Лэндинг до 7 экранов",
+            title: "Landing page do 7 ekranów",
           },
           {
             id: 2,
-            title: "С уникальным дизайном",
+            title: "Z indywidualnym designem",
           },
           {
             id: 3,
-            title: "простой CMS (WP либо др)",
+            title: "Prosty CMS (WB lub inny)",
           },
           {
             id: 4,
-            title: "помощь в регистрации домена",
+            title: "Pomoc w rejestracji domeny",
           },
           {
             id: 5,
-            title: "размещение на хостинге обратная связь",
+            title: "Umieszczenie na hosting i kontakt",
           },
           {
             id: 6,
-            title: "интерактивный помощник",
+            title: "Interaktywny asystent",
           },
         ],
       },
       {
         id: 3,
-        valuableBYN: "1500",
-        valuableRUB: "45000",
+        valuableBYN: "5000",
         month: false,
-        title: "Корпоративный сайт",
+        title: "Strona korporacyjna",
         includeServices: [
           {
             id: 1,
-            title: "Корпоративный сайт до 7 страниц",
+            title: "do 7 stron",
           },
           {
             id: 2,
-            title: "С уникальным дизайном",
+            title: "Z indywidualnym designem",
           },
           {
             id: 3,
-            title: "CMS (WP либо др)",
+            title: "CMS (WB lub inny)",
           },
           {
             id: 4,
-            title: "помощь в регистрации домена",
+            title: "Pomoc w rejestracji domeny",
           },
           {
             id: 5,
-            title: "интерактивный помощник",
+            title: "Interaktywny asystent",
           },
         ],
       },
       {
         id: 4,
-        valuableBYN: "2500",
-        valuableRUB: "90000",
+        valuableBYN: "8000",
         month: false,
-        title: "Интернет-магазин",
+        title: "Sklep internetowy",
         includeServices: [
           {
             id: 1,
-            title: "Интернет магазин до 15 страниц",
+            title: "Sklep internetowy do 15 stron",
           },
           {
             id: 2,
-            title: "С уникальным дизайном",
+            title: "Z indywidualnym designem",
           },
           {
             id: 3,
-            title: "CMS (WP либо др)",
+            title: "CMS (WB lub inny)",
           },
           {
             id: 4,
-            title: "помощь в регистрации домена",
+            title: "Pomoc w rejestracji domeny",
           },
           {
             id: 5,
-            title: "размещение на хостинге обратная связь",
+            title: "Interaktywny asystent",
           },
           {
             id: 6,
-            title: "интерактивный помощник",
+            title: "Umieszczenie na hosting i kontakt",
           },
         ],
       },
@@ -180,166 +168,163 @@ export const services = [
   {
     id: 2,
     url: "website-maintenance",
-    title: "Обслуживание сайта",
+    title: "Obsługa strony internetowej",
     img: websiteMaintenance,
     advantages: {
-      title: "Преимущества наших сайтов",
+      title: "Zalety naszych stron",
       list: [
         {
           id: 1,
-          title: "Регулярные обновления и безопасность",
+          title: "Regularne aktualizacje i bezpieczeństwo",
           description:
-            "Мы обеспечиваем постоянное обновление вашего сайта, следим за его безопасностью и защищаем от угроз, что обеспечивает надежную и стабильную работу онлайн-платформы.",
+            "Dbamy o ciągłą aktualizację Twojej witryny, monitorujemy jej bezpieczeństwo i chronimy przed zagrożeniami, co zapewnia niezawodne i stabilne działanie platformy internetowej.",
         },
         {
           id: 2,
-          title: "Профессиональная поддержка и быстрое реагирование",
+          title: "Profesjonalne wsparcie i szybka reakcja",
           description:
-            "Наша команда технической поддержки всегда готова помочь и ответить на ваши вопросы. Мы гарантируем быстрое реагирование на любые запросы, что позволяет избежать простоев и проблем на сайте.",
+            "Nasz zespół wsparcia technicznego jest zawsze gotowy do pomocy i odpowiedzi na Twoje pytania. Gwarantujemy szybką reakcję na wszelkie zapytania, co pozwala uniknąć przestojów i problemów na stronie.",
         },
         {
           id: 3,
-          title: "Повышение производительности и оптимизация",
+          title: "Poprawa i optymalizacja wydajności",
           description:
-            "Мы оптимизируем ваш сайт для более эффективной работы, что повышает его производительность и ускоряет загрузку страниц. Это улучшает пользовательский опыт и способствует увеличению конверсии и доходов.",
+            "Optymalizujemy Twoją witrynę tak, aby działała wydajniej, co poprawia wydajność i sprawia, że ​​strony ładują się szybciej. Poprawia to wygodę użytkownika i pomaga zwiększyć konwersje i przychody.",
         },
       ],
     },
     textBadge:
-      "Закажи любой тариф по обслуживанию сайта и получи SEO в подарок",
+      "Zamów dowolny plan utrzymania strony internetowej i otrzymaj SEO w prezencie",
     cards: [
       {
         id: 1,
-        valuableBYN: "400",
-        valuableRUB: "15000",
+        valuableBYN: "1000",
         month: true,
-        title: "Стандарт",
+        title: "Standard",
         includeServices: [
           {
             id: 1,
-            title: "Ежемесячное техническое сопровождение сайта",
+            title: "Miesięczne wsparcie techniczne strony",
           },
           {
             id: 2,
-            title: "Устранение ошибок",
+            title: "Usuwanie błędów",
           },
           {
             id: 3,
-            title: "Обновление контента",
+            title: "Aktualizacja treści",
           },
           {
             id: 4,
-            title: "Подготовка контента",
+            title: "Przygotowanie treści",
           },
           {
             id: 6,
-            title: "Наполнение сайта",
+            title: "Wypełnianie strony",
           },
           {
             id: 7,
-            title: "Установка/ изменения плагинов, счетчиков",
+            title: "Instalacja/modyfikacja pluginów, liczników",
           },
           {
             id: 8,
-            title: "Написание и публикация новостей",
+            title: "Pisanie i publikacja wiadomości",
           },
           {
             id: 9,
-            title: "Добавление новых страниц",
+            title: "Dodawanie nowych stron",
           },
           {
             id: 10,
-            title: "До 30 часов выполнения работ в месяц",
+            title: "Do 30 godzin prac w miesiącu",
           },
         ],
       },
       {
         id: 2,
-        valuableBYN: "600",
-        valuableRUB: "20000",
+        valuableBYN: "1500",
         month: true,
-        title: "Премиум",
+        title: "Premium",
         includeServices: [
           {
             id: 1,
-            title: "Ежемесячное техническому сопровождению сайта",
+            title: "Miesięczne wsparcie techniczne strony",
           },
           {
             id: 2,
-            title: "Устранение ошибок",
+            title: "Usuwanie błędów",
           },
           {
             id: 3,
-            title: "Обновление контента",
+            title: "Aktualizacja treści",
           },
           {
             id: 4,
-            title: "Подготовка контента",
+            title: "Przygotowanie treści",
           },
           {
             id: 5,
-            title: "Наполнение сайта",
+            title: "Wypełnianie strony",
           },
           {
             id: 6,
-            title: "Установка/ изменения плагинов, счетчиков",
+            title: "Instalacja/modyfikacja pluginów, liczników",
           },
           {
             id: 7,
-            title: "Написание и публикация новостей",
+            title: "Pisanie i publikacja wiadomości",
           },
           {
             id: 8,
-            title: "Добавление новых страниц",
+            title: "Dodawanie nowych stron",
           },
           {
             id: 9,
-            title: "До 50 часов выполнения работ работы в месяц",
+            title: "Do 50 godzin prac w miesiącu",
           },
         ],
       },
       {
         id: 3,
-        valuableBYN: "18",
-        valuableRUB: "500",
+        valuableBYN: "30",
         month: false,
-        title: "Разовое",
+        title: "Jednorazowe",
         includeServices: [
           {
             id: 1,
-            title: "Разовые работы техническому сопровождению сайта",
+            title: "Prace jednorazowe z technicznym utrzymaniem strony",
           },
           {
             id: 2,
-            title: "Устранение ошибок",
+            title: "Usuwanie błędów",
           },
           {
             id: 3,
-            title: "Обновление контента",
+            title: "Aktualizacja treści",
           },
           {
             id: 4,
-            title: "Подготовка контента",
+            title: "Przygotowanie treści",
           },
           {
             id: 5,
-            title: "Наполнение сайта",
+            title: "Wypełnianie strony",
           },
           {
             id: 6,
-            title: "Установка/ изменения плагинов, счетчиков",
+            title: "Instalacja/modyfikacja pluginów, liczników",
           },
           {
             id: 7,
-            title: "Написание и публикация новостей",
+            title: "Pisanie i publikacja wiadomości",
           },
           {
             id: 8,
-            title: "Добавление новых страниц",
+            title: "Dodawanie nowych stron",
           },
           {
             id: 9,
-            title: "За 1 час выполнения работ",
+            title: "Za 1 godzinę pracy",
           },
         ],
       },
@@ -348,66 +333,65 @@ export const services = [
   {
     id: 3,
     url: "contextual-advertising",
-    title: "Контекстная реклама",
+    title: "Reklama kontekstowa",
     img: contextualAdvertising,
     advantages: {
-      title: "Почему стоит заказать контекстную рекламу?",
+      title: "Dlaczego warto zamówić reklamę kontekstową?",
       list: [
         {
           id: 1,
-          title: "Точное таргетирование",
+          title: "Precyzyjne targetowanie",
           description:
-            "Привлекаем заинтересованную аудиторию благодаря ключевым словам.",
+            "Zainteresowanych odbiorców przyciągamy za pomocą słów kluczowych.",
         },
         {
           id: 2,
-          title: "Гибкий контроль бюджета",
+          title: "Elastyczna kontrola budżetu",
           description:
-            "Эффективно распределяем рекламные затраты по вашим требованиям.",
+            "Efektywnie dystrybuujemy koszty reklamy zgodnie z Twoimi wymaganiami.",
         },
         {
           id: 3,
-          title: "Высокая конверсия",
+          title: "Wysoka konwersja",
           description:
-            "Увеличиваем число клиентов, привлекая заинтересованных пользователей.",
+            "Zwiększamy liczbę klientów poprzez pozyskiwanie zainteresowanych użytkowników.",
         },
       ],
     },
     cards: [
       {
         id: 1,
-        valuableBYN: "250",
-        valuableRUB: "7000",
-        month: false,
-        title: "Стандарт",
+        valuableBYN: "500",
+        month: true,
+        title: "Standard",
         includeServices: [
           {
             id: 1,
             title:
-              "Настройка контекстной рекламы для сайтов в поисковой системе Яндекс либо Гугл",
+              "Konfiguracja reklamy kontekstowej dla stron internetowych w wyszukiwarce Google",
           },
           {
             id: 2,
-            title: "1-й месяц сбор семантического ядра",
+            title: "Pierwszy miesiąc zbierania jądra semantycznego",
           },
           {
             id: 3,
-            title: "Регистрация рекламного аккаунта",
+            title: "Rejestracja konta reklamowego",
           },
           {
             id: 4,
             title:
-              "Создание объявлений, определение стратегии рекламы- 250,00 р.",
+              "Tworzenie reklam, określanie strategii reklamowej - 1000 zł",
           },
           {
             id: 6,
             title:
-              "Последующие месяца сопровождение и корректировка компании- 150,00 р. до 10 товаров/услуги",
+              "Kolejne miesiące opieka i korekta kampanii - 500,00 zł do 10 produktów/usług",
           },
           {
             id: 7,
             title:
-              "* Рекламный бюджет не входит в стоимость и оплачивается Заказчиком отдельно третьим лицам",
+              "Budżet reklamowy nie jest wliczony w cenę i jest płatny oddzielnie przez Klienta trzecim stronom",
           },
         ],
       },
@@ -416,28 +400,28 @@ export const services = [
   {
     id: 4,
     url: "seo-promotion",
-    title: "SEO продвижение",
+    title: "SEO-promocja",
     img: seoPromotion,
     advantages: {
-      title: "Почему стоит заказать SEO продвижение?",
+      title: "Dlaczego warto zamówić promocję SEO?",
       list: [
         {
           id: 1,
-          title: "Повышение видимости",
+          title: "Zwiększona widoczność",
           description:
-            "Оптимизируем ваш сайт, чтобы он лучше понимался поисковыми системами, что помогает увеличить его рейтинг и привлечь больше органического трафика.",
+            "Optymalizujemy Twoją witrynę tak, aby była lepiej zrozumiana przez wyszukiwarki, co pomaga podnieść jej ranking i przyciągnąć więcej ruchu organicznego.",
         },
         {
           id: 2,
-          title: "Целевой трафик",
+          title: "Docelowy ruch",
           description:
-            "Нацеливаемся на ключевые слова и запросы, связанные с вашим бизнесом, чтобы привлечь именно тех пользователей, которые ищут вашу продукцию или услугу.",
+            "Kierujemy słowa kluczowe i zapytania związane z Twoją firmą, aby przyciągnąć dokładnie tych użytkowników, którzy szukają Twojego produktu lub usługi.",
         },
         {
           id: 3,
-          title: "Долгосрочные результаты",
+          title: "Wyniki długoterminowe",
           description:
-            "SEO продвижение строит устойчивый онлайн-профиль вашего бизнеса, что способствует увеличению органического трафика и приводит к долгосрочной успешности вашего веб-присутствия.",
+            "Promocja SEO buduje silny profil online Twojej firmy, co pomaga zwiększyć ruch organiczny i prowadzi do długoterminowego sukcesu Twojej obecności w Internecie.",
         },
       ],
     },
@@ -445,49 +429,46 @@ export const services = [
       {
         id: 1,
         valuableBYN: "450",
-        valuableRUB: "15000",
-        month: false,
-        title: "Стандарт",
-        description:
-          "3 месяца фикс 700 BYN; с 4-ого месяца фикс 500 BYN + бонусы за запросы, которые в ТОП-10",
+        month: true,
+        title: "Standard",
         includeServices: [
           {
             id: 1,
             title:
-              "Разработка семантического ядра под не более 15 товаров /услуг в месяц",
+              "Tworzenie jądra semantycznego dla maksymalnie 15 produktów/usług miesięcznie",
           },
           {
             id: 2,
-            title: "Полный цикл работ от семантического ядра до публикаций",
+            title: "Pełny zakres prac od jądra semantycznego do publikacji",
           },
           {
             id: 3,
-            title: "Оптимизация под Яндекс и Google",
+            title: "Optymalizacja pod Yandex i Google",
           },
           {
             id: 4,
             title:
-              "Написание и оптимизация Title,Description, Н1-Н4, ALT до 60 страниц и картинок в месяц",
+              "Pisanie i optymalizacja Title, Description, H1-H4, ALT dla maksymalnie 60 stron i obrazów miesięcznie",
           },
           {
             id: 6,
-            title: "Поиск и удаление битых ссылок",
+            title: "Wyszukiwanie i usuwanie złamanych linków",
           },
           {
             id: 7,
-            title: "Написание до 3 статей в месяц",
+            title: "Pisanie do 3 artykułów miesięcznie",
           },
           {
             id: 8,
-            title: "Контроль позиций",
+            title: "Kontrola pozycji",
           },
           {
             id: 9,
-            title: "Размещение не менее 5 бесплатных ссылок в мес.",
+            title: "Umieszczanie co najmniej 5 darmowych linków miesięcznie",
           },
           {
             id: 10,
-            title: "Покупка платных ссылок по согласованию с Заказчиком.",
+            title: "Zakup płatnych linków po uzgodnieniu z Klientem",
           },
         ],
       },
@@ -496,85 +477,83 @@ export const services = [
   {
     id: 5,
     url: "smm-promotion",
-    title: "SMM продвижение",
+    title: "SMM-promocja",
     img: smmPromotion,
     advantages: {
-      title: "Почему стоит заказать SMM - продвижение?",
+      title: "Dlaczego warto zamówić promocję SMM?",
       list: [
         {
           id: 1,
-          title: "Увлекательный контент",
+          title: "Fascynująca treść",
           description:
-            "Создаем привлекательные посты, которые привлекают внимание и вовлекают аудиторию, что способствует росту подписчиков и репостов.",
+            "Tworzymy atrakcyjne posty, które przyciągają uwagę i angażują odbiorców, co przyczynia się do wzrostu liczby subskrybentów i repostów.",
         },
         {
           id: 2,
-          title: "Взаимодействие с аудиторией",
+          title: "Interakcja z publicznością",
           description:
-            "Активно общаемся с подписчиками, отвечаем на комментарии и сообщения, создавая доверительные отношения и укрепляя связь с клиентами.",
+            "Aktywnie komunikujemy się z subskrybentami, odpowiadamy na komentarze i wiadomości, budując zaufanie i wzmacniając więzi z klientami.",
         },
         {
           id: 3,
-          title: "Расширение онлайн-присутствия",
+          title: "Rozszerzanie swojej obecności w Internecie",
           description:
-            "SMM-продвижение помогает расширить ваше онлайн-присутствие, привлечь новых клиентов и улучшить репутацию вашего бренда.",
+            "Promocja SMM pomaga poszerzyć Twoją obecność w Internecie, przyciągnąć nowych klientów i poprawić reputację Twojej marki.",
         },
       ],
     },
     textBadge:
-      "Закажи любой тариф SMM-продвижения и получи настройку таргетированной рекламы в подарок",
+      "Zamów dowolny plan promocyjny SMM i otrzymaj w prezencie zestaw reklam ukierunkowanych",
     cards: [
       {
         id: 1,
-        valuableBYN: "500",
-        title: "Стандарт",
-        valuableRUB: "15000",
-        month: false,
+        valuableBYN: "1500",
+        title: "Standard",
+        month: true,
         includeServices: [
           {
             id: 1,
             title:
-              "Создание, дизайн, шапка профиля, стратегия ведения социальных сетей, ТOV, ссылка, хайлайты",
+              "Tworzenie, projektowanie, nagłówek profilu, strategia prowadzenia mediów społecznościowych, TOV, link, Highlights",
           },
           {
             id: 2,
-            title: "Создание и публикация до 12 постов и до 30 сторис",
+            title: "Tworzenie i publikacja do 12 postów i do 30 Stories",
           },
           {
             id: 3,
-            title: "Настройка таргета до 2 компаний в мес.",
+            title: "Konfiguracja targetu do 2 kampanii miesięcznie",
           },
           {
             id: 4,
             title:
-              "* Рекламный бюджет не входит в стоимость и оплачивается Заказчиком отдельно третьим лицам",
+              "Budżet reklamowy nie jest wliczony w cenę i jest płatny oddzielnie przez Klienta trzecim stronom",
           },
         ],
       },
       {
         id: 2,
-        valuableBYN: "700",
-        valuableRUB: "25000",
-        month: false,
-        title: "Премиум",
+        valuableBYN: "2000",
+        month: true,
+        title: "Premium",
         includeServices: [
           {
             id: 1,
             title:
-              "Создание, дизайн, шапка профиля, стратегия ведения социальных сетей, ТOV, ссылка, хайлайты",
+              "Tworzenie, projektowanie, nagłówek profilu, strategia prowadzenia mediów społecznościowych, TOV, link, Highlights",
           },
           {
             id: 2,
-            title: "Создание и публикация до 12 постов и до 70 сторис",
+            title: "Tworzenie i publikacja do 12 postów i do 70 Stories",
           },
           {
             id: 3,
-            title: "Настройка таргета до 4 компаний в мес.",
+            title: "Konfiguracja targetu do 4 kampanii miesięcznie",
           },
           {
             id: 4,
             title:
-              "* Рекламный бюджет не входит в стоимость и оплачивается Заказчиком отдельно третьим лицам",
+              "Budżet reklamowy nie jest wliczony w cenę i jest płatny oddzielnie przez Klienta trzecim stronom",
           },
         ],
       },
@@ -583,62 +562,61 @@ export const services = [
   {
     id: 6,
     url: "targeted-advertising",
-    title: "Таргетированная реклама",
+    title: "Reklama ukierunkowana",
     img: targetedAdvertising,
     advantages: {
-      title: "Почему стоит заказать таргетированную рекламу?",
+      title: "Dlaczego warto zamówić reklamę targetowaną?",
       list: [
         {
           id: 1,
-          title: "Высокая эффективность",
+          title: "Wysoka wydajność",
           description:
-            "Реклама нацелена на определенную аудиторию с учетом их интересов, поведения и характеристик, что увеличивает вероятность привлечения заинтересованных клиентов и конверсии.",
+            "Reklama kierowana jest do konkretnych odbiorców na podstawie ich zainteresowań, zachowań i cech, zwiększając prawdopodobieństwo przyciągnięcia zainteresowanych klientów i konwersji.",
         },
         {
           id: 2,
-          title: "Оптимизация затрат",
+          title: "Optymalizacja kosztów",
           description:
-            "Позволяет эффективно использовать рекламный бюджет, минимизируя рассеивание рекламных затрат на неподходящую аудиторию.",
+            "Pozwala efektywnie wykorzystać budżet reklamowy, minimalizując rozproszenie kosztów reklamy na nieodpowiednich odbiorców.",
         },
         {
           id: 3,
-          title: "Персонализация сообщений",
+          title: "Personalizacja wiadomości",
           description:
-            "Позволяет предлагать индивидуальные предложения и акции, что улучшает взаимодействие с потенциальными клиентами и повышает их лояльность к бренду.",
+            "Umożliwia oferowanie spersonalizowanych ofert i promocji, co usprawnia interakcję z potencjalnymi klientami i zwiększa ich lojalność wobec marki.",
         },
       ],
     },
     cards: [
       {
         id: 1,
-        valuableBYN: "250",
-        valuableRUB: "7000",
-        month: false,
-        title: "Стандарт",
+        valuableBYN: "1000",
+        month: true,
+        title: "Standard",
         includeServices: [
           {
             id: 1,
             title:
-              "Настройка таргетированной рекламы в социальных сетях до 5 компаний с максимальным количеством объявлений 30",
+              "Konfiguracja reklam ukierunkowanych w mediach społecznościowych dla maksymalnie 5 kampanii z maksymalną liczbą 30 reklam",
           },
           {
             id: 2,
             title:
-              "1-й месяц регистрация рекламного аккаунта, создание объявлений",
+              "Pierwszy miesiąc rejestracji konta reklamowego, tworzenie reklam",
           },
           {
             id: 3,
-            title: "Определение стратегии рекламы- 250,00 р.",
+            title: "Określenie strategii reklamowej - 1000,00 zł",
           },
           {
             id: 4,
             title:
-              "Последующие месяца сопровождение и корректировка компании- 100,00 р. до 10 товаров/услуги",
+              "Kolejne miesiące opieka i korekta kampanii - 500,00 zł do 10 produktów/usług",
           },
           {
             id: 5,
             title:
-              "* Рекламный бюджет не входит в стоимость и оплачивается Заказчиком отдельно третьим лицам",
+              "Budżet reklamowy nie jest wliczony w cenę i jest płatny oddzielnie przez Klienta trzecim stronom",
           },
         ],
       },
@@ -646,678 +624,66 @@ export const services = [
   },
   {
     id: 7,
-    url: "tiktok-promotion",
-    title: "TikTok продвижение",
-    img: tiktokPromotion,
-    advantages: {
-      title: "Почему стоит выбрать продвижение в TikTok?",
-      list: [
-        {
-          id: 1,
-          title: "Популярность среди молодежи",
-          description:
-            "Платформа привлекает активную и широкую аудиторию, в основном из молодежи, что предоставляет уникальную возможность привлечь новую аудиторию к вашему бренду или продукту.",
-        },
-        {
-          id: 2,
-          title: "Креативные возможности",
-          description:
-            "TikTok предоставляет множество инструментов для создания оригинального и привлекательного контента, таких как музыкальные дуэты, фильтры и спецэффекты, что позволяет выделиться среди конкурентов и привлечь внимание зрителей.",
-        },
-        {
-          id: 3,
-          title: "Вирусный потенциал",
-          description:
-            "Захватывающий контент на TikTok может стать вирусным и быстро распространиться, что дает шанс быстро набрать популярность и увеличить охват вашего бренда или видео.",
-        },
-      ],
-    },
-    cards: [
-      {
-        id: 1,
-        valuableBYN: "1100",
-        valuableRUB: "30000",
-        month: false,
-        title: "Стандарт",
-        description:
-          "(при сотрудничестве более 6 мес. скидка с 7мес. – 15 %) в мес.",
-        includeServices: [
-          {
-            id: 1,
-            title:
-              "5 продающих TikTok (2 — с монтажом , 3 — обычных (в дальнейшем можете использовать для всех своих социальных сетей) в мес.",
-          },
-          {
-            id: 2,
-            title:
-              "2 анимационных TikTok (не менее двух различных рекламных посылов) в мес.",
-          },
-          {
-            id: 3,
-            title: "5 трендов в мес.",
-          },
-          {
-            id: 4,
-            title: "3 шуточных в мес.",
-          },
-          {
-            id: 5,
-            title: "Составление карты ЦА раз в два мес.",
-          },
-          {
-            id: 6,
-            title: "Анализ аккаунтов конкурентов, не более 5, раз в два мес.",
-          },
-          {
-            id: 7,
-            title: "Если нужно больше роликов, то пакет умножается на х2",
-          },
-        ],
-      },
-      {
-        id: 2,
-        valuableBYN: "1800",
-        valuableRUB: "50000",
-        month: false,
-        title: "Бизнес",
-        description:
-          "(при сотрудничестве более 6 мес. скидка с 7мес. – 10 %) в мес.",
-        includeServices: [
-          {
-            id: 1,
-            title:
-              "Посадочная страница (таплинк/ WP с дизайнерским решением 2 экрана (lдомен и хостинг оплачиваются отдельно)",
-          },
-          {
-            id: 2,
-            title: "5 продающих TikTok в мес",
-          },
-          {
-            id: 3,
-            title:
-              "Настройка таргетированной рекламы в TikTok Ads и ведение 30 дней",
-          },
-          {
-            id: 4,
-            title: "Подбор блогеров с ЦА (3 человек)",
-          },
-          {
-            id: 5,
-            title: "Подборка тем для прямых эфиров.",
-          },
-          {
-            id: 6,
-            title:
-              "* Рекламный бюджет не входит в стоимость и оплачивается Заказчиком отдельно третьим лицам",
-          },
-          {
-            id: 7,
-            title: "Замер позиций: каждый день",
-          },
-        ],
-      },
-      {
-        id: 3,
-        valuableBYN: "699",
-        valuableRUB: "20000",
-        month: false,
-        title: "Production",
-        description: "Создание роликов для TikTok по заданию Заказчика",
-        includeServices: [
-          {
-            id: 1,
-            title: "Проработка сценариев роликов",
-          },
-          {
-            id: 2,
-            title: "Поиск локации для съемки",
-          },
-          {
-            id: 3,
-            title: "Поиск актеров",
-          },
-          {
-            id: 4,
-            title: "Съемка роликов",
-          },
-          {
-            id: 5,
-            title: "Подборка тем для прямых эфиров.",
-          },
-          {
-            id: 6,
-            title: "Монтаж /постпродакшн До 10 роликов",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 8,
-    url: "promotion-on-marketplaces",
-    title: "Продвижение на маркетплейсах",
-    img: promotionOnMarketplaces,
-    advantages: {
-      title: "Почему стоит выбрать продвижение на маркетплейсах?",
-      list: [
-        {
-          id: 1,
-          title: "Широкая аудитория",
-          description:
-            "Маркетплейсы объединяют огромное количество покупателей, что позволяет достичь широкой и разнообразной аудитории, заинтересованной в вашем товаре или услуге.",
-        },
-        {
-          id: 2,
-          title: "Доверие платформы",
-          description:
-            "Брендированные маркетплейсы находятся в доверии покупателей, что способствует повышению доверия к вашему продукту или услуге и может увеличить конверсию.",
-        },
-        {
-          id: 3,
-          title: "Маркетинговые инструменты",
-          description:
-            "Многие маркетплейсы предоставляют специальные инструменты для продвижения, такие как рекламные возможности, специальные акции, что помогает привлечь внимание к вашему предложению и стимулирует продажи.",
-        },
-      ],
-    },
-    cards: [
-      {
-        id: 1,
-        valuableBYN: "450",
-        valuableRUB: "12000",
-        month: false,
-        title: "Стандарт",
-        description: `Продвижение на маркетплейсах Wildberries, ЯндексМаркет, OZONи д.р.<br /><br />
-
-        Базовая аналитика и упаковка карточек товара для начала продаж:`,
-        includeServices: [
-          {
-            id: 1,
-            title:
-              "Анализ категории в т.ч.: конкуренты, количество просмотров, динамика категории, выявление лидеров категории",
-          },
-          {
-            id: 2,
-            title: "Помощь в регистрации продавца на маркетплейсе",
-          },
-          {
-            id: 3,
-            title: "Аудит контента с рекомендациями",
-          },
-          {
-            id: 4,
-            title: "Конкурентная отстройка",
-          },
-          {
-            id: 5,
-            title: "Рекомендации по ценообразованию",
-          },
-          {
-            id: 6,
-            title: "Создание до 5 идеальных карточек товара",
-          },
-          {
-            id: 7,
-            title: "Заполнение поля «Наименование» по ключевым запросам",
-          },
-          {
-            id: 8,
-            title: "Дизайн 50 картинок",
-          },
-          {
-            id: 9,
-            title: "Заполнение всех характеристик",
-          },
-          {
-            id: 10,
-            title: "Описание с SEO оптимизацией для 3- х карточек",
-          },
-        ],
-      },
-      {
-        id: 2,
-        valuableBYN: "650",
-        valuableRUB: "19000",
-        month: false,
-        title: "Премиум",
-        description: `Продвижение на маркетплейсах Wildberries, ЯндексМаркет, OZONи д.р.<br /><br />
-
-          включает все, что в тарифе «Старт продаж» и дополнительно:`,
-        includeServices: [
-          {
-            id: 1,
-            title: "Настройка базовых промоакций",
-          },
-          {
-            id: 2,
-            title: "Реклама внутри площадки",
-          },
-          {
-            id: 3,
-            title: "Подготовка стратегии для продвижения",
-          },
-          {
-            id: 4,
-            title:
-              "Создание 3 статичных баннеров при необходимости проверка гипотез",
-          },
-          {
-            id: 5,
-            title: "Этап тестирования 7-10 дней",
-          },
-          {
-            id: 6,
-            title: "Анализ рекламных кампаний",
-          },
-          {
-            id: 7,
-            title: "Ведение на протяжении 1 месяца",
-          },
-          {
-            id: 8,
-            title:
-              "Анализ и оптимизация РК для снижения стоимости клика и конверсии",
-          },
-          {
-            id: 9,
-            title: "Предоставление еженедельного/ежемесячного отчетов",
-          },
-        ],
-      },
-      {
-        id: 3,
-        valuableBYN: "750",
-        valuableRUB: "22000",
-        month: false,
-        title: "Ультра",
-        description: `Продвижение на маркетплейсах Wildberries, ЯндексМаркет, OZONи д.р.<br /><br />
-
-        включает все, что в тарифе «Старт продаж» и дополнительно:`,
-        includeServices: [
-          {
-            id: 1,
-            title:
-              "Подбор семантического ядра: собираем все ключевые фразы по вашим товарам",
-          },
-          {
-            id: 2,
-            title: "Корректировка характеристик под ключевые фразы",
-          },
-          {
-            id: 3,
-            title: "Создание описания для увеличения конверсии и выхода в ТОП",
-          },
-          {
-            id: 4,
-            title: "Контроль позиций и их улучшение по SEO",
-          },
-          {
-            id: 5,
-            title: "Дополнительный дизайн 20 картинок для увеличения конверсии",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 9,
     url: "development-of-a-unique-design",
-    title: "Разработка уникального дизайна",
+    title: "Projektowanie unikalnego designu",
     img: developmentOfAUniqueDesign,
     advantages: {
-      title: "Почему стоит выбрать разработку уникального веб-дизайна?",
+      title: "Dlaczego warto opracować unikalny projekt strony internetowej?",
       list: [
         {
           id: 1,
-          title: "Уникальность и выделение среди конкурентов",
+          title: "Unikalność i wyróżnienie się na tle konkurencji",
           description:
-            "Уникальный веб-дизайн помогает вашему сайту выделиться среди тысяч других и создать запоминающееся визуальное впечатление у посетителей.",
+            "Unikalny projekt strony internetowej pomoże Twojej witrynie wyróżnić się spośród tysięcy innych i zapewnić odwiedzającym niezapomniane wrażenia wizualne.",
         },
         {
           id: 2,
-          title: "Повышение узнаваемости бренда",
+          title: "Zwiększanie świadomości marki",
           description:
-            "Индивидуальный дизайн способствует поддержанию единой визуальной идентичности вашего бренда, что увеличивает узнаваемость и доверие к вашему бренду.",
+            "Indywidualny projekt pomaga zachować spójną identyfikację wizualną Twojej marki, co zwiększa rozpoznawalność i zaufanie do Twojej marki.",
         },
         {
           id: 3,
-          title: "Оптимизация пользовательского опыта",
+          title: "Optymalizacja doświadczenia użytkownika",
           description:
-            "Эффективный уникальный дизайн облегчает навигацию и взаимодействие с сайтом, что повышает удовлетворенность пользователей и способствует увеличению конверсии.вв",
+            "Efektywny, unikalny design ułatwia nawigację i interakcję ze stroną, co zwiększa satysfakcję użytkowników i zwiększa konwersję.",
         },
       ],
     },
     cards: [
       {
         id: 1,
-        valuableBYN: "1800",
-        valuableRUB: "70000",
-        title: "Брендбук",
+        valuableBYN: "4000",
+        title: "Podręcznik identyfikacji wizualnej",
         month: false,
         includeServices: [
           {
             id: 1,
-            title: "Разработка полного брендбука",
+            title: "Tworzenie pełnej księgi identyfikacji wizualnej",
           },
         ],
       },
       {
         id: 2,
-        valuableBYN: "500",
-        valuableRUB: "15000",
+        valuableBYN: "1500",
         month: false,
-        title: "Укороченный брендбук",
+        title: "Skrócony podręcznik identyfikacji wizualnej",
         includeServices: [
           {
             id: 1,
-            title: "Разработка короткой версии брендбука",
+            title: "Tworzenie krótkiej wersji księgi identyfikacji wizualnej",
           },
         ],
       },
       {
         id: 3,
-        valuableBYN: "450",
-        valuableRUB: "17000",
+        valuableBYN: "1000",
         month: false,
-        title: "Бизнес-каталог",
+        title: "Katalog biznesowy",
         includeServices: [
           {
             id: 1,
-            title: "Разработка дизайна бизнес каталогов",
-          },
-        ],
-      },
-      {
-        id: 4,
-        valuableBYN: "250",
-        valuableRUB: "10000",
-        month: false,
-        title: "Меню",
-        includeServices: [
-          {
-            id: 1,
-            title: "Разработка дизайна меню",
-          },
-        ],
-      },
-      {
-        id: 5,
-        valuableBYN: "150",
-        valuableRUB: "5500",
-        month: false,
-        title: "Логотип",
-        includeServices: [
-          {
-            id: 1,
-            title: "Разработка дизайна лого",
-          },
-        ],
-      },
-      {
-        id: 6,
-        valuableBYN: "50",
-        valuableRUB: "2000",
-        month: false,
-        title: "Флаер, визитка",
-        includeServices: [
-          {
-            id: 1,
-            title: "Разработка дизайна флаеров, визиток",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 10,
-    url: "outdoor-advertising",
-    title: "Наружная реклама",
-    img: outdoorAdvertising,
-    advantages: {
-      title: "Почему стоит выбрать наружную рекламу?",
-      list: [
-        {
-          id: 1,
-          title: "Максимальное охват аудитории",
-          description:
-            "Размещение рекламы на улицах, зданиях или транспорте позволяет достичь широкой аудитории, включая прохожих, водителей и пассажиров, что обеспечивает высокую видимость вашего бренда или продукта.",
-        },
-        {
-          id: 2,
-          title: "Возможность локальной таргетированности",
-          description:
-            "Вы можете выбирать местоположение размещения рекламы в соответствии с вашей целевой аудиторией, что позволяет нацеливать рекламные сообщения на конкретные районы или географические области.",
-        },
-        {
-          id: 3,
-          title: "Повышение осведомленности о бренде",
-          description:
-            "Наружная реклама создает повседневное взаимодействие с вашим брендом, улучшает его узнаваемость и помогает формированию положительного образа компании или продукта в сознании потенциальных клиентов.",
-        },
-      ],
-    },
-    cards: [
-      {
-        id: 1,
-        valuableBYN: "500",
-        month: false,
-        title: "Радио",
-        includeServices: [
-          {
-            id: 1,
-            title: "Размещение рекламы на радио",
-          },
-        ],
-      },
-      {
-        id: 2,
-        valuableBYN: "400",
-        month: false,
-        title: "Билборд",
-        includeServices: [
-          {
-            id: 1,
-            title: "Размещение рекламы на билбордах по Беларуси/Могилеву",
-          },
-          {
-            id: 2,
-            title: "Дополнительно оплачивается монтаж",
-          },
-        ],
-      },
-      {
-        id: 3,
-        valuableBYN: "400",
-        month: false,
-        title: "Автобусы (полное брендирование)",
-        includeServices: [
-          {
-            id: 1,
-            title:
-              "Размещение рекламы на автобусе (полное брендированные) по Беларуси/Могилеву",
-          },
-          {
-            id: 2,
-            title: "Минимальный срок размещения 12 мес.",
-          },
-          {
-            id: 3,
-            title: "Дополнительно оплачивается монтаж/демонтаж",
-          },
-        ],
-      },
-      {
-        id: 4,
-        valuableBYN: "360",
-        month: false,
-        title: "Автобусы (задний борт)",
-        includeServices: [
-          {
-            id: 1,
-            title:
-              "Размещение рекламы на заднем борту автобусов по Беларуси/Могилеву",
-          },
-          {
-            id: 2,
-            title: "Минимальный срок размещения 6 мес.",
-          },
-          {
-            id: 3,
-            title: "Дополнительно оплачивается монтаж",
-          },
-        ],
-      },
-      {
-        id: 5,
-        valuableBYN: "80",
-        month: false,
-        title: "Автобусы",
-        includeServices: [
-          {
-            id: 1,
-            title:
-              "Размещение рекламы на баннерах в автобусе по Беларуси/Могилеву.",
-          },
-          {
-            id: 2,
-            title: "Минимальный срок размещения 1 мес.",
-          },
-          {
-            id: 3,
-            title: "Дополнительно оплачивается монтаж",
-          },
-        ],
-      },
-      {
-        id: 6,
-        valuableBYN: "80",
-        month: false,
-        title: "Печатная реклама",
-        includeServices: [
-          {
-            id: 1,
-            title: "Разноска печатной рекламы по почтовым ящикам",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 11,
-    url: "booking-service",
-    title: "Booking service",
-    img: bookingService,
-    advantages: {
-      title: "Почему стоит выбрать Booking service?",
-      list: [
-        {
-          id: 1,
-          title: "Удобное бронирование",
-          description:
-            "Пользователи могут легко и быстро забронировать желаемые услуги или товары через онлайн-платформу, без необходимости посещения физических точек или звонков.",
-        },
-        {
-          id: 2,
-          title: "Гарантированные места",
-          description:
-            "Система бронирования позволяет клиентам забронировать нужные даты и услуги заранее, обеспечивая им гарантированные места и удобство в использовании услуги.",
-        },
-        {
-          id: 3,
-          title: "Эффективное время использования",
-          description:
-            "Благодаря бронированию онлайн, клиенты могут оптимизировать свое время, выбирая удобное для них расписание, что повышает удовлетворенность и лояльность к сервису.",
-        },
-      ],
-    },
-    cards: [
-      {
-        id: 1,
-        valuableBYN: "90",
-        month: false,
-        title: "Эконом",
-        includeServices: [
-          {
-            id: 1,
-            title: "Ежемесячна стоимость сопровождения модуля бронирования",
-          },
-        ],
-      },
-      {
-        id: 2,
-        valuableBYN: "500",
-        month: false,
-        title: "Стандарт",
-        includeServices: [
-          {
-            id: 1,
-            title:
-              "Внедрение и настройка модуля онлайн бронирования для отеля/базы отдыха/ апартаментов – до 10 номеров",
-          },
-          {
-            id: 2,
-            title: "Вносим с описанием все гостиничные номера в модуль",
-          },
-          {
-            id: 3,
-            title: "Фотографируем все гостиничные номера",
-          },
-          {
-            id: 4,
-            title: "Вносим тарифы и акции",
-          },
-          {
-            id: 5,
-            title: "Указываем все сопутствующие услуги",
-          },
-          {
-            id: 6,
-            title:
-              "Настраиваем и тестируем каналы приема сообщений о бронировании",
-          },
-          {
-            id: 7,
-            title:
-              "Дополнительный бонус регистрации Вашего объекта и номеров на сервисе OSTROVOK.RU",
-          },
-        ],
-      },
-      {
-        id: 3,
-        valuableBYN: "800",
-        month: false,
-        title: "Премиум",
-        includeServices: [
-          {
-            id: 1,
-            title:
-              "Внедрение и настройка модуля онлайн бронирования для отеля/базы отдыха/ апартаментов – до 30 номеров",
-          },
-          {
-            id: 2,
-            title: "Вносим с описанием все гостиничные номера в модуль",
-          },
-          {
-            id: 3,
-            title: "Фотографируем все гостиничные номера",
-          },
-          {
-            id: 4,
-            title: "Вносим тарифы и акции",
-          },
-          {
-            id: 5,
-            title: "Указываем все сопутствующие услуги",
-          },
-          {
-            id: 6,
-            title:
-              "Настраиваем и тестируем каналы приема сообщений о бронировании",
-          },
-          {
-            id: 7,
-            title:
-              "Дополнительный бонус регистрации Вашего объекта и номеров на сервисе OSTROVOK.RU",
+            title: "Tworzenie projektu designu katalogu biznesowego",
           },
         ],
       },
@@ -1325,319 +691,352 @@ export const services = [
         id: 4,
         valuableBYN: "1000",
         month: false,
-        title: "Ультра",
+        title: "Menu",
         includeServices: [
           {
             id: 1,
-            title:
-              "Внедрение и настройка модуля онлайн бронирования для отеля/базы отдыха/ апартаментов – больше 30 номеров",
-          },
-          {
-            id: 2,
-            title: "Вносим с описанием все гостиничные номера в модуль",
-          },
-          {
-            id: 3,
-            title: "Фотографируем все гостиничные номера",
-          },
-          {
-            id: 4,
-            title: "Вносим тарифы и акции",
-          },
-          {
-            id: 5,
-            title: "Указываем все сопутствующие услуги",
-          },
-          {
-            id: 6,
-            title:
-              "Настраиваем и тестируем каналы приема сообщений о бронировании",
-          },
-          {
-            id: 7,
-            title:
-              "Дополнительный бонус регистрации Вашего объекта и номеров на сервисе OSTROVOK.RU",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 12,
-    url: "video-production",
-    title: "Фото и видеосъёмка",
-    img: videoProduction,
-    advantages: {
-      title: "Почему стоит выбрать Видео продакшн?",
-      list: [
-        {
-          id: 1,
-          title: "Привлекательный контент",
-          description:
-            "Видео является одним из самых привлекательных форматов контента, что позволяет эффективно привлекать внимание и удерживать интерес аудитории.",
-        },
-        {
-          id: 2,
-          title: "Наглядное представление",
-          description:
-            "Видео позволяет наглядно демонстрировать продукты, услуги или идеи, что помогает лучше коммуницировать с целевой аудиторией и донести ваше сообщение.",
-        },
-        {
-          id: 3,
-          title: "Профессиональное исполнение",
-          description:
-            "Продакшн команды обладают опытом и знаниями для создания высококачественного видео с учетом всех необходимых аспектов, что делает ваш контент более привлекательным и профессиональным.",
-        },
-      ],
-    },
-    cards: [
-      {
-        id: 1,
-        valuableBYN: "600",
-        month: false,
-        title: "Презентация",
-        includeServices: [
-          {
-            id: 1,
-            title:
-              "Разработка сценария, съемка и монтаж презентационных роликов о предприятии, товарах, услугах, коллективе",
-          },
-        ],
-      },
-      {
-        id: 2,
-        valuableBYN: "400",
-        month: false,
-        title: "Товары",
-        includeServices: [
-          {
-            id: 1,
-            title:
-              "Фото/видео съемка товаров/ блюд/ гостиничных номеров/ ресторанов/ бизнес ивентов и т.п.",
-          },
-        ],
-      },
-      {
-        id: 3,
-        valuableBYN: "300",
-        month: false,
-        title: "Анимация",
-        includeServices: [
-          {
-            id: 1,
-            title:
-              "Изготовление продающих анимационных 3D промороликов (видео до 2 мин) с использованием реального изображения товаров",
-          },
-        ],
-      },
-      {
-        id: 4,
-        valuableBYN: "80",
-        month: false,
-        title: "Реклама",
-        includeServices: [
-          {
-            id: 1,
-            title: "Разработка рекламных, промороликов товаров/ услуг до 2 мин",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 13,
-    url: "other-services",
-    title: "Прочие услуги",
-    img: otherServices,
-    advantages: {
-      title: "Почему стоит выбрать Прочие услуги?",
-      list: [
-        {
-          id: 1,
-          title: "Привлекательный контент",
-          description:
-            "Видео является одним из самых привлекательных форматов контента, что позволяет эффективно привлекать внимание и удерживать интерес аудитории.",
-        },
-        {
-          id: 2,
-          title: "Наглядное представление",
-          description:
-            "Видео позволяет наглядно демонстрировать продукты, услуги или идеи, что помогает лучше коммуницировать с целевой аудиторией и донести ваше сообщение.",
-        },
-        {
-          id: 3,
-          title: "Профессиональное исполнение",
-          description:
-            "Продакшн команды обладают опытом и знаниями для создания высококачественного видео с учетом всех необходимых аспектов, что делает ваш контент более привлекательным и профессиональным.",
-        },
-      ],
-    },
-    cards: [
-      {
-        id: 1,
-        valuableBYN: "60",
-        valuableRUB: "2500",
-        month: false,
-        title: "Заполнение карточки",
-        description: "За одну сеть",
-        includeServices: [
-          {
-            id: 1,
-            title: "Заполнение карточки компаний Яндекс либо Google",
-          },
-        ],
-      },
-      {
-        id: 2,
-        valuableBYN: "100",
-        valuableRUB: "4000",
-        month: false,
-        description: "За одну сеть",
-        title: "Отзывы",
-        includeServices: [
-          {
-            id: 1,
-            title: "Ответы на отзывы в карточках компании Яндекс либо Google",
-          },
-        ],
-      },
-      {
-        id: 3,
-        valuableBYN: "300",
-        valuableRUB: "12000",
-        month: false,
-        title: "Рассылки",
-        includeServices: [
-          {
-            id: 1,
-            title: "Настройка рассылок email (spam) до 5 писем",
-          },
-        ],
-      },
-      {
-        id: 4,
-        valuableBYN: "100",
-        valuableRUB: "4000",
-        month: false,
-        title: "Автоответы",
-        includeServices: [
-          {
-            id: 1,
-            title: "Написание и редакция автоответов в директ",
+            title: "Tworzenie projektu designu menu",
           },
         ],
       },
       {
         id: 5,
-        valuableBYN: "50",
-        valuableRUB: "2500",
-        description: "За 3000 знаков бес пробелов",
+        valuableBYN: "500",
         month: false,
-        title: "Копирайтинг",
+        title: "Logo",
         includeServices: [
           {
             id: 1,
-            title:
-              "Написание уникальных текстов под релевантные запросы пользователей",
+            title: "Tworzenie projektu designu logo",
           },
         ],
       },
       {
         id: 6,
-        valuableBYN: "100",
-        valuableRUB: "4000",
+        valuableBYN: "200",
         month: false,
-        title: "Предпродакш",
+        title: "Ulotka, wizytówka",
         includeServices: [
           {
             id: 1,
-            title: "Подбор блогеров для рекламы и проведение переговоров",
-          },
-          {
-            id: 2,
-            title: "Написание ТЗ на рекламу до 3 блогеров",
-          },
-        ],
-      },
-      {
-        id: 7,
-        valuableBYN: "300",
-        valuableRUB: "12000",
-        month: false,
-        title: "Разработка презентации",
-        includeServices: [
-          {
-            id: 1,
-            title:
-              "Разработка презентаций о предприятии, товаре, услуге в Power point, Google presentation",
+            title: "Tworzenie projektu designu ulotek, wizytówek",
           },
         ],
       },
     ],
   },
   {
-    id: 13,
-    url: "functional-marketing-department",
-    title: "Функциональный отдел маркетинга",
-    img: functionalMarketingDepartment,
+    id: 8,
+    url: "booking-service",
+    title: "Usługa rezerwacji",
+    img: bookingService,
     advantages: {
-      title: "Почему стоит выбрать Функциональный отдел маркетинга?",
+      title: "Dlaczego warto wybrać usługę rezerwacji?",
       list: [
         {
           id: 1,
-          title: "Исследование рынка и анализ",
+          title: "Wygodna rezerwacja",
           description:
-            "Анализирует рыночные тенденции, конкурентов и потребности клиентов для определения эффективных стратегий маркетинга.",
+            "Użytkownicy mogą łatwo i szybko zarezerwować wybrane usługi lub produkty za pośrednictwem platformy internetowej, bez konieczności odwiedzania fizycznych placówek i wykonywania połączeń telefonicznych.",
         },
         {
           id: 2,
-          title: "Разработка маркетинговых стратегий",
+          title: "Miejsca gwarantowane",
           description:
-            "Создает планы и стратегии, направленные на привлечение и удержание клиентов, а также на повышение узнаваемости и успеха бренда.",
+            "System rezerwacji umożliwia klientom rezerwację wybranych terminów i usług z wyprzedzeniem, zapewniając im gwarancję miejsc i łatwość korzystania z usługi.",
         },
         {
           id: 3,
-          title: "Реализация маркетинговых кампаний",
+          title: "Efektywny czas użytkowania",
           description:
-            "Отвечает за запуск и выполнение рекламных и маркетинговых инициатив, включая цифровой маркетинг, контент-стратегии и таргетированную рекламу, с целью достижения конкретных маркетинговых показателей.",
+            "Dzięki rezerwacji online klienci mogą zoptymalizować swój czas, wybierając dogodny dla siebie harmonogram, co zwiększa satysfakcję i lojalność wobec usługi.",
         },
       ],
     },
     cards: [
       {
         id: 1,
-        valuableBYN: "1100",
-        valuableRUB: "45000",
-        title: "Стандарт",
+        valuableBYN: "500",
         month: false,
+        title: "Ekonomiczny",
         includeServices: [
           {
             id: 1,
-            title: "Ведение социальных сетей",
+            title: "Miesięczny koszt obsługi modułu rezerwacji",
+          },
+        ],
+      },
+      {
+        id: 2,
+        valuableBYN: "1500",
+        month: false,
+        title: "Standard",
+        includeServices: [
+          {
+            id: 1,
+            title:
+              "Implementacja i konfiguracja modułu rezerwacji online dla hotelu/bazy wypoczynkowej/apartamentów – do 10 pokoi",
           },
           {
             id: 2,
-            title: "Разработка рекламных макетов",
+            title: "Dodajemy z opisem wszystkie pokoje hotelowe do modułu",
           },
           {
             id: 3,
-            title: "Разработка акционных предложений",
+            title: "Dodajemy ceny i promocje",
           },
           {
             id: 4,
-            title: "Настройка таргетированной рекламы",
+            title: "Wskazujemy wszystkie dodatkowe usługi",
           },
           {
             id: 5,
-            title: "Настройка контекстной рекламы",
+            title:
+              "Konfigurujemy i testujemy kanały odbierania wiadomości o rezerwacji",
           },
           {
             id: 6,
-            title: "Разработка и наполнение контентом сайта",
+            title:
+              "Dodatkowy bonus: rejestracja obiektu i pokoi na portalu Booking.com",
+          },
+        ],
+      },
+      {
+        id: 3,
+        valuableBYN: "2000",
+        month: false,
+        title: "Premium",
+        includeServices: [
+          {
+            id: 1,
+            title:
+              "Implementacja i konfiguracja modułu rezerwacji online dla hotelu/bazy wypoczynkowej/apartamentów – do 30 pokoi",
           },
           {
-            id: 7,
-            title: "Сопровождение размещения наружной рекламы/ радио",
+            id: 2,
+            title: "Dodajemy z opisem wszystkie pokoje hotelowe do modułu",
+          },
+          {
+            id: 3,
+            title: "Dodajemy ceny i promocje",
+          },
+          {
+            id: 4,
+            title: "Wskazujemy wszystkie dodatkowe usługi",
+          },
+          {
+            id: 5,
+            title:
+              "Konfigurujemy i testujemy kanały odbierania wiadomości o rezerwacji",
+          },
+          {
+            id: 6,
+            title:
+              "Dodatkowy bonus: rejestracja obiektu i pokoi na portalu Booking.com",
+          },
+        ],
+      },
+      {
+        id: 4,
+        valuableBYN: "3000",
+        month: false,
+        title: "Ultra",
+        includeServices: [
+          {
+            id: 1,
+            title:
+              "Implementacja i konfiguracja modułu rezerwacji online dla hotelu/bazy wypoczynkowej/apartamentów – od 30 pokoi",
+          },
+          {
+            id: 2,
+            title: "Dodajemy z opisem wszystkie pokoje hotelowe do modułu",
+          },
+          {
+            id: 3,
+            title: "Dodajemy ceny i promocje",
+          },
+          {
+            id: 4,
+            title: "Wskazujemy wszystkie dodatkowe usługi",
+          },
+          {
+            id: 5,
+            title:
+              "Konfigurujemy i testujemy kanały odbierania wiadomości o rezerwacji",
+          },
+          {
+            id: 6,
+            title:
+              "Dodatkowy bonus: rejestracja obiektu i pokoi na portalu Booking.com",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 9,
+    url: "other-services",
+    title: "Inne usługi",
+    img: otherServices,
+    advantages: {
+      title: "Dlaczego warto wybrać inne usługi?",
+      list: [
+        {
+          id: 1,
+          title: "Atrakcyjna treść",
+          description:
+            "Wideo to jeden z najbardziej angażujących formatów treści, skutecznie przykuwający uwagę i utrzymujący zainteresowanie odbiorców.",
+        },
+        {
+          id: 2,
+          title: "Reprezentacja wizualna",
+          description:
+            "Wideo pozwala wizualnie zaprezentować produkty, usługi lub pomysły, co pomaga lepiej komunikować się z docelowymi odbiorcami i przekazywać komunikat.",
+        },
+        {
+          id: 3,
+          title: "Profesjonalne wykonanie",
+          description:
+            "Zespoły produkcyjne posiadają doświadczenie i wiedzę, aby tworzyć wysokiej jakości filmy, uwzględniając wszystkie niezbędne aspekty, czyniąc Twoje treści bardziej atrakcyjnymi i profesjonalnymi.",
+        },
+      ],
+    },
+    cards: [
+      {
+        id: 1,
+        valuableBYN: "200",
+        month: false,
+        title: "Wypełnianie karty",
+        includeServices: [
+          {
+            id: 1,
+            title: "Wypełnianie karty firmowej na Google",
+          },
+        ],
+      },
+      {
+        id: 2,
+        valuableBYN: "300",
+        month: false,
+        title: "Recenzje",
+        includeServices: [
+          {
+            id: 1,
+            title: "Odpowiadanie na recenzje w karcie firmy Google",
+          },
+        ],
+      },
+      {
+        id: 3,
+        valuableBYN: "800",
+        month: false,
+        title: "Rozsyłki",
+        includeServices: [
+          {
+            id: 1,
+            title: "Konfiguracja rozsyłki e-mail (spam) do 5 wiadomości",
+          },
+        ],
+      },
+      {
+        id: 4,
+        valuableBYN: "400",
+        month: false,
+        title: "Automatyczne odpowiedzi",
+        includeServices: [
+          {
+            id: 1,
+            title:
+              "Pisanie i redagowanie automatycznych odpowiedzi w wiadomościach bezpośrednich",
+          },
+        ],
+      },
+      {
+        id: 5,
+        valuableBYN: "200",
+        month: false,
+        title: "Copywriting",
+        includeServices: [
+          {
+            id: 1,
+            title:
+              "Pisanie unikalnych tekstów pod istotne zapytania użytkowników",
+          },
+        ],
+      },
+      {
+        id: 6,
+        valuableBYN: "500",
+        month: false,
+        title: "Tworzenie prezentacji",
+        includeServices: [
+          {
+            id: 1,
+            title:
+              "Tworzenie prezentacji o firmie, produkcie, usłudze w programie Power Point lub Google Presentation",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 10,
+    url: "functional-marketing-department",
+    title: "Dział funkcjonalny marketingu",
+    img: functionalMarketingDepartment,
+    advantages: {
+      title: "Dlaczego warto wybrać Dział Marketingu Funkcjonalnego?",
+      list: [
+        {
+          id: 1,
+          title: "Badania i analizy rynku",
+          description:
+            "Analizuje trendy rynkowe, konkurencję i potrzeby klientów w celu określenia skutecznych strategii marketingowych.",
+        },
+        {
+          id: 2,
+          title: "Opracowywanie strategii marketingowych",
+          description:
+            "Tworzy plany i strategie mające na celu przyciągnięcie i utrzymanie klientów oraz zwiększenie świadomości marki i sukcesu.",
+        },
+        {
+          id: 3,
+          title: "Realizacja kampanii marketingowych",
+          description:
+            "Odpowiedzialny za uruchamianie i realizację inicjatyw reklamowych i marketingowych, w tym marketingu cyfrowego, strategii dotyczących treści i reklam ukierunkowanych, w celu osiągnięcia określonych wskaźników marketingowych.",
+        },
+      ],
+    },
+    cards: [
+      {
+        id: 1,
+        valuableBYN: "2000",
+        title: "Standard",
+        month: true,
+        includeServices: [
+          {
+            id: 1,
+            title: "Prowadzenie mediów społecznościowych",
+          },
+          {
+            id: 2,
+            title: "Tworzenie projektów reklamowych",
+          },
+          {
+            id: 3,
+            title: "Tworzenie ofert promocyjnych",
+          },
+          {
+            id: 4,
+            title: "Konfiguracja reklamy ukierunkowanej",
+          },
+          {
+            id: 5,
+            title: "Konfiguracja reklamy kontekstowej",
+          },
+          {
+            id: 6,
+            title: "Tworzenie i wypełnianie treścią strony internetowej",
           },
         ],
       },

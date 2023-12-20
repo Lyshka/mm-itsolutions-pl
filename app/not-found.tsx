@@ -25,10 +25,10 @@ const ErrorPage = () => {
 
         <div className="flex flex-col items-center gap-2 text-center">
           <h1 className="2xl:text-[32px] text-lg font-black 2xl:leading-10 leading-6">
-            Ошибка 404!
+            Błąd 404!
           </h1>
           <p className="2xl:text-base text-xs 2xl:leading-6 leading-4">
-            Что-то пошло не так. Страница которую вы ищите недоступна!
+          Coś poszło nie tak. Strona, której szukasz, jest niedostępna!
           </p>
         </div>
       </main>

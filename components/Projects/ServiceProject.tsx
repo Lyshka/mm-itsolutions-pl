@@ -59,7 +59,7 @@ export const ServiceProject = () => {
   return (
     <section className="flex flex-col 2xl:gap-10 gap-4 2xl:py-0 py-12">
       <div className="flex 2xl:flex-row flex-col items-center justify-between w-full gap-4">
-        <ServiceSubTitle text="Наши работы" />
+        <ServiceSubTitle text="Nasze realizacje" />
 
         <SelectedMenu />
       </div>
@@ -75,7 +75,7 @@ export const ServiceProject = () => {
       <div className="flex justify-center items-center">
         {filteredProjects.length > 6 && (
           <Button onClick={onShowFullPost} className="2xl:block hidden">
-            {projectInfo.active ? "Свернуть" : "Смотреть все проекты"}
+            {projectInfo.active ? "Zawalić się" : "Obejrzyj wszystkie projekty"}
           </Button>
         )}
       </div>

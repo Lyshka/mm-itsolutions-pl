@@ -62,17 +62,17 @@ export const MenuMobileHeader = () => {
           <div className="py-6 flex flex-col gap-2 font-medium">
             <Link
               className="flex items-center gap-4"
-              href={"tel:+375339157676"}
+              href={"tel:+48799464873"}
             >
               <LuPhone className="w-6 h-6" />
-              <span className="whitespace-nowrap">+375 (33) 915 - 76 - 76</span>
+              <span className="whitespace-nowrap">+48799464873</span>
             </Link>
             <Link
               className="flex items-center gap-4"
-              href={"mailto:mail@smm-ibis.by"}
+              href={"mailto:mail@mm-itsolutions.pl"}
             >
               <MdOutlineMailOutline className="w-6 h-6" />
-              mail@smm-ibis.by
+              mail@mm-itsolutions.pl
             </Link>
           </div>
         </div>

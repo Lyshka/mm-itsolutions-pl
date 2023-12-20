@@ -82,10 +82,10 @@ export const useFormMail = ({ template, toggle }: IuseFormMail) => {
     ) {
       emailjs
         .sendForm(
-          "service_qyeuhmr",
+          "service_igq7mlb",
           template,
           form.current,
-          "dcOlQT0d4xOkMtoc_"
+          "_sOc-1i-LbL-gefQH"
         )
         .then(
           async () => {
@@ -96,10 +96,10 @@ export const useFormMail = ({ template, toggle }: IuseFormMail) => {
               axios.post(
                 "https://api.telegram.org/bot6597877649:AAEfIM7h9IYg7m688vgZ_WcCnb7R2QdguMg/sendMessage",
                 {
-                  chat_id: -4054386788,
+                  chat_id: -1002041849003,
                   text: `<b>Клиент: </b>${name.value}
 <b>Email: </b>${email.value}
-<b>Телефон: </b> ${tel.value}
+<b>Телефон: </b>${tel.value}
                             `,
                   parse_mode: "html",
                 }
@@ -108,7 +108,7 @@ export const useFormMail = ({ template, toggle }: IuseFormMail) => {
               axios.post(
                 "https://api.telegram.org/bot6597877649:AAEfIM7h9IYg7m688vgZ_WcCnb7R2QdguMg/sendMessage",
                 {
-                  chat_id: -4054386788,
+                  chat_id: -1002041849003,
                   text: `<b>Клиент: </b>${name.value}
 <b>Email: </b>${email.value}`,
                   parse_mode: "html",

@@ -1,7 +1,7 @@
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
-import ru from "react-phone-input-2/lang/ru.json";
-import { useContext, useEffect } from "react";
+import pl from "react-phone-input-2/lang/pl.json";
+import { useContext } from "react";
 
 import { MainContext } from "@/context/MainContext";
 import { LabelError } from "./LabelError";
@@ -19,9 +19,9 @@ export const TelInput = () => {
   return (
     <div>
       <PhoneInput
-        country={"by"}
-        onlyCountries={["by", "ru"]}
-        localization={ru}
+        country={"pl"}
+        onlyCountries={["pl"]}
+        localization={pl}
         countryCodeEditable={false}
         inputClass="input-tel"
         onChange={handleChange}

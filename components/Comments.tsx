@@ -6,7 +6,7 @@ export const Comments = () => {
   return (
     <section className="flex justify-center items-center">
       <div className="container 2xl:py-[104px] py-10 flex flex-col gap-8">
-        <Title text="Отзывы наших клиентов" center />
+        <Title text="Opinie naszych klientów" center />
 
         <span
           className={`${delagothicone.className} 2xl:text-[56px] text-2xl text-main 2xl:leading-[56px] leading-6 text-center`}

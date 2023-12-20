@@ -103,7 +103,7 @@ export const NewsSlider = () => {
                   {evenNews[idx].description}
                 </p>
 
-                <Button className="2xl:py-2">Подробнее</Button>
+                <Button className="2xl:py-2">Szczegóły</Button>
               </div>
             </Link>
             {/* isInteger && idx !== newsLengthHalf - 1 && */}
@@ -132,7 +132,7 @@ export const NewsSlider = () => {
                     {oddNews[idx].description}
                   </p>
 
-                  <Button className="2xl:py-2">Подробнее</Button>
+                  <Button className="2xl:py-2">Szczegóły</Button>
                 </div>
               </Link>
             )}

@@ -11,6 +11,7 @@ import { mainMenu } from "@/constants/menu";
 import { MenuMobileHeader } from "./MenuMobileHeader";
 import { MainContext } from "@/context/MainContext";
 import { calibry } from "@/assets/font";
+import { Logo } from "@/assets/img/Logo";
 
 export const Header = () => {
   const { isOpenMenuHeader, toggleMenuHeader } = useContext(MainContext);
@@ -20,13 +21,9 @@ export const Header = () => {
       <div className="container">
         <Link
           href={"/"}
-          className="w-17 h-16 2xl:p-2 p-0 flex justify-center items-center"
+          className="2xl:h-20 2xl:w-16 h-16 w-12 2xl:p-2 p-0 flex justify-center items-center"
         >
-          <h1
-            className={`${calibry.className} text-[47.972px] tracking-[-3.838px] logo-background w-[60px] h-[60px] flex justify-center items-center`}
-          >
-            IBIS
-          </h1>
+          <Logo />
         </Link>
 
         <nav className="2xl:hidden">
@@ -48,16 +45,16 @@ export const Header = () => {
         </ul>
 
         <div className="hidden 2xl:flex flex-col gap-2">
-          <Link className="flex items-center gap-4" href={"tel:+375339157676"}>
+          <Link className="flex items-center gap-4" href={"tel:+48799464873"}>
             <LuPhone className="w-6 h-6" />
-            <span className="whitespace-nowrap">+375 (33) 915 - 76 - 76</span>
+            <span className="whitespace-nowrap">+48799464873</span>
           </Link>
           <Link
             className="flex items-center gap-4"
-            href={"mailto:mail@smm-ibis.by"}
+            href={"mailto:mail@mm-itsolutions.pl"}
           >
             <MdOutlineMailOutline className="w-6 h-6" />
-            mail@smm-ibis.by
+            mail@mm-itsolutions.pl
           </Link>
         </div>
       </div>

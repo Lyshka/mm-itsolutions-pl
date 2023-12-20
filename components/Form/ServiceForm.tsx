@@ -11,7 +11,7 @@ type ServiceFormType = {} & FormHTMLAttributes<HTMLFormElement>;
 
 export const ServiceForm = ({ ...props }: ServiceFormType) => {
   const { form, sendEmail, captcha } = useFormMail({
-    template: "template_12l9xwb",
+    template: "template_17ngi34",
   });
 
   return (
@@ -24,7 +24,7 @@ export const ServiceForm = ({ ...props }: ServiceFormType) => {
     >
       <Input
         className="2xl:min-w-[307px] min-w-full"
-        placeholder="Имя *"
+        placeholder="Imię *"
         name="name"
       />
       <Input
@@ -35,7 +35,7 @@ export const ServiceForm = ({ ...props }: ServiceFormType) => {
       />
       <Recaptcha recaptchaRef={captcha} />
       <Button className="uppercase 2xl:leading-4 2xl:w-auto w-full">
-        отправить
+        OTRZYMAĆ OFERTĘ
       </Button>
     </form>
   );

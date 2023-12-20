@@ -16,7 +16,7 @@ export const AlertSuccess = () => {
           unmount: { y: 100 },
         }}
       >
-        Спасибо за заявку, мы скоро с вами свяжемся
+        Dziękujemy za zgłoszenie, wkrótce się z Tobą skontaktujemy
       </Alert>
     </div>
   );

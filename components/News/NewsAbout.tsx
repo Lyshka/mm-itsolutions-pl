@@ -24,12 +24,12 @@ export const NewsAbout = () => {
 
         <div className="container z-10 relative flex flex-col items-start">
           <nav className="flex items-center gap-2 2xl:text-[13px] text-xs leading-4 relative 2xl:bottom-[148px] bottom-4">
-            <span>Главная</span>
+            <span>Główna</span>
             <span>/</span>
-            <span>Новости</span>
+            <span>Wiadomości</span>
           </nav>
 
-          <h1 className="2xl:text-5xl text-xl font-black 2xl:leading-[56px] leading-8">Новости</h1>
+          <h1 className="2xl:text-5xl text-xl font-black 2xl:leading-[56px] leading-8">Wiadomości</h1>
         </div>
       </div>
     </section>

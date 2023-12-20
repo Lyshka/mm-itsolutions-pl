@@ -20,15 +20,15 @@ interface IAdvantage {
 const imgAdvantage = [
   {
     id: 1,
-    icon: <MedalSiteCreationAdnetage className="w-16 h-16" />,
+    icon: <MedalSiteCreationAdnetage className="w-16 h-16 text-main" />,
   },
   {
     id: 2,
-    icon: <PaintsCreationAdnetage className="w-16 h-16" />,
+    icon: <PaintsCreationAdnetage className="w-16 h-16 text-main" />,
   },
   {
     id: 3,
-    icon: <ComputerCreationAdnetage className="w-16 h-16" />,
+    icon: <ComputerCreationAdnetage className="w-16 h-16 text-main" />,
   },
 ];
 
@@ -38,7 +38,7 @@ export const Advantage = ({ advantages }: IAdvantage) => {
 
   return (
     <section className="flex flex-col gap-6 2xl:py-0 py-12">
-      <div className="flex justify-center items-center">
+      <div className="flex 2xl:justify-start justify-center items-center">
         <ServiceSubTitle text={title} />
       </div>
 

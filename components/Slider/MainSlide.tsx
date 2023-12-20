@@ -43,7 +43,7 @@ export const MainSlide = ({
           <div className="flex flex-col 2xl:gap-8 gap-4 text-white">
             <div>
               <p className="2xl:text-xl text-sm font-light 2xl:leading-8 left-4 uppercase">
-                Ибис маркетинг
+                ITSolutions
               </p>
 
               <h3

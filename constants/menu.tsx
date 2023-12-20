@@ -3,104 +3,84 @@ import { services } from "./services";
 export const mainMenu = [
   {
     id: 1,
-    title: "Главная",
+    title: "GŁÓWNA",
     url: "/",
   },
   {
     id: 2,
-    title: "О нас",
+    title: "O NAS",
     url: "/#about",
   },
   {
     id: 3,
-    title: "Портфолио",
+    title: "PORTFOLIO",
     url: "/#portfolio",
   },
   {
     id: 4,
-    title: "Услуги и цены",
+    title: "USŁUGI I CENY",
     url: `services/${services[0].url}`,
     addition: [
       {
         id: 1,
-        title: "Разработка сайта",
+        title: "Tworzenie stron internetowych",
         url: "site-creation",
       },
       {
         id: 2,
-        title: "Обслуживание сайта",
+        title: "Obsługa strony internetowej",
         url: "website-maintenance",
       },
       {
         id: 3,
-        title: "Контекстная реклама",
+        title: "Reklama kontekstowa",
         url: "contextual-advertising",
       },
       {
         id: 4,
-        title: "SEO продвижение",
+        title: "SEO-promocja",
         url: "seo-promotion",
       },
       {
         id: 5,
-        title: "SMM продвижение",
+        title: "SMM-promocja",
         url: "smm-promotion",
       },
       {
         id: 6,
-        title: "Таргетированная реклама",
+        title: "Reklama ukierunkowana",
         url: "targeted-advertising",
       },
       {
         id: 7,
-        title: "TikTok продвижение",
-        url: "tiktok-promotion",
-      },
-      {
-        id: 8,
-        title: "Продвижение на маркетплейсах",
-        url: "promotion-on-marketplaces",
-      },
-      {
-        id: 9,
-        title: "Разработка уникального дизайна",
+        title: "Projektowanie unikalnego designu",
         url: "development-of-a-unique-design",
       },
       {
-        id: 10,
-        title: "Наружная реклама",
-        url: "outdoor-advertising",
-      },
-      {
-        id: 11,
-        title: "Booking service",
+        id: 8,
+        title: "Usługa rezerwacji",
         url: "booking-service",
       },
       {
-        id: 12,
-        title: "Фото и видеосъёмка",
-        url: "video-production",
-      },
-      {
-        id: 13,
-        title: "Прочие услуги",
+        id: 9,
+        title: "Inne usługi",
         url: "other-services",
       },
       {
-        id: 15,
-        title: "Функциональный отдел маркетинга",
+        id: 10,
+        title: "Dział funkcjonalny marketingu",
         url: "functional-marketing-department",
       },
     ],
   },
   {
     id: 5,
-    title: "Новости",
+    title: "WIADOMOŚCI",
     url: "news",
   },
   {
     id: 6,
-    title: "Контакты",
+    title: "KONTAKTY",
     url: "/#contacts",
   },
 ];
@@ -108,14 +88,14 @@ export const mainMenu = [
 export const footerMenuJobs = [
   {
     id: 1,
-    title: "SMM | Разработка сайтов | SEO",
+    title: "SMM | Tworzenie stron internetowych | SEO",
   },
   {
     id: 2,
-    title: "Таргет и контекстная реклама",
+    title: "Target i reklama kontekstowa",
   },
   {
     id: 3,
-    title: "Дизайн | Создание контента",
+    title: "Projektowanie | Tworzenie treści",
   },
 ];

@@ -10,23 +10,23 @@ export const About = () => {
           <p
             className={`2xl:text-[26px] text-lg 2xl:leading-8 leading-6 ${delagothicone.className}`}
           >
-            Будем расти вместе
+            Razem będziemy rosnąć
           </p>
 
           <div className="lg:w-[993px] w-full flex flex-col lg:gap-6 gap-4 items-center self-center">
             <h1
               className={`2xl:text-5xl text-lg 2xl:leading-[56px] leading-6 2xl:text-left text-center ${delagothicone.className}`}
             >
-              Добро пожаловать в мир маркетинга!
+              Witamy w świecie marketingu!
             </h1>
 
             <p className="text-lg 2xl:leading-6 leading-4">
-              Готовы поднять свой бизнес на новый уровень? Наша команда
-              экспертов предлагает эффективные решения по продвижению как в
-              Интернете и социальных сетях, так и в офлайне. Мы поможем вам
-              развивать свой бизнес и привлекать больше клиентов с помощью наших
-              первоклассных маркетинговых стратегий. Не упустите возможность
-              поднять свой бизнес на новую высоту.
+              Gotów podnieść swój biznes na nowy poziom? Nasz zespół ekspertów
+              oferuje skuteczne rozwiązania w zakresie promocji zarówno w
+              Internecie i mediach społecznościowych, jak i w świecie
+              rzeczywistym. Pomozemy Ci rozwijać swój biznes i przyciągać więcej
+              klientów dzięki naszym pierwszorzędowym strategiom marketingowym.
+              Nie przegap okazji, aby podnieść swój biznes na nowe wyżyny.
             </p>
           </div>
         </div>

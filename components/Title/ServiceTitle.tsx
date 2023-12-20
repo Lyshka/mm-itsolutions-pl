@@ -8,7 +8,7 @@ export const ServiceTitle = ({ title }: IServiceTitle) => {
   return (
     <section className="flex 2xl:py-0 py-8 flex-col items-center gap-4 self-center">
       <p className="text-[#A7A7A7] text-sm text-center leading-4 uppercase">
-        Наше предложение
+        Nasza oferta
       </p>
       <div className="flex flex-col items-center gap-[15px]">
         <h1

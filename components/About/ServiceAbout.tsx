@@ -16,15 +16,15 @@ export const ServiceAbout = ({ img, title }: IServiceAbout) => {
           <ServiceSubTitle text={title} />
 
           <p className="text-base leading-6">
-            Для получения индивидуального предложения, заполните форму ниже. Мы
-            свяжемся с вами в ближайшее время.
+            Aby otrzymać spersonalizowaną ofertę, wypełnij poniższy formularz.
+            Skontaktujemy się z Tobą tak szybko, jak to możliwe.
           </p>
         </div>
 
         <div className="flex 2xl:justify-start justify-center items-center">
           <Link href={"#formService"}>
             <Button variant="outlined" className="font-medium">
-              Получить предложение
+              Otrzymaj ofertę.
             </Button>
           </Link>
         </div>

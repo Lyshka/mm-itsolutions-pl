@@ -13,7 +13,7 @@ export const PopupMainForm = ({ ...props }: PopupMainFormType) => {
   const { toggleDiscount } = useContext(MainContext);
 
   const { form, sendEmail, captcha } = useFormMail({
-    template: "template_luykcfl",
+    template: "template_p7le36i",
     toggle: toggleDiscount,
   });
 
@@ -25,7 +25,7 @@ export const PopupMainForm = ({ ...props }: PopupMainFormType) => {
       className="flex flex-col flex-1 gap-6"
     >
       <div className="grid 2xl:grid-cols-2 grid-cols-1 2xl:gap-6 gap-4">
-        <Input placeholder="Имя" name="name" />
+        <Input placeholder="Imię" name="name" />
         <TelInput />
         <Input
           placeholder="Email"
@@ -36,7 +36,7 @@ export const PopupMainForm = ({ ...props }: PopupMainFormType) => {
         <Recaptcha recaptchaRef={captcha} />
       </div>
 
-      <Button className="2xl:py-4 !py-2">Отправить</Button>
+      <Button className="2xl:py-4 !py-2">Wyślij</Button>
     </form>
   );
 };
