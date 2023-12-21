@@ -1,112 +1,289 @@
-import { news1, news2, news3, news4, news5, news6 } from "@/assets/img";
+import {
+  news1,
+  news1_1,
+  news1_2,
+  news1_3,
+  news1_4,
+  news1_5,
+  news1_6,
+  news1_7,
+  news1_8,
+} from "@/assets/img";
 
 export const news = [
   {
     id: 1,
-    title: "Маркетинговый отдел на аутсорсе",
-    date: "8 сентября 2023",
-    description: `Представьте, что вы можете преумножить эффективность вашего бизнеса, сосредотачиваясь на стратегии и росте, а не на оперативных маркетинговых задачах. Это возможно благодаря аутсорсингу маркетинга, и вот, что вы получите:
-      <br /><br />
-      Экспертная Экипировка: Вашими партнерами станут профессионалы, обладающие многолетним опытом и широким знанием трендов в мире маркетинга. Они знают, как привлечь внимание вашей аудитории.
-      <br /><br />
-      Сэкономленное Время и Ресурсы: Вместо траты времени на найм и обучение персонала, вы просто делегируете маркетинговые задачи экспертам и экономите ресурсы на свой бизнес-рост.
-      <br /><br />
-      Гибкость и Масштабируемость: Агентства адаптируются к вашим потребностям. Неважно, малый бизнес или крупная компания, стратегия будет точно соответствовать вашим целям.
-      <br /><br />
-      Снижение Рисков: Избегайте неожиданных расходов и рисков, связанных с неопытным персоналом. Аутсорсинг позволяет снизить финансовые риски.
-      <br /><br />
-      Результаты, На Которые Вы Можете Рассчитывать: Ваш успех - приоритет агентства. Стремление достичь лучших результатов становится их страстью.
-      <br /><br />
-      Сосредоточенность на Клиенте: Вам предоставляется возможность полностью сосредоточиться на обслуживании клиентов и стратегическом развитии бизнеса.
-      <br /><br />
-      Инновации и Технологии: Агентства в курсе последних инноваций и технологий, гарантируя, что ваш маркетинг всегда остается современным.
-      <br /><br />
-      Аутсорсинг маркетинга становится ключом к повышению эффективности, снижению рисков и улучшению результатов для вашего бизнеса. Так что почему бы не обратиться к профессионалам? Узнайте больше о преимуществах аутсорсинга маркетинга с Ибис Маркетинг, и давайте вместе двигаться к вашему успеху!`,
+    url: "Интерактивный контент: почему это ключевой элемент маркетинга?",
+    title: "Interaktywna zawartość: dlaczego jest kluczowym elementem marketingu?",
+    date: "21 Grudzień 2023",
+    shortDescription:
+      "W epoce cyfrowej informacji, gdzie uwaga konsumentów jest cennym zasobem, skuteczne strategie marketingowe stają się kluczowym ",
+    description: `
+    <h4>Spis treści:</h4>
+    <ol>
+      <li><a href="#1">Wprowadzenie</a></li>
+      <li><a href="#2">SEO i podział bloków znaczeniowych</a></li>
+      <li><a href="#3">Efekty interaktywnej zawartości na SEO</a></li>
+      <li>
+        <a href="#4"
+          >Przykłady skutecznego wykorzystania interaktywnej zawartości</a
+        >
+      </li>
+      <li><a href="#5">Podsumowanie</a></li>
+    </ol>
+
+    <h4 id="1">Wprowadzenie:</h4>
+    <p>
+      W epoce cyfrowej informacji, gdzie uwaga konsumentów jest cennym
+      zasobem, skuteczne strategie marketingowe stają się kluczowym elementem
+      udanego promowania produktów i usług. W tym kontekście interaktywna
+      zawartość wyróżnia się jako potężne narzędzie, zdolne nie tylko
+      przyciągnąć, ale także utrzymać uwagę audiencji, tworząc unikalne
+      doświadczenie użytkownika.
+    </p>
+
+    <h4 id="2">SEO i podział bloków znaczeniowych:</h4>
+
+    <div>
+      <p>
+        Interaktywna zawartość, wprowadzając swój wkład w dziedzinę SEO,
+        dodatkowo kładzie nacisk na potrzebę podziału informacji na bloki
+        znaczeniowe. Podtytuły, wyraźnie różnicujące tematy, ułatwiają
+        czytelnikowi nawigację po artykule, a także pomagają wyszukiwarkom
+        dokładniej zrozumieć treść strony.
+      </p>
+
+      <p>
+        SEO (Search Engine Optimization) to zestaw praktyk i strategii
+        mających na celu poprawę widoczności witryny w wynikach wyszukiwania
+        dla określonych fraz. Celem SEO jest zwiększenie organicznego
+        (niepłatnego) ruchu na stronie, przyciągnięcie docelowej grupy
+        odbiorców oraz poprawa pozycji w rankingach wyszukiwarek, takich jak
+        Google, Bing i Yahoo.
+      </p>
+
+      <p>
+        Optymalizacja dla wyszukiwarek obejmuje szereg działań mających na
+        celu poprawę różnych aspektów witryny, aby stała się bardziej
+        zrozumiała dla robotów wyszukiwarek i bardziej istotna dla zapytań
+        użytkowników.
+      </p>
+
+      <div>
+        <h5>Kluczowe elementy SEO obejmują:</h5>
+        <b>– słowa kluczowe:</b> badanie i wykorzystywanie słów kluczowych,
+        które użytkownicy często wprowadzają w wyszukiwarkach, w celu
+        optymalizacji treści na stronie;<br />
+        <b>– masa linków:</b> zwiększanie autorytetu strony poprzez
+        pozyskiwanie wysokiej jakości linków z innych źródeł;<br />
+        <b>– optymalizacja techniczna:</b> poprawa technicznych aspektów
+        strony, takich jak szybkość ładowania, struktura URL, optymalizacja
+        mobilna i inne czynniki;<br />
+        <b>– wysokiej jakości treść:</b> tworzenie unikalnej, przydatnej i
+        istotnej treści, która przyciąga uwagę użytkowników i wyszukiwarek;<br />
+        <b>– optymalizacja metadanych:</b> stosowanie efektywnych meta tagów,
+        nagłówków i opisów stron w celu poprawy ich wyświetlania w wynikach
+        wyszukiwania.
+      </div>
+    </div>
+
+    <p>
+      Interaktywna zawartość na stronie to elementy i funkcje, które pozwalają
+      odwiedzającym na aktywne oddziaływanie z treścią, sprawiając, że
+      doświadczenie użytkownika staje się bardziej fascynujące i angażujące.
+      Zamiast biernego spożywania informacji, użytkownik aktywnie współdziała
+      z treścią, co często prowadzi do głębszego zaangażowania i lepszego
+      zapamiętania.
+    </p>
+
+    <div>
+      <h5>Rodzaje interaktywnej zawartości:</h5>
+      <div>
+        <h6>1. Ankiety:</h6>
+        <p>
+          <b>– przykład:</b> quiz, który pomaga określić styl ubioru,
+          preferencje w produktach itp;
+        </p>
+        <p>
+          <b>– zalety:</b> możliwość zbierania danych na temat preferencji
+          użytkowników i zwiększanie zaangażowania.
+        </p>
+
+        <img src="${news1_1.src}" alt="news7_1" />
+      </div>
+
+      <div>
+        <h6>2. Kalkulatory i kreatorы:</h6>
+        <p>
+          <b>– przykład:</b> kalkulator wydatków, online-kreator produktu;
+        </p>
+        <p>
+          <b>– zalety:</b> użytkownicy mogą obliczać koszty usługi lub tworzyć
+          spersonalizowane produkty.
+        </p>
+
+        <img src="${news1_2.src}" alt="news7_1" />
+      </div>
+
+      <div>
+        <h6>3. Interaktywne wideo:</h6>
+        <p>
+          <b>– przykład:</b>
+          wideo, gdzie użytkownik może wybierać zakończenie lub wpływać na
+          przebieg fabuły;
+        </p>
+        <p><b>– zalety:</b> zwiększenie czasu oglądania i zaangażowania.</p>
+
+        <img src="${news1_3.src}" alt="news7_1" />
+      </div>
+
+      <div>
+        <h6>4. Wirtualne wycieczki:</h6>
+        <p>
+          <b>– przykład:</b> wirtualna wycieczka po hotelu, nieruchomości,
+          muzeum;
+        </p>
+        <p>
+          <b>– zalety:</b> dostarczanie unikalnego doświadczenia wizualnego.
+        </p>
+
+        <img src="${news1_4.src}" alt="news7_1" />
+      </div>
+
+      <div>
+        <h6>5. Interaktywne infografiki:</h6>
+        <p>
+          <b>– przykład:</b> graficzne przedstawienie danych z możliwością
+          interakcji;
+        </p>
+        <p>
+          <b>– zalety:</b> bardziej wyraziste i zrozumiałe przedstawienie
+          informacji.
+        </p>
+
+        <img src="${news1_5.src}" alt="news7_1" />
+      </div>
+
+      <div>
+        <h6>6. Formularze i ankiety:</h6>
+        <p>
+          <b>– przykład:</b> online-ankiety do zbierania opinii lub zamówienia
+          oddzwonienia;
+        </p>
+        <p><b>– zalety:</b> zbieranie cennych danych o użytkownikach.</p>
+
+        <img src="${news1_6.src}" alt="news7_1" />
+      </div>
+
+      <div>
+        <h6>7. Interaktywne elementy gier:</h6>
+        <p>
+          <b>– przykład:</b> gra internetowa związana z produktem lub usługą;
+        </p>
+        <p>
+          <b>– zalety:</b> przyciąganie uwagi, tworzenie pozytywnych
+          skojarzeń.
+        </p>
+
+        <img src="${news1_7.src}" alt="news7_1" />
+      </div>
+
+      <div>
+        <h6>8. Społecznościowe widżety mediów:</h6>
+        <p>
+          <b>– przykład:</b> możliwość komentowania lub udostępniania treści
+          poprzez media społecznościowe;
+        </p>
+        <p>
+          <b>– zalety:</b> rozpowszechnianie treści, umacnianie obecności w
+          mediach społecznościowych.
+        </p>
+
+        <img src="${news1_8.src}" alt="news7_1" />
+      </div>
+    </div>
+
+    <h4 id="3">Efekty interaktywnego contentu na SEO:</h4>
+
+    <p>
+      Kluczowym momentem w interakcji interaktywnego contentu z SEO jest
+      zwiększenie czasu, jaki użytkownicy spędzają na stronie. Wyszukiwarki
+      interpretują to jako wskaźnik wysokiej jakości i interesującej treści,
+      co przyczynia się do poprawy pozycji w wynikach wyszukiwania.
+    </p>
+
+    <div>
+      <p>
+        <b>– Podział na bloki:</b> znaczeniowe poprawia czytelność tekstu,
+        sprawiając, że staje się on bardziej przyswajalny dla odbiorców. Każdy
+        blok, opatrzony jaskrawym nagłówkiem, staje się niewielkim,
+        samowystarczalnym modułem informacyjnym, co jest szczególnie istotne
+        dla użytkowników skłonnych do przeglądania tekstu.
+      </p>
+      <p>
+        <b>– Interakcja i zaangażowanie odbiorców:</b> interaktywny content
+        aktywnie oddziałuje na publiczność, co staje się kluczowym czynnikiem
+        w przyciąganiu uwagi i kształtowaniu pozytywnego postrzegania marki.
+      </p>
+      <p>
+        <b>– Tworzenie spersonalizowanych doświadczeń:</b> podnosi interakcję
+        z odbiorcami na nowy poziom. Skuteczny quiz lub wirtualna wycieczka
+        dostosowane do potrzeb każdego użytkownika stają się potężnym
+        narzędziem utrzymania uwagi.
+      </p>
+      <p>
+        <b>– Możliwości feedbacku:</b> opinie zebrane poprzez interaktywny
+        content dostarczają firmom cenne dane do poprawy produktów, usług i
+        strategii marketingowych. To staje się szansą dla firm na pozostawanie
+        w zgodzie z potrzebami swojej publiczności.
+      </p>
+      <p>
+        <b>– Zwiększenie konwersji:</b> emocjonalne zaangażowanie i dokładne
+        zrozumienie potrzeb odbiorców, osiągnięte dzięki interaktywnemu
+        contentowi, prowadzi do wzrostu konwersji. Użytkownicy, którzy
+        odczuwają satysfakcję z interakcji z marką, są bardziej skłonni do
+        dokonywania zakupów.
+      </p>
+    </div>
+
+    <h4 id="4">
+      Przykłady skutecznego wykorzystania interaktywnego contentu:
+    </h4>
+
+    <p>Przykłady firm, które skutecznie wykorzystują interaktywny content:</p>
+
+    <div>
+      <p>
+        <b>Przykład 1)</b> interaktywne katalogi w handlu detalicznym: firmy,
+        które umożliwiają klientom tworzenie interaktywnych list zakupów z
+        ocenami i recenzjami, zauważają wzrost konwersji na zakupy.
+      </p>
+      <p>
+        <b>Przykład 2)</b> elementy gier w kursach edukacyjnych: platformy
+        edukacyjne, które wprowadzają interaktywne elementy do kursów,
+        zwiększają zaangażowanie studentów i, w rezultacie, skuteczność nauki.
+      </p>
+      <p>
+        <b>Przykład 3)</b> kalkulatory wydatków w dziedzinie finansów: banki i
+        firmy finansowe wykorzystują interaktywne kalkulatory do obliczania
+        kosztów i planowania budżetu, co pomaga użytkownikom podejmować
+        świadome decyzje finansowe.
+      </p>
+    </div>
+
+    <h4 id="5">Podsumowanie:</h4>
+
+    <p>
+      Interaktywny content staje się fundamentem współczesnych strategii
+      marketingowych. Skutecznie wpływa na wskaźniki SEO, umożliwia interakcję
+      z publicznością i zwiększa konwersję. Zalecenia dotyczące korzystania z
+      interaktywnego contentu obejmują uwzględnianie cech audiencji, tworzenie
+      unikalnych spersonalizowanych doświadczeń oraz systematyczne
+      przyswajanie skutecznych praktyk w tej dziedzinie. Nieodłącznym
+      elementem marketingu przyszłości jest interaktywność, zdolna zmienić
+      postrzeganie relacji między marką a konsumentem.
+    </p>
+    `,
     img: news1,
-  },
-  {
-    id: 2,
-    title: "Увеличьте посещаемость вашего сайта Несколько простых шагов",
-    date: "8 сентября 2023",
-    description: `Увеличение посещаемости вашего сайта — это важный шаг к успеху. Вот несколько простых методов, которые даже новичок может использовать:
-
-      Ключевые Слова и Структура Контента: Исследуйте, какие ключевые слова в вашей нише наиболее популярны. Вставляйте их стратегически в тексты на вашем сайте. Структурируйте контент, чтобы он был легко читаемым.
-      
-      Блог: Начните блог на вашем сайте. Публикуйте интересные и полезные статьи, которые будут привлекать посетителей и поднимать позиции в поисковых системах.
-      
-      Социальные Сети: Активно используйте социальные сети для продвижения. Размещайте ссылки на ваш контент и взаимодействуйте с аудиторией.
-      
-      Контекстная Реклама: Разработайте рекламные кампании на платформах, таких как Google Ads. Они помогут привлечь трафик быстро.
-      
-      Анализ Данных: Используйте инструменты аналитики, чтобы отслеживать, какие страницы на сайте наиболее популярны, и какие источники трафика наиболее эффективны.
-      
-      Ссылочная Масса: Завоевывайте обратные ссылки (беклинки) от других сайтов. Это улучшит вашу видимость в поисковых системах.
-      
-      Специалисты по Маркетингу: Не стесняйтесь обратиться к профессионалам. Эффективное продвижение требует времени и опыта. Компании, такие как Ибис Маркетинг, предоставляют комплексные услуги по SEO и контекстной рекламе. Специалисты вам помогут разработать стратегию, которая работает и приводит к результатам.
-      
-      Запомните, что успешное продвижение сайта — это долгосрочный процесс, и требует тщательного планирования и усилий. Если вы хотите увеличить посещаемость вашего сайта и улучшить его видимость, рассмотрите возможность обратиться к специалистам, которые помогут вам добиться максимальных результатов.
-      
-      Ибис Маркетинг — это ваш надежный партнер в мире маркетинга и интернет-продвижения. Мы предоставляем комплексные услуги по SEO и контекстной рекламе, которые помогут вам добиться заметных результатов. Не упустите возможность увеличить посещаемость вашего сайта и укрепить позиции в онлайн-мире. Свяжитесь с нами сегодня, и мы разработаем стратегию, которая поднимет ваш бизнес на новый уровень!`,
-    img: news2,
-  },
-  {
-    id: 3,
-    title: "Завоевывайте Instagram для Вашего Бизнеса",
-    date: "6 сентября 2023",
-    description: `Instagram стал мощным инструментом для продвижения бизнеса. Но как выделиться среди миллионов аккаунтов? Вот несколько стратегий:
-
-      1. Продуманный Профиль
-      
-      Ваш профиль – это лицо бренда. Внимание к деталям, креативность и ясное сообщение помогут привлечь аудиторию.
-      
-      2. Качественный Контент
-      
-      Постите качественные фото и видео, которые отражают ваш бренд и интересуют вашу аудиторию
-      
-      3. Интерактивность
-      
-      Ответы на комментарии и вовлечение аудитории через опросы и сторис помогут создать сообщество.
-      
-      4. Таргетированная Реклама
-      
-      Рекламные кампании в Instagram могут сильно увеличить вашу видимость и привлечь новых клиентов.
-      
-      5. Регулярность
-      
-      Постите регулярно, чтобы ваша аудитория всегда имела доступ к свежему контенту.
-      
-      6. Сторис и Reels
-      
-      Используйте сторис и Reels для еще большей интерактивности и контента в формате видео.
-      
-      7. Партнерство
-      
-      Рассмотрите партнерство с влиятельными личностями, чтобы расширить вашу аудиторию.
-      
-      Ибис Маркетинг готов взять на себя все это и помочь вашему бизнесу процветать в Instagram всего за 450 BYN. Не упустите шанс сделать ваш бренд более успешным в социальных медиа!
-      
-      Более 50+ компаний уже доверяют нам и видят реальные результаты.`,
-    img: news3,
-  },
-  {
-    id: 4,
-    title: "SMM это стратегия",
-    date: "5 сентября 2023",
-    description: `которая открывает перед вашим бизнесом огромные возможности для роста, видимости и взаимодействия с целевой аудиторией. А когда речь идет о выборе надежного партнера для реализации этой стратегии, Ибис Маркетинг становится вашим надежным проводником в мире SMM. Почему стоит выбрать Ибис Маркетинг для ваших SMM потребностей: Опыт и Экспертиза: Наша команда обладает обширным опытом в области SMM. Мы знаем, как создать контент, который захватит внимание, как оптимизировать публикации и как достичь максимальных результатов в социальных медиа. Индивидуальный Подход: Мы понимаем, что каждый бизнес уникален, и подходим к каждому клиенту индивидуально. Мы разрабатываем стратегии SMM, которые точно соответствуют вашим целям и вашей аудитории. Творчество и Инновации: Мы не боимся экспериментировать с творческими идеями, чтобы сделать ваш бренд запоминающимся. У нас есть много вдохновения и инноваций, чтобы сделать ваш контент уникальным. Результаты и Аналитика: Мы следим за результатами каждой SMM кампании. Анализируем, что работает, а что можно улучшить. Это позволяет нам адаптировать стратегию для достижения наилучших результатов. Комплексное Обслуживание: Наша компания предоставляет полный спектр услуг в области SMM. Вы можете полностью полагаться на нашу команду для эффективного выполнения задач. Выбрав Ибис Маркетинг, вы выбираете опытных профессионалов, которые превратят SMM в мощный инструмент для роста вашего бизнеса. Мы готовы помочь вам создать прочное присутствие в социальных сетях, улучшить вашу видимость в поисковой выдаче и достичь выдающихся результатов. Вместе с нами ваш бренд станет заметным и успешным в онлайн-мире!`,
-    img: news4,
-  },
-  {
-    id: 5,
-    title: "У вас есть сайт, но он устарел?",
-    date: "13 апреля 2023",
-    description: `Современный мир настолько стал зависим от современных технологий, что не прощает пользователям пренебрежение их использования. В частности, это касается бизнеса. Интернет ваш надёжный партнёр и спонсор. Не знаете с чего начать успешные продажи в интернете? Ответ достаточно прост. Обзавестись собственным веб-сайтом никогда не поздно, особенно, если в участии его создания принимает команда компетентных специалистов из Ибис маркетинг. Тщательное изучение всех пунктов технического задания, прислушиваемся ко всем вашим пожеланиям и рекомендациям, полный цикл разработки. Вы предложили-мы реализовали! У вас уже есть веб-сайт, но он устарел? Именно в настоящее время функционал и дизайн сайта играют максимальную роль при получении прибыли. Наши специалисты знают это, что и позволяет сделать качественный редизайн сайта. Ваших клиентов приятно удивит удобство использования, визуальное оформление и конечно же быстрые и удобные покупки. Всё еще задаётесь вопросом нужен ли мне веб-сайт? Закажите создание сайта в Ибис маркетинг и ваша будущая прибыль даст ответ!`,
-    img: news5,
-  },
-  {
-    id: 6,
-    title: "Что на наш взгляд важно",
-    date: "13 декабря 2022",
-    description: `Во-первых, Ибис маркетинг — это агентство полного цикла, в основе которого команда молодых и креативных людей, обладающих обширной экспертизой в области маркетинга и разработки, свежими концепциями и специфическими знаниями. Каждый из нас пришел в бизнес для реализации и достижения наших амбициозных целей. Ваш бизнес или бренд с вашими целями и задачами — это то, что дает нам энергию и силу. Ибис маркетинг — это просто отличный способ реализовать свои идеи на практике.`,
-    img: news6,
   },
 ];

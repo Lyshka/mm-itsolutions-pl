@@ -1,9 +1,12 @@
 import news1 from "./news/news1.webp";
-import news2 from "./news/news2.webp";
-import news3 from "./news/news3.webp";
-import news4 from "./news/news4.webp";
-import news5 from "./news/news5.webp";
-import news6 from "./news/news6.webp";
+import news1_1 from "./news/news1_1.webp";
+import news1_2 from "./news/news1_2.webp";
+import news1_3 from "./news/news1_3.webp";
+import news1_4 from "./news/news1_4.webp";
+import news1_5 from "./news/news1_5.webp";
+import news1_6 from "./news/news1_6.webp";
+import news1_7 from "./news/news1_7.webp";
+import news1_8 from "./news/news1_8.webp";
 
 import bgNews from "./bg/bgNews.webp";
 
@@ -85,11 +88,14 @@ import gifts from "./newYear/gifts.webp";
 
 export {
   news1,
-  news2,
-  news3,
-  news4,
-  news5,
-  news6,
+  news1_1,
+  news1_2,
+  news1_3,
+  news1_4,
+  news1_5,
+  news1_6,
+  news1_7,
+  news1_8,
   bgNews,
   banner2,
   banner2_mobile,

@@ -3,8 +3,8 @@ import NewsSingle from "@/pages/NewsSingle";
 import { translatorToEn } from "@/utils/translator";
 
 export function generateStaticParams() {
-  return news.map(({ title }) => {
-    const newUrl = translatorToEn(title);
+  return news.map(({ url }) => {
+    const newUrl = translatorToEn(url);
     
     return {
       idNews: newUrl,

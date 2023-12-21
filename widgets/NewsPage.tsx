@@ -1,6 +1,7 @@
+import { TextNews } from "@/components/News/TextNews";
 import { news } from "@/constants/news";
 import { translatorToEn } from "@/utils/translator";
-import Image, {StaticImageData} from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
 interface INewsPage {
@@ -8,20 +9,19 @@ interface INewsPage {
 }
 
 export const NewsPage = ({ idNews }: INewsPage) => {
-  const filteredNews = news.filter(({ title }) => {
-    const newTitle = translatorToEn(title);
+  const filteredNews = news.filter(({ url }) => {
+    const newTitle = translatorToEn(url);
     const decoded = decodeURIComponent(idNews);
 
     return newTitle === decoded;
   })[0];
 
-
-  const date:string = filteredNews?.date;
-  const description:string = filteredNews?.description;
-  const img:StaticImageData = filteredNews?.img;
-  const title:string = filteredNews?.title;
-  const filteredNewsAll = news.filter(({ title }) => {
-    const newTitle = translatorToEn(title);
+  const date: string = filteredNews?.date;
+  const description: string = filteredNews?.description;
+  const img: StaticImageData = filteredNews?.img;
+  const title: string = filteredNews?.title;
+  const filteredNewsAll = news.filter(({ url }) => {
+    const newTitle = translatorToEn(url);
 
     return newTitle !== idNews;
   });
@@ -56,10 +56,7 @@ export const NewsPage = ({ idNews }: INewsPage) => {
                 className="2xl:hidden block rounded-lg h-[168px] w-full"
               />
 
-              <p
-                className="2xl:text-base text-[13px] 2xl:leading-4 leading-5"
-                dangerouslySetInnerHTML={{ __html: description }}
-              />
+              <TextNews text={description} />
             </div>
           </div>
 
@@ -68,8 +65,8 @@ export const NewsPage = ({ idNews }: INewsPage) => {
           </div>
 
           <div className="flex flex-col gap-4 2xl:w-[360px] w-full">
-            {filteredNewsAll.map(({ date, img, title, id }) => {
-              const newUrl = translatorToEn(title);
+            {filteredNewsAll.map(({ date, img, title, id, url }) => {
+              const newUrl = translatorToEn(url);
 
               return (
                 <Link
