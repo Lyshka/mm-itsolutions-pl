@@ -8,7 +8,7 @@ export const ListNews = () => {
     <section className="flex justify-center items-center">
       <div className="container 2xl:py-20 py-12 grid 2xl:grid-cols-3 grid-cols-1 2xl:gap-6 gap-12">
         {news.map((newsItem) => {
-          const newUrlTranslate = translatorToEn(newsItem.title);
+          const newUrlTranslate = translatorToEn(newsItem.url);
 
           return (
             <Link href={`/news/${newUrlTranslate}`} key={newsItem.id}>

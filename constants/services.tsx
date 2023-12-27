@@ -16,7 +16,9 @@ export const services = [
     id: 1,
     url: "site-creation",
     title: "Tworzenie stron internetowych",
+    description: "Tworzenie stron internetowych o różnym stopniu skomplikowania, począwszy od stron landingowych, aż do sklepów internetowych. Kreatywny design, struktura sprzedażowa, wygodna funkcjonalność. Pełny zakres usług od projektu do hostingu.",
     img: siteCreation,
+    alt: "Tworzenie stron internetowych",
     advantages: {
       title: "Zalety naszych stron",
       list: [
@@ -170,6 +172,8 @@ export const services = [
     url: "website-maintenance",
     title: "Obsługa strony internetowej",
     img: websiteMaintenance,
+    description: "Tworzenie treści na stronie, usuwanie błędów, dodawanie nowych stron, redesign, rozwijanie kalkulatorów, formularzy kontaktowych, integracja z programami magazynowymi",
+    alt: "Obsługa strony internetowej",
     advantages: {
       title: "Zalety naszych stron",
       list: [
@@ -334,7 +338,9 @@ export const services = [
     id: 3,
     url: "contextual-advertising",
     title: "Reklama kontekstowa",
+    description: "Konfiguracja reklamy kontekstowej w Polsce, na wyszukiwarkach Google, reklama banerowa, reklama e-mail, na YouTube. Pomoc w uzupełnianiu kont reklamowych.",
     img: contextualAdvertising,
+    alt: "Reklama kontekstowa",
     advantages: {
       title: "Dlaczego warto zamówić reklamę kontekstową?",
       list: [
@@ -401,7 +407,9 @@ export const services = [
     id: 4,
     url: "seo-promotion",
     title: "SEO-promocja",
+    description: "Pełen zakres promocji stron internetowych na kluczowe frazy w wyszukiwarkach Yandex, Google. Podniesiemy pozycję Twojej strony w wynikach wyszukiwania.",
     img: seoPromotion,
+    alt: "SEO-promocja",
     advantages: {
       title: "Dlaczego warto zamówić promocję SEO?",
       list: [
@@ -478,7 +486,9 @@ export const services = [
     id: 5,
     url: "smm-promotion",
     title: "SMM-promocja",
+    description: "Pełen zakres promocji towarów i usług w mediach społecznościowych, rozruch sprzedaży, zwiększenie sprzedaży i zasięgów. Skonfigurujemy piksel FB, śledzimy statystyki. Tworzymy treści wizualne i pisemne.",
     img: smmPromotion,
+    alt: "SMM-promocja",
     advantages: {
       title: "Dlaczego warto zamówić promocję SMM?",
       list: [
@@ -563,7 +573,9 @@ export const services = [
     id: 6,
     url: "targeted-advertising",
     title: "Reklama ukierunkowana",
+    description: "Pełny zakres promocji stron internetowych na kluczowe frazy w wyszukiwarkach Google. Podniesiemy pozycję Twojej strony w wynikach wyszukiwania.",
     img: targetedAdvertising,
+    alt: "Reklama ukierunkowana",
     advantages: {
       title: "Dlaczego warto zamówić reklamę targetowaną?",
       list: [
@@ -626,7 +638,9 @@ export const services = [
     id: 7,
     url: "development-of-a-unique-design",
     title: "Projektowanie unikalnego designu",
+    description: "Zaprojektujemy unikalny design dla strony internetowej, banerów, mediów społecznościowych, postów, prezentacji. Webdesign. Projektowanie ulotek, menu, katalogów, wideo, wizytówek, plakatów.",
     img: developmentOfAUniqueDesign,
+    alt: "Projektowanie unikalnego designu",
     advantages: {
       title: "Dlaczego warto opracować unikalny projekt strony internetowej?",
       list: [
@@ -729,7 +743,9 @@ export const services = [
     id: 8,
     url: "booking-service",
     title: "Usługa rezerwacji",
+    description: "Moduł na stronę internetową, Instagram, Facebook oraz inne platformy społecznościowe do rezerwacji pokoi hotelowych online. Synchronizacja z Booking.com.",
     img: bookingService,
+    alt: "Usługa rezerwacji",
     advantages: {
       title: "Dlaczego warto wybrać usługę rezerwacji?",
       list: [
@@ -877,7 +893,9 @@ export const services = [
     id: 9,
     url: "other-services",
     title: "Inne usługi",
+    description: "Tworzenie prezentacji, wysyłki e-mail, copywriting, pisanie artykułów na strony internetowe. Praca z opiniami, automatyczne odpowiedzi.",
     img: otherServices,
+    alt: "Usługi marketingowe",
     advantages: {
       title: "Dlaczego warto wybrać inne usługi?",
       list: [
@@ -983,7 +1001,9 @@ export const services = [
     id: 10,
     url: "functional-marketing-department",
     title: "Dział funkcjonalny marketingu",
+    description: "Zastąpimy pełny dział marketingu za cenę jednego wynagrodzenia. Podniesiemy poziom sprzedaży produktów/usług.",
     img: functionalMarketingDepartment,
+    alt: "Dział funkcjonalny marketingu",
     advantages: {
       title: "Dlaczego warto wybrać Dział Marketingu Funkcjonalnego?",
       list: [

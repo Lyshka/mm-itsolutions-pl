@@ -97,7 +97,7 @@ export const Contacts = ({ dark = true }: IContacts) => {
 
         <Image
           src={contact}
-          alt="contact"
+          alt="Kontakty ITSolutions"
           width={638}
           height={360}
           className="rounded-2xl 2xl:block hidden"
@@ -105,7 +105,7 @@ export const Contacts = ({ dark = true }: IContacts) => {
 
         <Image
           src={contact}
-          alt="contact"
+          alt="Kontakty ITSolutions"
           height={161}
           className="rounded-[14.445px] 2xl:hidden block w-full"
         />

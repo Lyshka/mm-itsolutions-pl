@@ -19,8 +19,8 @@ export const MobileNewsSlider = () => {
       prevArrow={({}) => <></>}
       nextArrow={({}) => <></>}
     >
-      {news.map(({ date, id, img, title, shortDescription }) => {
-        const newUrl = translatorToEn(title);
+      {news.map(({ date, id, img, title, url, shortDescription }) => {
+        const newUrl = translatorToEn(url);
 
         return (
           <Link

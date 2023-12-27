@@ -9,13 +9,8 @@ export const Price = () => {
         <Title text="Usługi" />
 
         <div className="border-t border-[#BBBBBB] w-full">
-          {priceList.map(({ description, id, img, title }) => (
-            <CardPrice
-              key={id}
-              description={description}
-              img={img}
-              title={title}
-            />
+          {priceList.map((price) => (
+            <CardPrice key={price.id} price={price} />
           ))}
         </div>
       </div>

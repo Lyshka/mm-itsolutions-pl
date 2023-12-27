@@ -13,6 +13,7 @@ export const priceList = [
     description:
       "Skuteczna promocja w mediach społecznościowych: pozyskiwanie nowych klientów za pośrednictwem Instagram, Facebook, TikTok, VK, OK.",
     img: smmMain,
+    alt: "promocja w mediach społecznościowych",
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ export const priceList = [
     description:
       "Podnieś swoją firmę na wyższy poziom: skuteczna reklama ukierunkowana dla poszerzenia rynku i zwiększenia zysków.",
     img: targetMain,
+    alt: "Wzrost sprzedaży online",
   },
   {
     id: 3,
@@ -27,6 +29,7 @@ export const priceList = [
     description:
       "Zwiększ potencjał swojego biznesu: tworzenie stron internetowych, które przekształcają odwiedzających w lojalnych klientów.",
     img: webMain,
+    alt: "Tworzenie stron internetowych",
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ export const priceList = [
     description:
       "Zaufaj profesjonalistom: nasz zespół specjalistów SEO, ekspertów w zakresie reklamy kontekstowej i doświadczonego wsparcia technicznego jest gotów pomóc Twojej stronie kwitnąć.",
     img: seoMain,
+    alt: "Reklama ukierunkowana",
   },
   {
     id: 5,
@@ -41,5 +45,6 @@ export const priceList = [
     description:
       "Rzeczywistość Twojej wizji: nasz zespół ekspertów ds. projektowania i treści gotów przekształcić Twój projekt, nadając mu niepowtarzalny wygląd.",
     img: funcMain,
+    alt: "Projektowanie strony internetowej i tworzenie treści",
   },
 ];
