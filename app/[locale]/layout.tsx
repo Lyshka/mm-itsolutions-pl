@@ -8,16 +8,19 @@ const jost = Jost({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "ITSolutions| Tworzenie stron internetowych | SMM |Reklama",
-  description: "Agencja ITSolutions specjalizuje się w tworzeniu stron internetowych z wysoką konwersją oraz w promocji w mediach społecznościowych, SEO",
+  description:
+    "Agencja ITSolutions specjalizuje się w tworzeniu stron internetowych z wysoką konwersją oraz w promocji w mediach społecznościowych, SEO",
 };
 
 export default function RootLayout({
   children,
+  params: { locale },
 }: {
   children: React.ReactNode;
+  params: { locale: string };
 }) {
   return (
-    <html lang="pl">
+    <html lang={locale}>
       <MainContextProvider>
         <body className={jost.className}>{children}</body>
       </MainContextProvider>

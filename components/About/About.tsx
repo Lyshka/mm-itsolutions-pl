@@ -2,7 +2,11 @@ import { delagothicone } from "@/assets/font";
 import { aboutList } from "@/constants/about";
 import { CardAbout } from "./CardAbout";
 
+import { useTranslations } from "next-intl";
+
 export const About = () => {
+  const t = useTranslations("Index");
+
   return (
     <section id="about" className="flex justify-center items-center">
       <div className="container 2xl:py-[104px] py-10 flex flex-col items-start 2xl:gap-[72px] gap-8">
@@ -10,7 +14,7 @@ export const About = () => {
           <p
             className={`2xl:text-[26px] text-lg 2xl:leading-8 leading-6 ${delagothicone.className}`}
           >
-            Razem będziemy rosnąć
+            Razem będziemy rosnąć {t("title")}
           </p>
 
           <div className="lg:w-[993px] w-full flex flex-col lg:gap-6 gap-4 items-center self-center">
