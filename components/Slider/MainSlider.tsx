@@ -8,6 +8,7 @@ import { slidesMain } from "@/constants/slides";
 import { MainSlide } from "./MainSlide";
 
 export const MainSlider = () => {
+
   return (
     <Carousel
       loop
@@ -34,7 +35,7 @@ export const MainSlider = () => {
           onClick={handlePrev}
           className="2xl:w-8 w-6 2xl:h-8 h-6 rounded-full bg-black/50 !absolute top-2/4 2xl:left-[10%] left-[1%] -translate-y-2/4 flex justify-center items-center text-white"
         >
-            <IoIosArrowBack className="2xl:w-4 w-2 2xl:h-4 h-2" />
+          <IoIosArrowBack className="2xl:w-4 w-2 2xl:h-4 h-2" />
         </button>
       )}
       nextArrow={({ handleNext }) => (
@@ -42,7 +43,7 @@ export const MainSlider = () => {
           onClick={handleNext}
           className="2xl:w-8 w-6 2xl:h-8 h-6 rounded-full bg-black/50 !absolute top-2/4 2xl:!right-[10%] right-[1%] -translate-y-2/4 flex justify-center items-center text-white"
         >
-            <IoIosArrowForward className="2xl:w-4 w-2 2xl:h-4 h-2" />
+          <IoIosArrowForward className="2xl:w-4 w-2 2xl:h-4 h-2" />
         </button>
       )}
     >

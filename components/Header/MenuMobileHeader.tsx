@@ -9,13 +9,22 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import { MainContext } from "@/context/MainContext";
 import { mainMenu } from "@/constants/menu";
 import clsx from "clsx";
+import { useLocale } from "next-intl";
 
 export const MenuMobileHeader = () => {
-  const { isOpenMenuHeader } = useContext(MainContext);
+  const { isOpenMenuHeader, toggleMenuHeader } = useContext(MainContext);
   const [isOpen, setIsOpen] = useState(false);
+
+  const locale = useLocale();
 
   const toggleSubMenu = () => {
     setIsOpen((prv) => !prv);
+  };
+
+  const autoClose = () => {
+    if (toggleMenuHeader) {
+      toggleMenuHeader();
+    }
   };
 
   return (
@@ -31,7 +40,11 @@ export const MenuMobileHeader = () => {
                       className="flex items-center gap-2"
                       onClick={toggleSubMenu}
                     >
-                      <Link href={url} className="uppercase">
+                      <Link
+                        onClick={autoClose}
+                        href={`/${locale}/${url}`}
+                        className="uppercase"
+                      >
                         {title}
                       </Link>
                       {
@@ -39,7 +52,7 @@ export const MenuMobileHeader = () => {
                           className={clsx(
                             "w-4 h-4",
                             !isOpen && "rotate-0",
-                            isOpen && "rotate-180",
+                            isOpen && "rotate-180"
                           )}
                         />
                       }
@@ -47,23 +60,22 @@ export const MenuMobileHeader = () => {
                   )}
                   {!Boolean(addition) && (
                     <>
-                      <Link href={url} className="uppercase">
+                      <Link href={`/${locale}/${url}`} className="uppercase">
                         {title}
                       </Link>
                     </>
                   )}
                 </>
 
-                {Boolean(addition) && isOpen && <SubMenu addition={addition} />}
+                {Boolean(addition) && isOpen && (
+                  <SubMenu autoClose={autoClose} addition={addition} />
+                )}
               </li>
             ))}
           </ul>
 
           <div className="py-6 flex flex-col gap-2 font-medium">
-            <Link
-              className="flex items-center gap-4"
-              href={"tel:+48799464873"}
-            >
+            <Link className="flex items-center gap-4" href={"tel:+48799464873"}>
               <LuPhone className="w-6 h-6" />
               <span className="whitespace-nowrap">+48799464873</span>
             </Link>
@@ -82,6 +94,7 @@ export const MenuMobileHeader = () => {
 };
 
 interface ISubMenu {
+  autoClose: () => void;
   addition:
     | {
         id: number;
@@ -91,11 +104,13 @@ interface ISubMenu {
     | undefined;
 }
 
-const SubMenu = ({ addition }: ISubMenu) => {
+const SubMenu = ({ addition, autoClose }: ISubMenu) => {
+  const locale = useLocale();
+
   return (
     <ul className="p-6 pb-0 flex flex-col gap-6">
       {addition?.map(({ id, title, url }) => (
-        <Link key={id} href={`/services/${url}`}>
+        <Link onClick={autoClose} key={id} href={`/${locale}/services/${url}`}>
           <li className="list-header-li-sub">{title}</li>
         </Link>
       ))}

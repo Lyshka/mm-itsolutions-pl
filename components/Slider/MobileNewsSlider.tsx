@@ -8,8 +8,11 @@ import { Button } from "../Button/Button";
 import { delagothicone } from "@/assets/font";
 import Link from "next/link";
 import { translatorToEn } from "@/utils/translator";
+import { useLocale } from "next-intl";
 
 export const MobileNewsSlider = () => {
+  const locale = useLocale();
+
   return (
     <Carousel
       loop
@@ -24,7 +27,7 @@ export const MobileNewsSlider = () => {
 
         return (
           <Link
-            href={`/news/${newUrl}`}
+            href={`/${locale}/news/${newUrl}`}
             key={id}
             className="flex flex-col gap-4"
           >

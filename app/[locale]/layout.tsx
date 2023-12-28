@@ -3,8 +3,13 @@ import { Jost } from "next/font/google";
 
 import "./globals.css";
 import { MainContextProvider } from "@/context/MainContext";
+import { Locales } from "@/messages";
 
 const jost = Jost({ subsets: ["latin"] });
+
+export function generateStaticParams() {
+  return Object.values(Locales).map((locale) => ({ locale }));
+}
 
 export const metadata: Metadata = {
   title: "ITSolutions| Tworzenie stron internetowych | SMM |Reklama",

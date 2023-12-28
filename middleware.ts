@@ -7,10 +7,10 @@ export default createMiddleware({
   locales: Object.values(Locales),
 
   // Used when no locale matches
-  defaultLocale: Locales.en,
+  defaultLocale: Locales.pl,
 });
 
 export const config = {
   // Match only internationalized pathnames
-  matcher: ["/", "/(ru|en)/:path*"],
+  matcher: ["/", "/(ru|pl)/:path*"],
 };

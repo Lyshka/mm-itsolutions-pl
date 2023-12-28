@@ -4,6 +4,7 @@ import { delagothicone } from "@/assets/font";
 import { useContext } from "react";
 import { MainContext } from "@/context/MainContext";
 import Link from "next/link";
+import { useLocale } from "next-intl";
 
 interface IMainSlide {
   title: string;
@@ -23,6 +24,8 @@ export const MainSlide = ({
   link,
 }: IMainSlide) => {
   const { toggleFeedBack } = useContext(MainContext);
+
+  const locale = useLocale();
 
   return (
     <div className="h-full w-full relative flex justify-center items-center">
@@ -60,7 +63,7 @@ export const MainSlide = ({
           </div>
 
           <div className="2xl:flex">
-            <Link href={link ? link : ""}>
+            <Link href={link ? `/${locale}${link}` : ""}>
               <Button
                 onClick={link ? () => {} : toggleFeedBack}
                 className="2xl:w-auto w-full uppercase"
