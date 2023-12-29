@@ -1,5 +1,5 @@
 import { servicesPl, servicesRu } from "@/constants/services";
-import ServiceSingle from "@/pages/ServiceSingle";
+import ServiceSingle from "@/sitePages/ServiceSingle";
 import { SelectLaguageDate } from "@/utils/SelectLaguageDate";
 
 type Props = {

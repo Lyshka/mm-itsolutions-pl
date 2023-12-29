@@ -1,5 +1,5 @@
 import { newsPl, newsRu } from "@/constants/news";
-import NewsSingle from "@/pages/NewsSingle";
+import NewsSingle from "@/sitePages/NewsSingle";
 import { translatorToEn } from "@/utils/translator";
 import { SelectLaguageDate } from "@/utils/SelectLaguageDate";
 

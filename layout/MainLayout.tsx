@@ -9,7 +9,7 @@ interface IMainLayout {
   children: ReactNode;
 }
 
-export const MainLayout = ({ children }: IMainLayout) => {
+export function MainLayout ({ children }: IMainLayout) {
   return (
     <div className="min-h-screen max-w-full">
       <NextTopLoader />

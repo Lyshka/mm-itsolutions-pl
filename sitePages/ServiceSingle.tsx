@@ -2,15 +2,19 @@ import { Contacts } from "@/components/Contacts";
 import { ServiceFormBlock } from "@/components/ServiceFormBlock";
 import { TopMenuServices } from "@/components/TopMenuServices";
 import { ServicePage } from "@/widgets/ServicePage";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 interface IServiceSingle {
   params: {
     service: string;
+    locale: string;
   };
 }
 
 const ServiceSingle = ({ params }: IServiceSingle) => {
-  const service:string= params?.service;
+  const service: string = params?.service;
+  const locale: string = params?.locale;
+  unstable_setRequestLocale(locale);
 
   return (
     <div className="flex flex-col justify-center items-center">

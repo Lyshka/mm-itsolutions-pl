@@ -1,4 +1,4 @@
-import News from "@/pages/News";
+import News from "@/sitePages/News";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

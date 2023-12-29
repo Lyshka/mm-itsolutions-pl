@@ -5,6 +5,7 @@ import "./globals.css";
 import { MainContextProvider } from "@/context/MainContext";
 import { Locales } from "@/messages";
 import { unstable_setRequestLocale } from "next-intl/server";
+import { MainLayout } from "@/layout/MainLayout";
 
 const jost = Jost({ subsets: ["latin"] });
 
@@ -26,11 +27,12 @@ export default function RootLayout({
   params: { locale: string };
 }) {
   unstable_setRequestLocale(locale);
-
   return (
     <html lang={locale}>
       <MainContextProvider>
-        <body className={jost.className}>{children}</body>
+        <MainLayout>
+          <body className={jost.className}>{children}</body>
+        </MainLayout>
       </MainContextProvider>
     </html>
   );
