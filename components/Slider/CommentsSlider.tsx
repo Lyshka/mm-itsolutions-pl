@@ -4,12 +4,14 @@ import { Carousel } from "@material-tailwind/react";
 import Image from "next/image";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
-import { comments } from "@/constants/comments";
+import { commentsPl, commentsRu } from "@/constants/comments";
 import { useState } from "react";
 import clsx from "clsx";
+import { useSelectLaguageDate } from "@/hooks/useSelectLaguageDate";
 
 export const CommentsSlider = () => {
   const [isSlideNumber, setisSlideNumber] = useState(0);
+  const comments = useSelectLaguageDate(commentsPl, commentsRu)
 
   return (
     <>

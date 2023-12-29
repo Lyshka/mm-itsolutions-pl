@@ -32,9 +32,10 @@ import colabPoseidonFish from "./colab/poseidon-fish.webp";
 import colabRembay from "./colab/rembay.webp";
 import colabT1 from "./colab/t1.webp";
 
-import comment1 from "./comment/comment1.webp";
 import comment2 from "./comment/comment2.webp";
 import comment3 from "./comment/comment3.webp";
+import comment4 from "./comment/comment4.webp";
+import comment5 from "./comment/comment5.webp";
 
 import banner2 from "./MainSlide/banner2.webp";
 import banner3 from "./MainSlide/banner3.webp";
@@ -158,9 +159,10 @@ export {
   colabPoseidonFish,
   colabRembay,
   colabT1,
-  comment1,
   comment2,
   comment3,
+  comment4,
+  comment5,
   bookingService,
   contextualAdvertising,
   developmentOfAUniqueDesign,
