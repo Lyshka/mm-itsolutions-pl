@@ -4,6 +4,7 @@ import { Jost } from "next/font/google";
 import "./globals.css";
 import { MainContextProvider } from "@/context/MainContext";
 import { Locales } from "@/messages";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 const jost = Jost({ subsets: ["latin"] });
 
@@ -24,6 +25,8 @@ export default function RootLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
+  unstable_setRequestLocale(locale);
+
   return (
     <html lang={locale}>
       <MainContextProvider>

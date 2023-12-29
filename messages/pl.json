@@ -45,6 +45,10 @@
     "nameForm": "Imię",
     "email": "E-mail"
   },
+  "Error": {
+    "title": "Błąd 404!",
+    "description": "Coś poszło nie tak. Strona, której szukasz, jest niedostępna!"
+  },
   "Footer": {
     "text": "ITSolutions - pełnokrotna agencja marketingu cyfrowego.",
     "socialText": "Media społecznościowe:",
