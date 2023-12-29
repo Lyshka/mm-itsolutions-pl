@@ -1,17 +1,22 @@
 "use client";
 
 import Image from "next/image";
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import { news } from "@/constants/news";
+import { newsPl, newsRu } from "@/constants/news";
 import { Carousel } from "@material-tailwind/react";
 import { Button } from "../Button/Button";
 import { delagothicone } from "@/assets/font";
 import Link from "next/link";
 import { translatorToEn } from "@/utils/translator";
 import { useLocale } from "next-intl";
+import { useSelectLaguageDate } from "@/hooks/useSelectLaguageDate";
 
-export const MobileNewsSlider = () => {
+interface IMobileNewsSlider {
+  buttonTitle: string;
+}
+
+export const MobileNewsSlider = ({ buttonTitle }: IMobileNewsSlider) => {
   const locale = useLocale();
+  const news = useSelectLaguageDate(newsPl, newsRu);
 
   return (
     <Carousel
@@ -55,7 +60,7 @@ export const MobileNewsSlider = () => {
                 {shortDescription}
               </p>
 
-              <Button className="2xl:py-2">Szczegóły</Button>
+              <Button className="2xl:py-2">{buttonTitle}</Button>
             </div>
           </Link>
         );

@@ -7,9 +7,13 @@ import { MainContext } from "@/context/MainContext";
 import { TelInput } from "../Input/TelInput";
 import { Recaptcha } from "../Input/Recaptcha";
 
-type PopupMainFormType = {} & FormHTMLAttributes<HTMLFormElement>;
+type PopupMainFormType = {
+  name: string;
+  email: string;
+  buttonName: string
+} & FormHTMLAttributes<HTMLFormElement>;
 
-export const PopupMainForm = ({ ...props }: PopupMainFormType) => {
+export const PopupMainForm = ({ email, buttonName, name, ...props }: PopupMainFormType) => {
   const { toggleDiscount } = useContext(MainContext);
 
   const { form, sendEmail, captcha } = useFormMail({
@@ -25,10 +29,10 @@ export const PopupMainForm = ({ ...props }: PopupMainFormType) => {
       className="flex flex-col flex-1 gap-6"
     >
       <div className="grid 2xl:grid-cols-2 grid-cols-1 2xl:gap-6 gap-4">
-        <Input placeholder="Imię" name="name" />
+        <Input placeholder={name} name="name" />
         <TelInput />
         <Input
-          placeholder="Email"
+          placeholder={email}
           type="email"
           className="2xl:col-span-2"
           name="email"
@@ -36,7 +40,7 @@ export const PopupMainForm = ({ ...props }: PopupMainFormType) => {
         <Recaptcha recaptchaRef={captcha} />
       </div>
 
-      <Button className="2xl:py-4 !py-2">Wyślij</Button>
+      <Button className="2xl:py-4 !py-2">{buttonName}</Button>
     </form>
   );
 };

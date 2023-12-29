@@ -4,10 +4,12 @@ import { Carousel } from "@material-tailwind/react";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 
-import { slidesMain } from "@/constants/slides";
+import { slidesMainRu, slidesMainPl } from "@/constants/slides";
 import { MainSlide } from "./MainSlide";
+import { useSelectLaguageDate } from "@/hooks/useSelectLaguageDate";
 
 export const MainSlider = () => {
+  const slidesMain = useSelectLaguageDate(slidesMainPl, slidesMainRu);
 
   return (
     <Carousel

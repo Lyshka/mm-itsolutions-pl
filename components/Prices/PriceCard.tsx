@@ -9,16 +9,20 @@ import Link from "next/link";
 
 interface IPriceCard {
   priceCard: priceList;
+  beforePrice: string;
+  detailName: string;
+  buttonName: string;
+  month: string;
 }
 
-export const PriceCard = ({ priceCard }: IPriceCard) => {
-  const {
-    includeServices,
-    valuableBYN,
-    month,
-    description,
-    title,
-  } = priceCard;
+export const PriceCard = ({
+  priceCard,
+  beforePrice,
+  buttonName,
+  detailName,
+  month: monthName,
+}: IPriceCard) => {
+  const { includeServices, valuableBYN, month, description, title } = priceCard;
 
   const [open, setOpen] = useState(false);
 
@@ -35,11 +39,11 @@ export const PriceCard = ({ priceCard }: IPriceCard) => {
       <div>
         <div className="p-6 flex flex-1 flex-col items-center gap-4 bg-main text-white">
           <div className="flex gap-3 items-end font-bold leading-6 2xl:text-lg text-base">
-            <span>od</span>
+            <span>{beforePrice}</span>
             <p className="2xl:text-[64px] text-[56px] font-black 2xl:leading-[64px] leading-[56px]">
               {valuableBYN}
             </p>
-            <span className="flex-1">zł{month && "/miesiąc"}</span>
+            <span className="flex-1">zł{month && `/${monthName}`}</span>
           </div>
         </div>
 
@@ -57,7 +61,7 @@ export const PriceCard = ({ priceCard }: IPriceCard) => {
           className="flex py-4 px-6 justify-center items-center gap-2"
         >
           <span className="text-center text-base font-bold leading-4">
-            Szczegóły
+            {detailName}
           </span>
           <IoIosArrowDown className="w-4 h-4" />
         </button>
@@ -88,7 +92,7 @@ export const PriceCard = ({ priceCard }: IPriceCard) => {
           href={"#formService"}
           className="flex py-3 px-6 justify-center items-center rounded-[100px] border-2 border-main text-center text-sm font-extrabold leading-6 w-full uppercase"
         >
-          OTRZYMAĆ OFERTĘ
+          {buttonName}
         </Link>
       </div>
     </div>

@@ -1,14 +1,19 @@
 import { TextNews } from "@/components/News/TextNews";
-import { news } from "@/constants/news";
+import { newsPl, newsRu } from "@/constants/news";
 import { translatorToEn } from "@/utils/translator";
+import { useSelectLaguageDate } from "@/hooks/useSelectLaguageDate";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
+import { useLocale } from "next-intl";
 
 interface INewsPage {
   idNews: string;
 }
 
 export const NewsPage = ({ idNews }: INewsPage) => {
+  const locale = useLocale();
+  const news = useSelectLaguageDate(newsPl, newsRu);
+
   const filteredNews = news.filter(({ url }) => {
     const newTitle = translatorToEn(url);
     const decoded = decodeURIComponent(idNews);
@@ -70,7 +75,7 @@ export const NewsPage = ({ idNews }: INewsPage) => {
 
               return (
                 <Link
-                  href={`/news/${newUrl}`}
+                  href={`/${locale}/news/${newUrl}`}
                   key={id}
                   className="p-4 flex-col w-full rounded-lg bg-[#F4F4F4]"
                 >

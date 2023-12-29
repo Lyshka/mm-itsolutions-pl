@@ -6,7 +6,21 @@ import { PopupMainForm } from "../Form/PopupMainForm";
 import { useEffect, useContext } from "react";
 import { MainContext } from "@/context/MainContext";
 
-export const DiscountPopup = () => {
+interface IDiscountPopup {
+  title: string;
+  description: string;
+  name: string;
+  email: string;
+  buttonName: string;
+}
+
+export const DiscountPopup = ({
+  description,
+  title,
+  email,
+  name,
+  buttonName
+}: IDiscountPopup) => {
   const { isOpenDiscount, toggleDiscount } = useContext(MainContext);
 
   const handleClose = () => {
@@ -36,15 +50,15 @@ export const DiscountPopup = () => {
                 <h6
                   className={`${delagothicone.className} 2xl:text-[32px] text-lg 2xl:leading-10 leading-6`}
                 >
-                  Rabat specjalnie dla Ciebie!
+                  {title}
                 </h6>
 
                 <p className="2xl:text-lg text-xs 2xl:leading-6 leading-4">
-                Składaj teraz zgłoszenie, a specjalnie dla Ciebie przygotujemy indywidualną ofertę!
+                  {description}
                 </p>
               </div>
 
-              <PopupMainForm />
+              <PopupMainForm name={name} email={email} buttonName={buttonName}/>
             </div>
           </div>
         </section>

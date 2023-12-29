@@ -7,9 +7,18 @@ import { Button } from "../Button/Button";
 import { Input } from "../Input/Input";
 import { Recaptcha } from "../Input/Recaptcha";
 
-type ServiceFormType = {} & FormHTMLAttributes<HTMLFormElement>;
+type ServiceFormType = {
+  name: string;
+  email: string;
+  buttonName: string;
+} & FormHTMLAttributes<HTMLFormElement>;
 
-export const ServiceForm = ({ ...props }: ServiceFormType) => {
+export const ServiceForm = ({
+  buttonName,
+  email,
+  name,
+  ...props
+}: ServiceFormType) => {
   const { form, sendEmail, captcha } = useFormMail({
     template: "template_17ngi34",
   });
@@ -24,18 +33,18 @@ export const ServiceForm = ({ ...props }: ServiceFormType) => {
     >
       <Input
         className="2xl:min-w-[307px] min-w-full"
-        placeholder="Imię *"
+        placeholder={`${name} *`}
         name="name"
       />
       <Input
         className="2xl:min-w-[307px] min-w-full"
-        placeholder="Email *"
+        placeholder={`${email} *`}
         type="email"
         name="email"
       />
       <Recaptcha recaptchaRef={captcha} />
       <Button className="uppercase 2xl:leading-4 2xl:w-auto w-full">
-        OTRZYMAĆ OFERTĘ
+        {buttonName}
       </Button>
     </form>
   );

@@ -1,139 +1,176 @@
-import { services } from "./services";
+import { servicesPl } from "./services";
 
-export const mainMenu = [
+export const mainMenuPl = [
   {
     id: 1,
-    titlePl: "GŁÓWNA",
-    titleRu: "ГЛАВНАЯ",
-    titleEn: "",
-    titleUa: "",
+    title: "GŁÓWNA",
     url: "/",
   },
   {
     id: 2,
-    titlePl: "O NAS",
-    titleRu: "О НАС",
-    titleEn: "",
-    titleUa: "",
+    title: "O NAS",
     url: "/#about",
   },
   {
     id: 3,
-    titlePl: "PORTFOLIO",
-    titleRu: "ПОРТФОЛИО",
-    titleEn: "",
-    titleUa: "",
+    title: "PORTFOLIO",
     url: "/#portfolio",
   },
   {
     id: 4,
-    titlePl: "USŁUGI I CENY",
-    titleRu: "УСЛУГИ И ЦЕНЫ",
-    titleEn: "",
-    titleUa: "",
-    url: `services/${services[0].url}`,
+    title: "USŁUGI I CENY",
+    url: `services/${servicesPl[0].url}`,
     addition: [
       {
         id: 1,
-        titlePl: "Tworzenie stron internetowych",
-        titleRu: "Разработка сайта",
-        titleEn: "",
-        titleUa: "",
+        title: "Tworzenie stron internetowych",
         url: "site-creation",
       },
       {
         id: 2,
-        titlePl: "Obsługa strony internetowej",
-        titleRu: "Обслуживание сайта",
-        titleEn: "",
-        titleUa: "",
+        title: "Obsługa strony internetowej",
         url: "website-maintenance",
       },
       {
         id: 3,
-        titlePl: "Reklama kontekstowa",
-        titleRu: "Контекстная реклама",
-        titleEn: "",
-        titleUa: "",
+        title: "Reklama kontekstowa",
         url: "contextual-advertising",
       },
       {
         id: 4,
-        titlePl: "SEO-promocja",
-        titleRu: "SEO продвижение",
-        titleEn: "",
-        titleUa: "",
+        title: "SEO-promocja",
         url: "seo-promotion",
       },
       {
         id: 5,
-        titlePl: "SMM-promocja",
-        titleRu: "SMM продвижение",
-        titleEn: "",
-        titleUa: "",
+        title: "SMM-promocja",
         url: "smm-promotion",
       },
       {
         id: 6,
-        titlePl: "Reklama ukierunkowana",
-        titleRu: "Таргетированная реклама",
-        titleEn: "",
-        titleUa: "",
+        title: "Reklama ukierunkowana",
         url: "targeted-advertising",
       },
       {
         id: 7,
-        titlePl: "Projektowanie unikalnego designu",
-        titleRu: "Разработка уникального дизайна",
-        titleEn: "",
-        titleUa: "",
+        title: "Projektowanie unikalnego designu",
         url: "development-of-a-unique-design",
       },
       {
         id: 8,
-        titlePl: "Usługa rezerwacji",
-        titleRu: "Booking service",
-        titleEn: "",
-        titleUa: "",
+        title: "Usługa rezerwacji",
         url: "booking-service",
       },
       {
         id: 9,
-        titlePl: "Inne usługi",
-        titleRu: "Прочие услуги",
-        titleEn: "",
-        titleUa: "",
+        title: "Inne usługi",
         url: "other-services",
       },
       {
         id: 10,
-        titlePl: "Dział funkcjonalny marketingu",
-        titleRu: "Функциональный отдел маркетинга",
-        titleEn: "",
-        titleUa: "",
+        title: "Dział funkcjonalny marketingu",
         url: "functional-marketing-department",
       },
     ],
   },
   {
     id: 5,
-    titlePl: "WIADOMOŚCI",
-    titleRu: "НОВОСТИ",
-    titleEn: "",
-    titleUa: "",
+    title: "WIADOMOŚCI",
     url: "news",
   },
   {
     id: 6,
-    titlePl: "KONTAKTY",
-    titleRu: "КОНТАКТЫ",
-    titleEn: "",
-    titleUa: "",
+    title: "KONTAKTY",
     url: "/#contacts",
   },
 ];
 
-export const footerMenuJobs = [
+export const mainMenuRu = [
+  {
+    id: 1,
+    title: "ГЛАВНАЯ",
+    url: "/",
+  },
+  {
+    id: 2,
+    title: "О НАС",
+    url: "/#about",
+  },
+  {
+    id: 3,
+    title: "ПОРТФОЛИО",
+    url: "/#portfolio",
+  },
+  {
+    id: 4,
+    title: "УСЛУГИ И ЦЕНЫ",
+    url: `services/${servicesPl[0].url}`,
+    addition: [
+      {
+        id: 1,
+        title: "Разработка сайта",
+        url: "site-creation",
+      },
+      {
+        id: 2,
+        title: "Обслуживание сайта",
+        url: "website-maintenance",
+      },
+      {
+        id: 3,
+        title: "Контекстная реклама",
+        url: "contextual-advertising",
+      },
+      {
+        id: 4,
+        title: "SEO продвижение",
+        url: "seo-promotion",
+      },
+      {
+        id: 5,
+        title: "SMM продвижение",
+        url: "smm-promotion",
+      },
+      {
+        id: 6,
+        title: "Таргетированная реклама",
+        url: "targeted-advertising",
+      },
+      {
+        id: 7,
+        title: "Разработка уникального дизайна",
+        url: "development-of-a-unique-design",
+      },
+      {
+        id: 8,
+        title: "Booking service",
+        url: "booking-service",
+      },
+      {
+        id: 9,
+        title: "Прочие услуги",
+        url: "other-services",
+      },
+      {
+        id: 10,
+        title: "Функциональный отдел маркетинга",
+        url: "functional-marketing-department",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "НОВОСТИ",
+    url: "news",
+  },
+  {
+    id: 6,
+    title: "КОНТАКТЫ",
+    url: "/#contacts",
+  },
+];
+
+export const footerMenuJobsPl = [
   {
     id: 1,
     title: "SMM | Tworzenie stron internetowych | SEO",
@@ -145,5 +182,20 @@ export const footerMenuJobs = [
   {
     id: 3,
     title: "Projektowanie | Tworzenie treści",
+  },
+];
+
+export const footerMenuJobsRu = [
+  {
+    id: 1,
+    title: "SMM | Разработка сайтов | SEO",
+  },
+  {
+    id: 2,
+    title: "Таргет и контекстная реклама",
+  },
+  {
+    id: 3,
+    title: "Дизайн | Создание контента",
   },
 ];

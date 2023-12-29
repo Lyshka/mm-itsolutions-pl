@@ -1,6 +1,7 @@
-import { news } from "@/constants/news";
+import { newsPl, newsRu } from "@/constants/news";
 import NewsSingle from "@/pages/NewsSingle";
 import { translatorToEn } from "@/utils/translator";
+import { SelectLaguageDate } from "@/utils/SelectLaguageDate";
 
 type Props = {
   params: { idNews: string };
@@ -8,6 +9,7 @@ type Props = {
 
 export async function generateMetadata({ params }: Props) {
   const { idNews } = params;
+  const news = SelectLaguageDate(newsPl, newsRu);
   const filteredNews = news.filter(({ url }) => {
     const newTitle = translatorToEn(url);
     const decoded = decodeURIComponent(idNews);
@@ -23,7 +25,7 @@ export async function generateMetadata({ params }: Props) {
 }
 
 export function generateStaticParams() {
-  return news.map(({ url }) => {
+  return newsPl.map(({ url }) => {
     const newUrl = translatorToEn(url);
 
     return {

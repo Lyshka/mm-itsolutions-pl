@@ -1,7 +1,10 @@
 import { bgNews } from "@/assets/img";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 export const NewsAbout = () => {
+  const t = useTranslations("News");
+
   return (
     <section>
       <div className="2xl:h-[496px] h-[136px] w-full relative flex justify-center items-center text-white">
@@ -24,12 +27,14 @@ export const NewsAbout = () => {
 
         <div className="container z-10 relative flex flex-col items-start">
           <nav className="flex items-center gap-2 2xl:text-[13px] text-xs leading-4 relative 2xl:bottom-[148px] bottom-4">
-            <span>Główna</span>
+            <span>{t("homeName")}</span>
             <span>/</span>
-            <span>Wiadomości</span>
+            <span>{t("title")}</span>
           </nav>
 
-          <h1 className="2xl:text-5xl text-xl font-black 2xl:leading-[56px] leading-8">Wiadomości</h1>
+          <h1 className="2xl:text-5xl text-xl font-black 2xl:leading-[56px] leading-8">
+          {t("title")}
+          </h1>
         </div>
       </div>
     </section>

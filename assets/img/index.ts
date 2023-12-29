@@ -7,6 +7,15 @@ import news1_5 from "./news/news1_5.webp";
 import news1_6 from "./news/news1_6.webp";
 import news1_7 from "./news/news1_7.webp";
 import news1_8 from "./news/news1_8.webp";
+import news2 from "./news/news2.webp";
+import news2_1 from "./news/news2_1.webp";
+import news2_2 from "./news/news2_2.webp";
+import news2_3 from "./news/news2_3.webp";
+import news2_4 from "./news/news2_4.webp";
+import news2_5 from "./news/news2_5.webp";
+import news2_6 from "./news/news2_6.webp";
+import news2_7 from "./news/news2_7.webp";
+import news2_8 from "./news/news2_8.webp";
 
 import bgNews from "./bg/bgNews.webp";
 
@@ -30,13 +39,11 @@ import comment3 from "./comment/comment3.webp";
 import banner2 from "./MainSlide/banner2.webp";
 import banner3 from "./MainSlide/banner3.webp";
 import banner4 from "./MainSlide/banner4.webp";
-import banner5 from "./MainSlide/banner5.webp";
 import banner6 from "./MainSlide/banner6.webp";
 import banner7 from "./MainSlide/banner7.webp";
 import banner2_mobile from "./MainSlide/banner2_mobile.webp";
 import banner3_mobile from "./MainSlide/banner3_mobile.webp";
 import banner4_mobile from "./MainSlide/banner4_mobile.webp";
-import banner5_mobile from "./MainSlide/banner5_mobile.webp";
 import banner6_mobile from "./MainSlide/banner6_mobile.webp";
 import banner7_mobile from "./MainSlide/banner7_mobile.webp";
 
@@ -96,6 +103,15 @@ export {
   news1_6,
   news1_7,
   news1_8,
+  news2,
+  news2_1,
+  news2_2,
+  news2_3,
+  news2_4,
+  news2_5,
+  news2_6,
+  news2_7,
+  news2_8,
   bgNews,
   banner2,
   banner2_mobile,
@@ -103,8 +119,6 @@ export {
   banner3_mobile,
   banner4,
   banner4_mobile,
-  banner5,
-  banner5_mobile,
   banner6,
   banner6_mobile,
   banner7,

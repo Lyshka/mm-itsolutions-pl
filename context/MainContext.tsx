@@ -1,6 +1,7 @@
 "use client";
 
-import { Categories } from "@/constants/projects";
+import { CategoriesPl, CategoriesRu } from "@/constants/projects";
+import { useSelectLaguageDate } from "@/hooks/useSelectLaguageDate";
 import { ReactNode, createContext, useState } from "react";
 
 type ErrorTel = {
@@ -9,13 +10,13 @@ type ErrorTel = {
 };
 
 interface IMainContext {
-  categoryProjects: Categories;
+  categoryProjects: CategoriesPl | CategoriesRu;
   isOpenMenuHeader: boolean;
   isOpenGratitude: boolean;
   isOpenFeedBack: boolean;
   isOpenDiscount: boolean;
   isErrorTel: ErrorTel;
-  onSelect: (title: Categories) => void;
+  onSelect: (title: CategoriesPl | CategoriesRu) => void;
   toggleGratitude: (state: boolean) => void;
   toggleFeedBack: () => void;
   toggleDiscount: () => void;
@@ -28,7 +29,7 @@ interface IMainContextProvider {
 }
 
 export const MainContext = createContext<IMainContext>({
-  categoryProjects: Categories.all,
+  categoryProjects: CategoriesPl.all,
   isOpenMenuHeader: false,
   isOpenGratitude: false,
   isOpenFeedBack: false,
@@ -42,9 +43,11 @@ export const MainContext = createContext<IMainContext>({
 });
 
 export const MainContextProvider = ({ children }: IMainContextProvider) => {
-  const [categoryProjects, setCategoryProjects] = useState<Categories>(
-    Categories.all
-  );
+  const Categories = useSelectLaguageDate(CategoriesPl, CategoriesRu);
+
+  const [categoryProjects, setCategoryProjects] = useState<
+    CategoriesPl | CategoriesRu
+  >(Categories.all);
   const [isOpenMenuHeader, setIsOpenMenuHeader] = useState(false);
   const [isOpenGratitude, setIsOpenGratitude] = useState(false);
   const [isOpenFeedBack, setisOpenFeedBack] = useState(false);
@@ -54,7 +57,7 @@ export const MainContextProvider = ({ children }: IMainContextProvider) => {
     tel: "",
   });
 
-  const onSelect = (title: Categories) => {
+  const onSelect = (title: CategoriesPl | CategoriesRu) => {
     setCategoryProjects(title);
   };
 

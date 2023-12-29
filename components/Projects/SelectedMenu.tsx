@@ -3,11 +3,19 @@
 import clsx from "clsx";
 import { useContext } from "react";
 
-import { projectsCategories } from "@/constants/projects";
+import {
+  projectsCategoriesPl,
+  projectsCategoriesRu,
+} from "@/constants/projects";
 import { MainContext } from "@/context/MainContext";
+import { useSelectLaguageDate } from "@/hooks/useSelectLaguageDate";
 
 export const SelectedMenu = () => {
   const { categoryProjects, onSelect } = useContext(MainContext);
+  const projectsCategories = useSelectLaguageDate(
+    projectsCategoriesPl,
+    projectsCategoriesRu
+  );
 
   return (
     <div className="flex w-fit 2xl:p-[6px] p-2 justify-center items-center gap-4 rounded-[30px] border border-[#F4F4F4]">

@@ -7,12 +7,15 @@ import Link from "next/link";
 import { MailIcon } from "@/assets/img/MailIcon";
 import { LocationIcon } from "@/assets/img/LocationIcon";
 import clsx from "clsx";
+import { useTranslations } from "next-intl";
 
 interface IContacts {
   dark?: boolean;
 }
 
 export const Contacts = ({ dark = true }: IContacts) => {
+  const t = useTranslations("Main");
+
   return (
     <section
       id="contacts"
@@ -23,16 +26,15 @@ export const Contacts = ({ dark = true }: IContacts) => {
     >
       <div className="container flex 2xl:flex-row flex-col-reverse gap-6 2xl:py-[104px] pt-10 2xl:items-center items-start">
         <div className="flex flex-col 2xl:justify-between justify-center 2xl:gap-10 gap-8 2xl:h-[360px] h-full">
-          <Title text="Kontakty" />
+          <Title text={t("titleContact")} />
 
           <div className="flex flex-col 2xl:gap-4 gap-2 2xl:w-[527px] w-full">
             <h6 className="2xl:text-[22px] text-base font-medium leading-6">
-              Stwórzmy coś pięknego razem!
+              {t("titleSecondContact")}
             </h6>
 
             <p className="2xl:text-base text-xs 2xl:leading-6 leading-4">
-              Skontaktuj się z nami i uzyskaj darmową konsultację
-              <br className="2xl:block hidden"/> Twojego biznesu już teraz
+              {t("descriptionContact")}
             </p>
           </div>
 
@@ -42,7 +44,7 @@ export const Contacts = ({ dark = true }: IContacts) => {
                 <RiPhoneFill className="2xl:w-6 w-4 2xl:h-6 h-4" />
 
                 <span className="flex-1 2xl:text-base text-sm font-medium 2xl:leading-6 left-4">
-                  Telefon:
+                  {t("telephone")}:
                 </span>
               </div>
 
@@ -58,7 +60,7 @@ export const Contacts = ({ dark = true }: IContacts) => {
                 <MailIcon className="2xl:w-6 w-4 2xl:h-6 h-4" />
 
                 <span className="flex-1 2xl:text-base text-sm font-medium 2xl:leading-6 left-4">
-                  Email:
+                  {t("email")}:
                 </span>
               </div>
 
@@ -76,7 +78,7 @@ export const Contacts = ({ dark = true }: IContacts) => {
                 <LocationIcon className="2xl:w-6 w-4 2xl:h-6 h-4" />
 
                 <span className="flex-1 2xl:text-base text-sm font-medium 2xl:leading-6 left-4">
-                  Adres:
+                  {t("address")}:
                 </span>
               </div>
 

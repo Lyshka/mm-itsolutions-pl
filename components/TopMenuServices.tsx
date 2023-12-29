@@ -1,20 +1,25 @@
 import { PiCaretRightBold } from "react-icons/pi";
 import Link from "next/link";
 
-import { mainMenu } from "@/constants/menu";
+import { mainMenuPl, mainMenuRu } from "@/constants/menu";
 import clsx from "clsx";
+import { useSelectLaguageDate } from "@/hooks/useSelectLaguageDate";
+import { useLocale } from "next-intl";
 
 interface ITopMenuServices {
   idSevice: string;
 }
 
 export const TopMenuServices = ({ idSevice }: ITopMenuServices) => {
+  const mainMenu = useSelectLaguageDate(mainMenuPl, mainMenuRu);
+  const locale = useLocale();
+
   return (
     <nav className="2xl:block hidden w-[221px] border-r-2 border-[#F4F4F4] sticky top-0">
       <ul className="flex flex-col">
         {mainMenu[3].addition?.map(({ title, url, id }) => {
           return (
-            <Link key={id} href={`/services/${url}`}>
+            <Link key={id} href={`/${locale}/services/${url}`}>
               <li
                 className={clsx(
                   "p-4 flex items-center gap-6 hover:bg-main hover:text-white",

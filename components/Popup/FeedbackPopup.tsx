@@ -7,7 +7,21 @@ import { PopupFeedbackForm } from "../Form/PopupFeedbackForm";
 import { useContext } from "react";
 import { MainContext } from "@/context/MainContext";
 
-export const FeedbackPopup = () => {
+export interface IFeedbackPopup {
+  name: string;
+  email: string;
+  description: string;
+  title: string;
+  buttonName: string;
+}
+
+export const FeedbackPopup = ({
+  buttonName,
+  description,
+  email,
+  name,
+  title,
+}: IFeedbackPopup) => {
   const { toggleFeedBack, isOpenFeedBack } = useContext(MainContext);
 
   return (
@@ -31,7 +45,13 @@ export const FeedbackPopup = () => {
               height={200}
               className="2xl:hidden block w-full h-[200px]"
             />
-            <PopupFeedbackForm />
+            <PopupFeedbackForm
+              buttonName={buttonName}
+              description={description}
+              email={email}
+              name={name}
+              title={title}
+            />
           </div>
         </section>
       )}

@@ -1,21 +1,22 @@
 "use client";
 
-import { MouseEvent, useContext, useState } from "react";
+import { useContext, useState } from "react";
 import Link from "next/link";
 import { IoIosArrowDown } from "react-icons/io";
 import { LuPhone } from "react-icons/lu";
 import { MdOutlineMailOutline } from "react-icons/md";
 
 import { MainContext } from "@/context/MainContext";
-import { mainMenu } from "@/constants/menu";
+import { mainMenuPl, mainMenuRu } from "@/constants/menu";
 import clsx from "clsx";
 import { useLocale } from "next-intl";
+import { useSelectLaguageDate } from "@/hooks/useSelectLaguageDate";
 
 export const MenuMobileHeader = () => {
   const { isOpenMenuHeader, toggleMenuHeader } = useContext(MainContext);
   const [isOpen, setIsOpen] = useState(false);
-
   const locale = useLocale();
+  const mainMenu = useSelectLaguageDate(mainMenuPl, mainMenuRu);
 
   const toggleSubMenu = () => {
     setIsOpen((prv) => !prv);

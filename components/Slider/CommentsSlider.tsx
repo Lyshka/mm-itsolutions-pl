@@ -23,7 +23,7 @@ export const CommentsSlider = () => {
           return (
             <button
               onClick={handlePrev}
-              className="2xl:w-8 w-6 2xl:h-8 h-6 rounded-full bg-black/50 !absolute top-2/4 left-0 z-[999999] -translate-y-2/4 flex justify-center items-center text-white"
+              className="2xl:w-8 w-6 2xl:h-8 h-6 rounded-full bg-black/50 !absolute top-2/4 left-0 -translate-y-2/4 flex justify-center items-center text-white"
             >
               <IoIosArrowBack className="2xl:w-4 w-2 2xl:h-4 h-2" />
             </button>

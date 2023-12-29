@@ -3,17 +3,32 @@
 import { useContext, useEffect, useState } from "react";
 import { isMobile } from "react-device-detect";
 
-import { Categories, projects } from "@/constants/projects";
+import {
+  CategoriesPl,
+  CategoriesRu,
+  Iprojects,
+  projectsPl,
+  projectsRu,
+} from "@/constants/projects";
 import { Title } from "../Title/Title";
 import { SelectedMenu } from "./SelectedMenu";
 import { Button } from "../Button/Button";
 import { CardProject } from "./CardProject";
 import { MainContext } from "@/context/MainContext";
+import { useSelectLaguageDate } from "@/hooks/useSelectLaguageDate";
 
-export const Projects = () => {
+export interface IProjects {
+  title: string;
+  btnActv: string;
+  btnUnActv: string;
+}
+
+export const Projects = ({ btnActv, btnUnActv, title }: IProjects) => {
   const { categoryProjects } = useContext(MainContext);
+  const projects = useSelectLaguageDate(projectsPl, projectsRu);
+  const Categories = useSelectLaguageDate(CategoriesPl, CategoriesRu);
 
-  const [filteredProjects, setFilteredProjects] = useState(projects);
+  const [filteredProjects, setFilteredProjects] = useState<Iprojects[]>(projects);
   const [projectInfo, setProjectInfo] = useState({
     length: 6,
     active: false,
@@ -44,7 +59,7 @@ export const Projects = () => {
     );
 
     setFilteredProjects(filtered);
-  }, [categoryProjects]);
+  }, [categoryProjects, projects, Categories.all]);
 
   useEffect(() => {
     if (isMobile) {
@@ -60,7 +75,7 @@ export const Projects = () => {
     <section id="portfolio" className="flex justify-center items-center">
       <div className="container 2xl:py-[60px] py-6 flex flex-col 2xl:gap-10 gap-4">
         <div className="flex 2xl:flex-row flex-col items-center justify-between w-full gap-4">
-          <Title text="Projekty" />
+          <Title text={title} />
 
           <SelectedMenu />
         </div>
@@ -77,7 +92,7 @@ export const Projects = () => {
 
         {filteredProjects.length > 6 && (
           <Button onClick={onShowFullPost} className="2xl:block hidden">
-            {projectInfo.active ? "Zawalić się" : "Obejrzyj wszystkie projekty"}
+            {projectInfo.active ? btnActv : btnUnActv}
           </Button>
         )}
       </div>

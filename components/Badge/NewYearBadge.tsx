@@ -1,4 +1,5 @@
 import { cookieMan, gifts, showNewYear, showNewYearMobile } from "@/assets/img";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,6 +8,7 @@ interface INewYearBadge {
 }
 
 export const NewYearBadge = ({ textBadge }: INewYearBadge) => {
+  const t = useTranslations("Service");
   if (!textBadge) return;
 
   return (
@@ -22,9 +24,7 @@ export const NewYearBadge = ({ textBadge }: INewYearBadge) => {
         className="absolute 2xl:hidden block"
       />
       <div className="text-white flex flex-col 2xl:gap-8 gap-4 2xl:w-[390px]  w-full relative z-20">
-        <h5 className="text-xl font-extrabold leading-6">
-          Noworoczne prezenty od ITSolutions
-        </h5>
+        <h5 className="text-xl font-extrabold leading-6">{t("titleBadge")}</h5>
 
         <div className="flex flex-col 2xl:gap-4 gap-2">
           <p className="2xl:text-base text-xs font-semibold 2xl:leading-5 leading-4">
@@ -33,7 +33,7 @@ export const NewYearBadge = ({ textBadge }: INewYearBadge) => {
 
           <Link href={"#formService"}>
             <button className="py-2 px-4 rounded-[100px] bg-white text-center text-base font-medium leading-4 text-main">
-              Otrzymać prezent
+              {t("buttonBadge")}
             </button>
           </Link>
         </div>

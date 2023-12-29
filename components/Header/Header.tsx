@@ -7,17 +7,17 @@ import { LuPhone } from "react-icons/lu";
 import { CgClose } from "react-icons/cg";
 import { RxHamburgerMenu } from "react-icons/rx";
 
-import { mainMenu } from "@/constants/menu";
+import { mainMenuPl, mainMenuRu } from "@/constants/menu";
 import { MenuMobileHeader } from "./MenuMobileHeader";
 import { MainContext } from "@/context/MainContext";
 import { Logo } from "@/assets/img/Logo";
 import { useLocale } from "next-intl";
-import { Locales } from "@/messages";
-import { checkLanguage } from "@/utils/checkLanguage";
+import { useSelectLaguageDate } from "@/hooks/useSelectLaguageDate";
 
 export const Header = () => {
   const { isOpenMenuHeader, toggleMenuHeader } = useContext(MainContext);
   const locale = useLocale();
+  const mainMenu = useSelectLaguageDate(mainMenuPl, mainMenuRu);
 
   return (
     <header className="flex 2xl:flex-row flex-col justify-center items-center 2xl:py-4 py-0 border-b-2 border-[#F4F4F4]">
@@ -40,20 +40,11 @@ export const Header = () => {
         </nav>
 
         <ul className="hidden 2xl:flex items-center gap-10">
-          {mainMenu.map(({ url, id, titleEn, titlePl, titleRu, titleUa }) => {
-            const title = checkLanguage(locale, {
-              titleEn,
-              titlePl,
-              titleRu,
-              titleUa,
-            });
-
-            return (
-              <li key={id} className="list-header-li hover:text-main uppercase">
-                <Link href={`${locale}/${url}`}>{title}</Link>
-              </li>
-            );
-          })}
+          {mainMenu.map(({ url, id, title }) => (
+            <li key={id} className="list-header-li hover:text-main uppercase">
+              <Link href={`/${locale}/${url}`}>{title}</Link>
+            </li>
+          ))}
         </ul>
 
         <div className="hidden 2xl:flex flex-col gap-2">

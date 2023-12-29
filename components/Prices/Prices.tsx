@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import { ServiceSubTitle } from "../Title/ServiceSubTitle";
 import { PriceCard } from "./PriceCard";
 
@@ -19,13 +20,22 @@ interface IPrices {
 
 export const Prices = ({ pricesCards }: IPrices) => {
   const pricesCardsL: priceList[] = pricesCards || [];
+  const t = useTranslations("Service");
+
   return (
     <section className="flex flex-col gap-6 2xl:py-0 py-12">
-      <ServiceSubTitle text="Nasze ceny" />
+      <ServiceSubTitle text={t("titlePrice")} />
 
       <div className="2xl:grid flex grid-cols-2 gap-6 items-start 2xl:overflow-x-visible overflow-x-scroll">
         {pricesCardsL.map((priceCard) => (
-          <PriceCard key={priceCard.id} priceCard={priceCard} />
+          <PriceCard
+            key={priceCard.id}
+            priceCard={priceCard}
+            beforePrice={t("beforePricePrice")}
+            buttonName={t("buttonPrice")}
+            detailName={t("detailNamePrice")}
+            month={t("month")}
+          />
         ))}
       </div>
     </section>

@@ -1,10 +1,12 @@
 import { delagothicone } from "@/assets/font";
-import { aboutList } from "@/constants/about";
+import { aboutListPl, aboutListRu } from "@/constants/about";
 import { CardAbout } from "./CardAbout";
 import { useTranslations } from "next-intl";
+import { useSelectLaguageDate } from "@/hooks/useSelectLaguageDate";
 
 export const About = () => {
   const t = useTranslations("Main");
+  const aboutList = useSelectLaguageDate(aboutListPl, aboutListRu);
 
   return (
     <section id="about" className="flex justify-center items-center">
@@ -20,16 +22,11 @@ export const About = () => {
             <h1
               className={`2xl:text-5xl text-lg 2xl:leading-[56px] leading-6 2xl:text-left text-center ${delagothicone.className}`}
             >
-              Witamy w świecie marketingu!
+              {t("secondTitleAbout")}
             </h1>
 
             <p className="text-lg 2xl:leading-6 leading-4">
-              Gotów podnieść swój biznes na nowy poziom? Nasz zespół ekspertów
-              oferuje skuteczne rozwiązania w zakresie promocji zarówno w
-              Internecie i mediach społecznościowych, jak i w świecie
-              rzeczywistym. Pomozemy Ci rozwijać swój biznes i przyciągać więcej
-              klientów dzięki naszym pierwszorzędowym strategiom marketingowym.
-              Nie przegap okazji, aby podnieść swój biznes na nowe wyżyny.
+              {t("descriptionAbout")}
             </p>
           </div>
         </div>

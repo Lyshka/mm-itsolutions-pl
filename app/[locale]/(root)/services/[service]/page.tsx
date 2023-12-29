@@ -1,5 +1,6 @@
-import { services } from "@/constants/services";
+import { servicesPl, servicesRu } from "@/constants/services";
 import ServiceSingle from "@/pages/ServiceSingle";
+import { SelectLaguageDate } from "@/utils/SelectLaguageDate";
 
 type Props = {
   params: { service: string };
@@ -7,6 +8,7 @@ type Props = {
 
 export async function generateMetadata({ params }: Props) {
   const { service } = params;
+  const services = SelectLaguageDate(servicesPl, servicesRu);
   const filteredService = services.filter(({ url }) => {
     return url === service;
   })[0];
@@ -19,7 +21,7 @@ export async function generateMetadata({ params }: Props) {
 }
 
 export function generateStaticParams() {
-  return services.map(({ url }) => ({
+  return servicesPl.map(({ url }) => ({
     service: url,
   }));
 }

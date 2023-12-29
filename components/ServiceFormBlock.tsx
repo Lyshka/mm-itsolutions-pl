@@ -2,8 +2,11 @@ import { delagothicone } from "@/assets/font";
 import { backgroundServidesMail } from "@/assets/img";
 import Image from "next/image";
 import { ServiceForm } from "./Form/ServiceForm";
+import { useTranslations } from "next-intl";
 
 export const ServiceFormBlock = () => {
+  const t = useTranslations("Service");
+
   return (
     <section
       id="formService"
@@ -30,10 +33,14 @@ export const ServiceFormBlock = () => {
         <p
           className={`${delagothicone.className} text-white text-center text-[22px] leading-8`}
         >
-          Rozpocznij od audytu strony internetowej
+          {t("titleForm")}
         </p>
 
-        <ServiceForm />
+        <ServiceForm
+          name={t("nameForm")}
+          email={t("email")}
+          buttonName={t("buttonForm")}
+        />
       </div>
     </section>
   );

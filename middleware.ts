@@ -1,6 +1,6 @@
 import createMiddleware from "next-intl/middleware";
 
-import { Locales } from "@/messages/index"
+import { Locales } from "@/messages/index";
 
 export default createMiddleware({
   // A list of all locales that are supported
@@ -12,5 +12,5 @@ export default createMiddleware({
 
 export const config = {
   // Match only internationalized pathnames
-  matcher: ["/", "/(ru|pl)/:path*"],
+  matcher: ["/", "/(pl|ru)/:path*"],
 };

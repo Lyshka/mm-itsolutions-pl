@@ -1,5 +1,53 @@
 {
-    "Main": {
-      "titleAbout": "Razem będziemy rosnąć"
-    }
+  "Main": {
+    "titleAbout": "Razem będziemy rosnąć",
+    "secondTitleAbout": "Witamy w świecie marketingu!",
+    "descriptionAbout": "Gotów podnieść swój biznes na nowy poziom? Nasz zespół ekspertów oferuje skuteczne rozwiązania w zakresie promocji zarówno w Internecie i mediach społecznościowych, jak i w świecie rzeczywistym. Pomozemy Ci rozwijać swój biznes i przyciągać więcej klientów dzięki naszym pierwszorzędowym strategiom marketingowym. Nie przegap okazji, aby podnieść swój biznes na nowe wyżyny.",
+    "titlePrice": "Usługi",
+    "titleProjects": "Projekty",
+    "buttonActiveProjects": "Zawalić się",
+    "buttonUnActiveProjects": "Obejrzyj wszystkie projekty",
+    "titleColoboration": "Z kim współpracujemy",
+    "titleComments": "Opinie naszych klientów",
+    "titleContact": "Kontakty",
+    "titleSecondContact": "Stwórzmy coś pięknego razem!",
+    "descriptionContact": "Skontaktuj się z nami i uzyskaj darmową konsultację Twojego biznesu już teraz",
+    "telephone": "Telefon",
+    "email": "Email",
+    "address": "Adres",
+    "titleNews": "Artykuły",
+    "buttonNews": "Szczegóły",
+    "titleDiscount": "Rabat specjalnie dla Ciebie!",
+    "descriptionDiscount": "Składaj teraz zgłoszenie, a specjalnie dla Ciebie przygotujemy indywidualną ofertę!",
+    "name": "Imię",
+    "buttonDiscount": "Wyślij",
+    "titleFeedback": "Formularz zwrotny",
+    "descriptionFeedback": "Zostaw swoje prośby, a my oddzwonimy!",
+    "buttonFeedback": "WYSŁAĆ"
+  },
+  "News": {
+    "homeName": "Główna",
+    "title": "Wiadomości"
+  },
+  "Service": {
+    "titleOffer": "Nasza oferta",
+    "titleBadge": "Noworoczne prezenty od ITSolutions",
+    "buttonBadge": "Otrzymać prezent",
+    "descriptionAbout": "Aby otrzymać spersonalizowaną ofertę, wypełnij poniższy formularz. Skontaktujemy się z Tobą tak szybko, jak to możliwe.",
+    "buttonAbout": "Otrzymaj ofertę.",
+    "titlePrice": "Nasze ceny",
+    "beforePricePrice": "od",
+    "detailNamePrice": "Szczegóły",
+    "buttonPrice": "OTRZYMAĆ OFERTĘ",
+    "month": "miesiąc",
+    "titleForm": "Rozpocznij od audytu strony internetowej",
+    "buttonForm": "OTRZYMAĆ OFERTĘ",
+    "nameForm": "Imię",
+    "email": "E-mail"
+  },
+  "Footer": {
+    "text": "ITSolutions - pełnokrotna agencja marketingu cyfrowego.",
+    "socialText": "Media społecznościowe:",
+    "copyright": "© Wszelkie prawa zastrzeżone ITSolutions"
   }
+}

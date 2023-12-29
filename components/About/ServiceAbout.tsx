@@ -2,6 +2,7 @@ import Image, { StaticImageData } from "next/image";
 import { ServiceSubTitle } from "../Title/ServiceSubTitle";
 import { Button } from "../Button/Button";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 interface IServiceAbout {
   title: string;
@@ -10,22 +11,21 @@ interface IServiceAbout {
 }
 
 export const ServiceAbout = ({ img, title, alt }: IServiceAbout) => {
+  const t = useTranslations("Service");
+
   return (
     <section className="flex 2xl:flex-row flex-col-reverse 2xl:py-0 py-4 items-center 2xl:gap-6 gap-4 justify-between">
       <div className="flex flex-col 2xl:gap-8 gap-4">
         <div className="flex gap-2 flex-col">
           <ServiceSubTitle text={title} />
 
-          <p className="text-base leading-6">
-            Aby otrzymać spersonalizowaną ofertę, wypełnij poniższy formularz.
-            Skontaktujemy się z Tobą tak szybko, jak to możliwe.
-          </p>
+          <p className="text-base leading-6">{t("descriptionAbout")}</p>
         </div>
 
         <div className="flex 2xl:justify-start justify-center items-center">
           <Link href={"#formService"}>
             <Button variant="outlined" className="font-medium">
-              Otrzymaj ofertę.
+              {t("buttonAbout")}
             </Button>
           </Link>
         </div>

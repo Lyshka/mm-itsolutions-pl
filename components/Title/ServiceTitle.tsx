@@ -1,14 +1,17 @@
 import { delagothicone } from "@/assets/font";
+import { useTranslations } from "next-intl";
 
 interface IServiceTitle {
   title: string;
 }
 
 export const ServiceTitle = ({ title }: IServiceTitle) => {
+  const t = useTranslations("Service")
+
   return (
     <section className="flex 2xl:py-0 py-8 flex-col items-center gap-4 self-center">
       <p className="text-[#A7A7A7] text-sm text-center leading-4 uppercase">
-        Nasza oferta
+        {t("titleOffer")}
       </p>
       <div className="flex flex-col items-center gap-[15px]">
         <h1

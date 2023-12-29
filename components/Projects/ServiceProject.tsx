@@ -3,17 +3,22 @@
 import { useContext, useEffect, useState } from "react";
 import { isMobile } from "react-device-detect";
 
-import { Categories, projects } from "@/constants/projects";
+import { CategoriesPl, CategoriesRu, Iprojects, projectsPl, projectsRu } from "@/constants/projects";
 import { SelectedMenu } from "./SelectedMenu";
 import { Button } from "../Button/Button";
 import { CardProject } from "./CardProject";
 import { MainContext } from "@/context/MainContext";
 import { ServiceSubTitle } from "../Title/ServiceSubTitle";
+import { useSelectLaguageDate } from "@/hooks/useSelectLaguageDate";
+import { IProjects } from "./Projects";
 
-export const ServiceProject = () => {
+export const ServiceProject = ({btnActv, btnUnActv, title}: IProjects) => {
   const { categoryProjects } = useContext(MainContext);
+  const projects = useSelectLaguageDate(projectsPl, projectsRu);
+  const Categories = useSelectLaguageDate(CategoriesPl, CategoriesRu);
 
-  const [filteredProjects, setFilteredProjects] = useState(projects);
+  const [filteredProjects, setFilteredProjects] =
+    useState<Iprojects[]>(projects);
   const [projectInfo, setProjectInfo] = useState({
     length: 6,
     active: false,
@@ -44,7 +49,7 @@ export const ServiceProject = () => {
     );
 
     setFilteredProjects(filtered);
-  }, [categoryProjects]);
+  }, [categoryProjects, projects, Categories.all]);
 
   useEffect(() => {
     if (isMobile) {
@@ -59,7 +64,7 @@ export const ServiceProject = () => {
   return (
     <section className="flex flex-col 2xl:gap-10 gap-4 2xl:py-0 py-12">
       <div className="flex 2xl:flex-row flex-col items-center justify-between w-full gap-4">
-        <ServiceSubTitle text="Nasze realizacje" />
+        <ServiceSubTitle text={title} />
 
         <SelectedMenu />
       </div>
@@ -75,7 +80,7 @@ export const ServiceProject = () => {
       <div className="flex justify-center items-center">
         {filteredProjects.length > 6 && (
           <Button onClick={onShowFullPost} className="2xl:block hidden">
-            {projectInfo.active ? "Zawalić się" : "Obejrzyj wszystkie projekty"}
+            {projectInfo.active ? btnActv : btnUnActv}
           </Button>
         )}
       </div>

@@ -4,13 +4,17 @@ import { NewYearBadge } from "@/components/Badge/NewYearBadge";
 import { Prices } from "@/components/Prices/Prices";
 import { ServiceProject } from "@/components/Projects/ServiceProject";
 import { ServiceTitle } from "@/components/Title/ServiceTitle";
-import { services } from "@/constants/services";
+import { servicesPl, servicesRu } from "@/constants/services";
+import { useSelectLaguageDate } from "@/hooks/useSelectLaguageDate";
+import { useTranslations } from "next-intl";
 
 interface IServicePage {
   idSevice: string;
 }
 
 export const ServicePage = ({ idSevice }: IServicePage) => {
+  const t = useTranslations("Main");
+  const services = useSelectLaguageDate(servicesPl, servicesRu)
   const service = services.filter(({ url }) => url === idSevice)[0];
 
   const advantages = service?.advantages;
@@ -26,7 +30,11 @@ export const ServicePage = ({ idSevice }: IServicePage) => {
       <NewYearBadge textBadge={textBadge} />
       <ServiceAbout title={title} img={img} alt={alt} />
       <Advantage advantages={advantages} />
-      <ServiceProject />
+      <ServiceProject
+        title={t("titleProjects")}
+        btnActv={t("buttonActiveProjects")}
+        btnUnActv={t("buttonUnActiveProjects")}
+      />
       <Prices pricesCards={cards} />
     </div>
   );
