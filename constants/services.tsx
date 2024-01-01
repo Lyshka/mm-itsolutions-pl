@@ -43,8 +43,6 @@ export const servicesPl = [
         },
       ],
     },
-    textBadge:
-      "Zamów dowolny plan rozwoju strony internetowej i otrzymaj w prezencie Reklamę Kontekstową + CEO",
     cards: [
       {
         id: 1,
@@ -199,8 +197,6 @@ export const servicesPl = [
         },
       ],
     },
-    textBadge:
-      "Zamów dowolny plan utrzymania strony internetowej i otrzymaj SEO w prezencie",
     cards: [
       {
         id: 1,
@@ -517,8 +513,6 @@ export const servicesPl = [
         },
       ],
     },
-    textBadge:
-      "Zamów dowolny plan promocyjny SMM i otrzymaj w prezencie zestaw reklam ukierunkowanych",
     cards: [
       {
         id: 1,
@@ -1106,8 +1100,6 @@ export const servicesRu = [
         },
       ],
     },
-    textBadge:
-      "Закажи любой тариф по разработке сайта и получи Контекстную рекламу + CEO в подарок",
     cards: [
       {
         id: 1,
@@ -1262,8 +1254,6 @@ export const servicesRu = [
         },
       ],
     },
-    textBadge:
-      "Закажи любой тариф по обслуживанию сайта и получи SEO в подарок",
     cards: [
       {
         id: 1,
@@ -1579,8 +1569,6 @@ export const servicesRu = [
         },
       ],
     },
-    textBadge:
-      "Закажи любой тариф SMM-продвижения и получи настройку таргетированной рекламы в подарок",
     cards: [
       {
         id: 1,
