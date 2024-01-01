@@ -3,47 +3,9 @@ import {
   banner2_mobile,
   banner3,
   banner3_mobile,
-  banner4,
-  banner4_mobile,
-  banner6,
-  banner6_mobile,
-  banner7,
-  banner7_mobile,
 } from "@/assets/img";
 
 export const slidesMainPl = [
-  {
-    id: 1,
-    title: "WYPRZEDAŻ NOWOROCZNA",
-    description: `
-    Czas zrealizować swoje marzenia marketingowe! Przy zamówieniu naszych usług otrzymasz nie tylko wysokiej jakości rezultaty, ale także unikalne prezenty:<br/>
-    🚀 Tworzenie strony internetowej + SEO + darmowe skonfigurowanie reklamy kontekstowej;<br/>
-    🔧 Obsługa strony + SEO w prezencie;<br/>
-    📱 Promocja w mediach społecznościowych + darmowa konfiguracja reklamy ukierunkowanej.
-      `,
-    img: banner7,
-    buttonText: "Zorientować się w kosztach",
-    imgMobile: banner7_mobile,
-    link: "/services/site-creation",
-  },
-  {
-    id: 2,
-    title: "Rabat 15%",
-    description:
-      "Świętuj nadejście Nowego Roku z blaskiem w swoim biznesie hotelarskim! Oferujemy unikalne rozwiązania do promocji Twojego kompleksu. Powierz nam stworzenie niepowtarzalnego wizerunku i przyciągnięcie nowych gości. Świętuj sukces z profesjonalistami marketingu!",
-    buttonText: "Zorientować się w kosztach",
-    img: banner4,
-    imgMobile: banner4_mobile,
-  },
-  {
-    id: 3,
-    title: "Rabat 10%",
-    description:
-      "na smaczny sukces w dziedzinie gastronomii! Świąteczna oferta od nas: podnieś swą restaurację na nowy poziom dzięki skutecznemu marketingowi. Zdobywaj serca gości i zwiększaj zyski. Smakuj sukces razem z nami!",
-    img: banner6,
-    buttonText: "Zorientować się w kosztach",
-    imgMobile: banner6_mobile,
-  },
   {
     id: 4,
     title: "Techniczne wsparcie strony internetowej od 22 PLN",
@@ -65,38 +27,6 @@ export const slidesMainPl = [
 ];
 
 export const slidesMainRu = [
-  {
-    id: 1,
-    title: "НОВОГОДНЯЯ РАСПРОДАЖА",
-    description: `
-    Пора воплотить ваши маркетинговые мечты в жизнь! При заказе наших услуг вы получаете не только качественный результат, но и уникальные подарки: <br/>
-🚀 Разработка сайта + SEO-продвижение и настройка контекстной рекламы в подарок;<br/>
-🔧 Обслуживание сайта + SEO-продвижение в подарок;<br/>
-📱 SMM-продвижение + настройка таргетированной рекламы в подарок;
-      `,
-    img: banner7,
-    buttonText: "ПОДРОБНЕЕ",
-    imgMobile: banner7_mobile,
-    link: "/services/site-creation",
-  },
-  {
-    id: 2,
-    title: "Скидка 15%",
-    description:
-      "Отпразднуйте наступление Нового Года с блеском в вашем гостиничном бизнесе! Предлагаем уникальные решения для продвижения вашего комплекса. Доверьтесь нам, чтобы создать неповторимый имидж и привлечь новых гостей. Празднуйте успех с профессионалами маркетинга!",
-    buttonText: "РАССЧИТАТЬ СТОИМОСТЬ",
-    img: banner4,
-    imgMobile: banner4_mobile,
-  },
-  {
-    id: 3,
-    title: "Скидка 10%",
-    description:
-      "на вкусный успех вашего общепита! Праздничное предложение от нас: поднимите свой ресторан на новый уровень с эффективным маркетингом. Завоюйте сердца гостей и увеличьте прибыль. Вкусите успех вместе с нами!",
-    img: banner6,
-    buttonText: "РАССЧИТАТЬ СТОИМОСТЬ",
-    imgMobile: banner6_mobile,
-  },
   {
     id: 4,
     title: "Техническая поддержка сайта от 22 PLN",
