@@ -14,7 +14,7 @@ interface IServicePage {
 
 export const ServicePage = ({ idSevice }: IServicePage) => {
   const t = useTranslations("Main");
-  const services = useSelectLaguageDate(servicesPl, servicesRu)
+  const services = useSelectLaguageDate(servicesPl, servicesRu);
   const service = services.filter(({ url }) => url === idSevice)[0];
 
   const advantages = service?.advantages;
@@ -31,6 +31,7 @@ export const ServicePage = ({ idSevice }: IServicePage) => {
       <ServiceAbout title={title} img={img} alt={alt} />
       <Advantage advantages={advantages} />
       <ServiceProject
+        idSevice={idSevice}
         title={t("titleProjects")}
         btnActv={t("buttonActiveProjects")}
         btnUnActv={t("buttonUnActiveProjects")}

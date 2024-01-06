@@ -21,6 +21,7 @@ export interface IProjects {
   title: string;
   btnActv: string;
   btnUnActv: string;
+  idSevice?: string;
 }
 
 export const Projects = ({ btnActv, btnUnActv, title }: IProjects) => {
@@ -28,7 +29,8 @@ export const Projects = ({ btnActv, btnUnActv, title }: IProjects) => {
   const projects = useSelectLaguageDate(projectsPl, projectsRu);
   const Categories = useSelectLaguageDate(CategoriesPl, CategoriesRu);
 
-  const [filteredProjects, setFilteredProjects] = useState<Iprojects[]>(projects);
+  const [filteredProjects, setFilteredProjects] =
+    useState<Iprojects[]>(projects);
   const [projectInfo, setProjectInfo] = useState({
     length: 6,
     active: false,
