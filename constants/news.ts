@@ -17,9 +17,240 @@ import {
   news2_6,
   news2_7,
   news2_8,
+  news3,
 } from "@/assets/img";
 
 export const newsPl = [
+  {
+    id: 3,
+    url: "SEO и социальные сети: как использовать для максимального эффекта?",
+    title:
+      "SEO i media społecznościowe: jak wykorzystać je dla maksymalnego efektu?",
+    date: "8 Styczeń 2024",
+    shortDescription:
+      "SEO (Search Engine Optimization) i media społecznościowe (Social Media) to dwa potężne narzędzia, które mogą pomóc zwiększyć widoczność Twojego biznesu w internecie. Dzięki SEO Twój serwis lub blo",
+    description: `
+    <h4>Zawartość:</h4>
+    <ol>
+      <li><a href="#1">Prowadzenie</a></li>
+      <li>
+        <a href="#2">Optymalizacja profili w mediach społecznościowych</a>
+      </li>
+      <li><a href="#3">Tworzenie interesującej treści</a></li>
+      <li><a href="#4">Interakcja z publicznością</a></li>
+      <li><a href="#5">Linki do witryny</a></li>
+      <li><a href="#6">Reklama w mediach społecznościowych</a></li>
+      <li><a href="#7">Podsumowanie</a></li>
+    </ol>
+
+    <h4 id="1">Prowadzenie</h4>
+
+    <p>
+      SEO (Search Engine Optimization) i media społecznościowe (Social Media)
+      to dwa potężne narzędzia, które mogą pomóc zwiększyć widoczność Twojego
+      biznesu w internecie. Dzięki SEO Twój serwis lub blog może zajmować
+      wyższe pozycje w wynikach wyszukiwania, a media społecznościowe
+      pozwalają na interakcję z docelową grupą odbiorców i przyciąganie nowych
+      klientów.
+    </p>
+
+    <h4 id="2">Optymalizacja profili w mediach społecznościowych</h4>
+
+    <div>
+      <p>
+        Krok pierwszy w wykorzystaniu mediów społecznościowych do celów SEO to
+        zoptymalizowanie swoich profili. Oznacza to dodawanie odpowiednich
+        słów kluczowych i fraz, których użytkownicy mogą używać do
+        wyszukiwania Twojego biznesu.
+      </p>
+
+      <p>
+        1. Nazwa profilu powinna być krótka i łatwa do zapamiętania, a także
+        zawierać słowa kluczowe, które chcesz promować. Na przykład, jeśli
+        zajmujesz się sprzedażą obuwia, nazwa Twojego profilu może brzmieć
+        "Obuwie [twoje miasto]" lub "Obuwie [twoja marka]".
+      </p>
+
+      <p>
+        2. Opis profilu to miejsce, gdzie możesz opowiedzieć więcej o swoim
+        biznesie i tym, co oferujesz. Dodaj słowa kluczowe, które chcesz
+        promować, i upewnij się, że opis jest informatywny i pomocny.
+      </p>
+
+      <p>
+        3. Słowa kluczowe. Dodaj słowa kluczowe do nazwy profilu, opisu
+        profilu, a także do nazwy i opisu swoich publikacji. Używaj różnych
+        słów kluczowych i fraz, aby przyciągnąć jak najwięcej potencjalnych
+        klientów.
+      </p>
+
+      <p>
+        4. Zdjęcia i filmy to doskonały sposób, aby przyciągnąć uwagę
+        użytkowników i uczynić Twój profil bardziej atrakcyjnym. Używaj
+        wysokiej jakości obrazów i filmów, które odpowiadają tematyce Twojego
+        biznesu.
+      </p>
+    </div>
+
+    <h4 id="3">Tworzenie interesującej treści</h4>
+
+    <div>
+      <div>
+        <p>
+          Tworzenie interesującej treści to klucz do sukcesu w mediach
+          społecznościowych. Jeśli treść, którą tworzysz, będzie nudna lub
+          nieciekawa, ludzie będą mniej angażować się w Twoje publikacje i
+          mniej klikną na linki prowadzące do Twojej strony.
+        </p>
+
+        <div>
+          <p>
+            Istnieje wiele różnych rodzajów treści, które możesz tworzyć dla
+            mediów społecznościowych. Oto kilka pomysłów:
+          </p>
+
+          <ul style="padding-left: 8px">
+            <li>-artykuły;</li>
+            <li>-wiadomości;</li>
+            <li>-porady;</li>
+            <li>-infografiki;</li>
+            <li>-filmy;</li>
+            <li>-zdjęcia;</li>
+            <li>-galerie obrazów.</li>
+          </ul>
+        </div>
+      </div>
+
+      <p>
+        Jakość treści jest ważniejsza niż ilość. Zanim opublikujesz cokolwiek,
+        upewnij się, że jest to dobrze napisane, interesujące i przydatne. Nie
+        ograniczaj się do samodzielnego publikowania treści i oczekiwania, że
+        ludzie będą ją czytać. Zadawaj pytania, przeprowadzaj ankiety,
+        proponuj konkursy z nagrodami - wszystko to pomoże przyciągnąć uwagę
+        użytkowników i zaangażować ich w dialog.
+      </p>
+    </div>
+
+    <h4 id="4">Interakcja z publicznością</h4>
+
+    <div>
+      <p>
+        Regularna interakcja z audiencją to kolejny ważny krok ku sukcesowi w
+        mediach społecznościowych. Odpowiadaj na komentarze, śledź wzmianki o
+        swojej marce i dziękuj za opinie. Możesz również organizować konkursy
+        lub akcje specjalnie dla subskrybentów.
+      </p>
+
+      <p>
+        1. Odpowiedzi na komentarze to doskonały sposób, aby pokazać, że dbasz
+        o swoich subskrybentów i interesujesz się ich opiniami. Odpowiadaj na
+        wszystkie komentarze, nawet jeśli są negatywne.
+      </p>
+
+      <p>
+        2. Śledzenie wzmianek o twojej marce w mediach społecznościowych
+        pomoże ci zidentyfikować potencjalnych klientów i partnerów.
+        Wykorzystaj narzędzia do monitorowania mediów społecznościowych, aby
+        śledzić wzmianki o twojej marce i na nie reagować.
+      </p>
+    </div>
+
+    <p>3. Podziękowanie za opinie.</p>
+
+    <h4 id="5">Linki do witryny</h4>
+
+    <div>
+      <p>
+        Dodawanie linków do swojej strony internetowej lub bloga w swoich
+        mediach społecznościowych to doskonały sposób na zwiększenie ruchu na
+        Twojej stronie. Dodawaj linki do nazwy profilu, opisu profilu, a także
+        do nazwy i opisu swoich publikacji.
+      </p>
+
+      <p>
+        Włącz link do swojej strony internetowej lub bloga w nazwę profilu i
+        opis profilu. To pomoże użytkownikom łatwo znaleźć Twoją stronę, gdy
+        będą Cię szukać w mediach społecznościowych.
+      </p>
+
+      <p>
+        Dodawaj linki do swojej strony internetowej lub bloga w nazwę i opis
+        swoich publikacji. To pomoże użytkownikom dowiedzieć się więcej o
+        Twoim biznesie i tym, co oferujesz.
+      </p>
+
+      <p>
+        Jeśli publikujesz informacyjne artykuły w mediach społecznościowych,
+        nie zapomnij dodać linków do swojej strony internetowej lub bloga na
+        końcu artykułu. To pomoże użytkownikom dowiedzieć się więcej o Twojej
+        firmie i źródle informacji.
+      </p>
+    </div>
+
+    <h4 id="6">Reklama w mediach społecznościowych</h4>
+
+    <div>
+      <p>
+        Płatna reklama w mediach społecznościowych to kolejny skuteczny sposób
+        promocji Twojego biznesu w tych platformach. Reklama umożliwia
+        precyzyjne kierowanie przekazu do określonej grupy odbiorców, co może
+        pomóc w przyciągnięciu większej liczby potencjalnych klientów.
+      </p>
+
+      <p>
+        1. Targowanie. Podczas tworzenia kampanii reklamowych w mediach
+        społecznościowych istotne jest właściwe dostosowanie targowania.
+        Możesz kierować reklamę w oparciu o takie czynniki jak
+        zainteresowania, dane demograficzne i lokalizacja.
+      </p>
+
+      <p>
+        2. Konfiguracja kampanii. Podczas konfiguracji kampanii reklamowych w
+        mediach społecznościowych ważne jest ustalenie budżetu i celów
+        kampanii. Możesz również korzystać z różnych formatów reklamy, aby
+        znaleźć to, co najlepiej działa dla Twojego biznesu.
+      </p>
+    </div>
+
+    <h4 id="7">Podsumowanie</h4>
+
+    <div>
+      <p>
+        SEO i media społecznościowe to dwie potężne narzędzia, które mogą
+        pomóc w zwiększeniu widoczności Twojego biznesu w internecie.
+        Korzystając z tych narzędzi razem, możesz przyciągnąć więcej
+        potencjalnych klientów i zwiększyć rozpoznawalność swojej marki.
+      </p>
+
+      <p>
+        Oto kilka porad, które pomogą Ci wykorzystać SEO i media
+        społecznościowe dla maksymalnego efektu:
+      </p>
+
+      <p>
+        – bądź konsekwentny. Regularnie publikuj interesującą i pomocną treść
+        w mediach społecznościowych, aby utrzymać zainteresowanie swoją
+        publicznością;
+      </p>
+
+      <p>
+        – wykorzystuj analizę. Analizuj wyniki swoich kampanii w mediach
+        społecznościowych, aby dowiedzieć się, co działa, a co nie;
+      </p>
+
+      <p>
+        – współpracuj z innymi. Współpracuj z innymi firmami i liderami opinii
+        w swojej branży, aby poszerzyć swoją publiczność.
+      </p>
+
+      <p>
+        Postępując zgodnie z tymi wskazówkami, będziesz w stanie wykorzystać
+        SEO i media społecznościowe do osiągnięcia swoich celów biznesowych.
+      </p>
+    </div>
+    `,
+    img: news3,
+  },
   {
     id: 2,
     url: "Instagram: секреты привлечения аудитории через визуальный контент",
@@ -485,6 +716,231 @@ export const newsPl = [
 ];
 
 export const newsRu = [
+  {
+    id: 3,
+    url: "SEO и социальные сети: как использовать для максимального эффекта?",
+    title: "SEO и социальные сети: как использовать для максимального эффекта?",
+    date: "8 января 2024",
+    shortDescription:
+      "SEO (Search Engine Optimization) и социальные сети (Social Media) – это два мощных инструмента, которые могут помочь вам повысить видимость вашего бизнеса в Интернете. SEO позволяет вашему сайту или блогу занимать более высокие позиции в поисковой выдаче, а социальные сети помогают вам взаимодействовать",
+    description: `
+    <h4>Содержание:</h4>
+      <ol>
+        <li><a href="#1">Вступление</a></li>
+        <li><a href="#2">Оптимизация профилей в социальных сетях</a></li>
+        <li><a href="#3">Создание интересного контента</a></li>
+        <li><a href="#4">Взаимодействие с аудиторией</a></li>
+        <li><a href="#5">Ссылки на сайт</a></li>
+        <li><a href="#6">Реклама в социальных сетях</a></li>
+        <li><a href="#7">Заключение</a></li>
+      </ol>
+
+      <h4 id="1">Вступление:</h4>
+
+      <p>
+        SEO (Search Engine Optimization) и социальные сети (Social Media) – это
+        два мощных инструмента, которые могут помочь вам повысить видимость
+        вашего бизнеса в Интернете. SEO позволяет вашему сайту или блогу
+        занимать более высокие позиции в поисковой выдаче, а социальные сети
+        помогают вам взаимодействовать с целевой аудиторией и привлекать новых
+        клиентов.
+      </p>
+
+      <h4 id="2">Оптимизация профилей в социальных сетях</h4>
+
+      <div>
+        <p>
+          Первый шаг к использованию социальных сетей для SEO – это оптимизация
+          ваших профилей. Это означает добавление релевантных ключевых слов и
+          фраз, которые пользователи могут использовать для поиска вашего
+          бизнеса.
+        </p>
+
+        <p>
+          1. Название профиля должно быть кратким и запоминающимся, а также
+          включать ключевые слова, которые вы хотите продвигать. Например, если
+          вы занимаетесь продажей обуви, ваше название профиля может быть "Обувь
+          [ваш город]" или "Обувь [ваш бренд]".
+        </p>
+
+        <p>
+          2. Описание профиля – это место, где вы можете рассказать больше о
+          своем бизнесе и о том, что вы предлагаете. Включите ключевые слова,
+          которые вы хотите продвигать, и убедитесь, что описание является
+          информативным и полезным.
+        </p>
+
+        <p>
+          3. Ключевые слова. Включите ключевые слова в название профиля,
+          описание профиля, а также в название и описание ваших публикаций.
+          Используйте различные ключевые слова и фразы, чтобы привлечь как можно
+          больше потенциальных клиентов.
+        </p>
+
+        <p>
+          4. Фото и видео – это отличный способ привлечь внимание пользователей
+          и сделать ваш профиль более привлекательным. Используйте качественные
+          изображения и видео, которые соответствуют тематике вашего бизнеса.
+        </p>
+      </div>
+
+      <h4 id="3">Создание интересного контента</h4>
+
+      <div>
+        <div>
+          <p>
+            Создание интересного контента – это ключ к успеху в социальных
+            сетях. Если ваш контент будет скучным или неинтересным, люди будут
+            меньше взаимодействовать с вашими публикациями и меньше кликать на
+            ссылки на ваш сайт.
+          </p>
+
+          <div>
+            <p>
+              Существует множество различных типов контента, который вы можете
+              создавать для социальных сетей. Вот несколько идей:
+            </p>
+
+            <ul style="padding-left: 8px">
+              <li>-статьи;</li>
+              <li>-новости;</li>
+              <li>-советы;</li>
+              <li>-инфографика;</li>
+              <li>-видео;</li>
+              <li>-фото;</li>
+              <li>-галереи изображений.</li>
+            </ul>
+          </div>
+        </div>
+
+        <p>
+          Качество контента важнее количества. Прежде чем публиковать что-либо,
+          убедитесь, что это хорошо написано, интересно и полезно. Так же просто
+          публикуйте контент и ждите, что люди будут его читать. Задавайте
+          вопросы, проводите опросы, предлагайте розыгрыши с призами - все это
+          поможет вам привлечь внимание пользователей и вовлечь их в диалог.
+        </p>
+      </div>
+
+      <h4 id="4">Взаимодействие с аудиторией</h4>
+
+      <div>
+        <p>
+          Регулярное взаимодействие с аудиторией - это еще один важный шаг к
+          успеху в социальных сетях. Отвечайте на комментарии, отслеживайте
+          упоминания вашего бренда и благодарите за отзывы. Также можно
+          проводить конкурсы или акции специально для подписчиков.
+        </p>
+
+        <p>
+          1. Ответы на комментарии – это отличный способ показать, что вы
+          заботитесь о своих подписчиках и что вы заинтересованы в их мнении.
+          Отвечайте на все комментарии, даже если они негативные.
+        </p>
+
+        <p>
+          2. Отслеживание упоминаний – вашего бренда в социальных сетях поможет
+          вам выявить потенциальных клиентов и партнеров. Используйте
+          инструменты мониторинга социальных сетей, чтобы отслеживать упоминания
+          вашего бренда и отвечать на них.
+        </p>
+      </div>
+
+      <p>3. Благодарность за отзывы</p>
+
+      <h4 id="5">Ссылки на сайт</h4>
+
+      <div>
+        <p>
+          Добавление ссылок на ваш сайт или блог в ваши социальные сети - это
+          отличный способ увеличить трафик на ваш сайт. Добавляйте ссылки в
+          название профиля, описание профиля, а также в название и описание
+          ваших публикаций.
+        </p>
+
+        <p>
+          Включите ссылку на ваш сайт или блог в название профиля и описание
+          профиля. Это поможет пользователям легко найти ваш сайт, когда они
+          будут искать вас в социальных сетях.
+        </p>
+
+        <p>
+          Добавляйте ссылки на ваш сайт или блог в название и описание ваших
+          публикаций. Это поможет пользователям узнать больше о вашем бизнесе и
+          о том, что вы предлагаете.
+        </p>
+
+        <p>
+          Если вы публикуете информационные статьи в социальных сетях, не
+          забудьте добавить ссылки на свой сайт или блог в конце статьи. Это
+          поможет пользователям узнать больше о вашей компании и о том, откуда
+          взята информация.
+        </p>
+      </div>
+
+      <h4 id="6">Реклама в социальных сетях</h4>
+
+      <div>
+        <p>
+          Платная реклама в социальных сетях – это еще один эффективный способ
+          продвижения вашего бизнеса в социальных сетях. Реклама позволяет вам
+          таргетировать свою рекламу на конкретную аудиторию, что может помочь
+          вам привлечь больше потенциальных клиентов.
+        </p>
+
+        <p>
+          1. Таргетирование. При создании рекламных кампаний в социальных сетях
+          важно правильно настроить таргетинг. Вы можете таргетировать свою
+          рекламу на основе таких факторов, как интересы, демографические данные
+          и геолокация.
+        </p>
+
+        <p>
+          2. Настройка кампаний. При настройке рекламных кампаний в социальных
+          сетях важно установить бюджет и цели кампании. Вы также можете
+          использовать различные форматы рекламы, чтобы найти то, что лучше
+          всего работает для вашего бизнеса.
+        </p>
+      </div>
+
+      <h4 id="7">Заключение</h4>
+
+      <div>
+        <p>
+          SEO и социальные сети - это два мощных инструмента, которые могут
+          помочь вам повысить видимость вашего бизнеса в Интернете. Используя
+          эти инструменты вместе, вы можете привлечь больше потенциальных
+          клиентов и повысить узнаваемость своего бренда.
+        </p>
+
+        <p>
+          Вот несколько советов, которые помогут вам использовать SEO и
+          социальные сети для максимального эффекта:
+        </p>
+
+        <p>
+          – будьте последовательны. Публикуйте интересный и полезный контент в
+          социальных сетях регулярно, чтобы поддерживать интерес аудитории;
+        </p>
+
+        <p>
+          – используйте аналитику. Анализируйте результаты своих кампаний в
+          социальных сетях, чтобы узнать, что работает, а что нет;
+        </p>
+
+        <p>
+          – сотрудничайте с другими. Сотрудничайте с другими компаниями и
+          лидерами мнений в вашей отрасли, чтобы расширить свою аудиторию.
+        </p>
+
+        <p>
+          Cледуя этим советам, вы сможете использовать SEO и социальные сети для
+          достижения своих бизнес-целей.
+        </p>
+      </div>
+    `,
+    img: news3,
+  },
   {
     id: 2,
     url: "Instagram: секреты привлечения аудитории через визуальный контент",

@@ -16,6 +16,7 @@ import news2_5 from "./news/news2_5.webp";
 import news2_6 from "./news/news2_6.webp";
 import news2_7 from "./news/news2_7.webp";
 import news2_8 from "./news/news2_8.webp";
+import news3 from "./news/news3.webp";
 
 import bgNews from "./bg/bgNews.webp";
 
@@ -67,6 +68,10 @@ import project16_smm from "./projects/star-food_smm.webp";
 import project17_site from "./projects/t1_site.webp";
 import project18_smm from "./projects/t1_smm.webp";
 
+import flagRU from "./flag/flagRU.webp";
+import flagPl from "./flag/flagPl.webp";
+import flagUA from "./flag/flagUA.webp";
+
 import bookingService from "./services/booking-service.webp";
 import contextualAdvertising from "./services/contextual-advertising.webp";
 import developmentOfAUniqueDesign from "./services/development-of-a-unique-design.webp";
@@ -107,6 +112,7 @@ export {
   news2_6,
   news2_7,
   news2_8,
+  news3,
   bgNews,
   banner2,
   banner2_mobile,
@@ -135,6 +141,9 @@ export {
   project16_smm,
   project17_site,
   project18_smm,
+  flagPl,
+  flagRU,
+  flagUA,
   colabAvansum,
   colabDsk,
   colabJac,

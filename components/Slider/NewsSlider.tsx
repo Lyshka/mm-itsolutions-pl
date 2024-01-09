@@ -117,7 +117,7 @@ export const NewsSlider = ({ buttonTitle }: INewsSlider) => {
               </div>
             </Link>
             {/*idx !== newsLengthHalf - 1 && */}
-            {true && (
+            {idx !== newsLengthHalf - 1 && (
               <Link
                 href={`/${locale}/news/${oddnewUrl}`}
                 className="flex flex-col gap-4"

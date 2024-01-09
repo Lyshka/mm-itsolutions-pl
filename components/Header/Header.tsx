@@ -13,6 +13,7 @@ import { MainContext } from "@/context/MainContext";
 import { Logo } from "@/assets/img/Logo";
 import { useLocale } from "next-intl";
 import { useSelectLaguageDate } from "@/hooks/useSelectLaguageDate";
+import { SelectLanguage } from "../SelectLanguage";
 
 export const Header = () => {
   const { isOpenMenuHeader, toggleMenuHeader } = useContext(MainContext);
@@ -28,6 +29,8 @@ export const Header = () => {
         >
           <Logo />
         </Link>
+
+        <SelectLanguage />
 
         <nav className="2xl:hidden">
           <button
