@@ -69,7 +69,7 @@ import project17_site from "./projects/t1_site.webp";
 import project18_smm from "./projects/t1_smm.webp";
 
 import flagRU from "./flag/flagRU.webp";
-import flagPl from "./flag/flagPl.webp";
+import flagPl from "./flag/flagPL.webp";
 import flagUA from "./flag/flagUA.webp";
 
 import bookingService from "./services/booking-service.webp";
