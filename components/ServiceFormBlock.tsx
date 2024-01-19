@@ -38,7 +38,6 @@ export const ServiceFormBlock = () => {
 
         <ServiceForm
           name={t("nameForm")}
-          email={t("email")}
           buttonName={t("buttonForm")}
         />
       </div>

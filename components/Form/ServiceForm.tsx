@@ -9,13 +9,11 @@ import { Recaptcha } from "../Input/Recaptcha";
 
 type ServiceFormType = {
   name: string;
-  email: string;
   buttonName: string;
 } & FormHTMLAttributes<HTMLFormElement>;
 
 export const ServiceForm = ({
   buttonName,
-  email,
   name,
   ...props
 }: ServiceFormType) => {
@@ -34,12 +32,14 @@ export const ServiceForm = ({
       <Input
         className="2xl:min-w-[307px] min-w-full"
         placeholder={`${name} *`}
+        required
         name="name"
       />
       <Input
         className="2xl:min-w-[307px] min-w-full"
-        placeholder={`${email} *`}
-        type="email"
+        placeholder={`+48`}
+        type="tel"
+        required
         name="email"
       />
       <Recaptcha recaptchaRef={captcha} />
