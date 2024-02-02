@@ -12,11 +12,9 @@ import clsx from "clsx";
 
 type Language = {
   id: number;
-  img: StaticImageData;
+  img?: StaticImageData;
   language: Locales;
 };
-
-
 
 export const SelectLanguage = () => {
   const pathname = usePathname();
@@ -47,14 +45,19 @@ export const SelectLanguage = () => {
     <div className="relative w-[151px] h-[58px] 2xl:order-last order-none">
       <div className="bg-white absolute top-0 z-[1]">
         <div
-          className={clsx("flex items-center gap-8 cursor-pointer p-4", open && "border-b-[0.5px] border-[#333333] border-opacity-20")}
+          className={clsx(
+            "flex items-center gap-8 cursor-pointer p-4",
+            open && "border-b-[0.5px] border-[#333333] border-opacity-20"
+          )}
           onClick={toggleSelectMenuLanguage}
         >
-          <Image
-            className="w-[42px] h-[26px] object-cover border-[-0.5px] border-[#333]"
-            src={isLanguage.img}
-            alt="language"
-          />
+          {isLanguage.img && (
+            <Image
+              className="w-[42px] h-[26px] object-cover border-[-0.5px] border-[#333]"
+              src={isLanguage.img}
+              alt="language"
+            />
+          )}
 
           <div className="flex items-center gap-3 text-[#333333]">
             <span className="text-sm leading-6 tracking-[1px] uppercase ">
@@ -76,11 +79,13 @@ export const SelectLanguage = () => {
                 key={language.id}
                 className="flex items-center gap-8 cursor-pointer p-4 hover:bg-black/10"
               >
-                <Image
-                  className="w-[42px] h-[26px] object-cover border-[-0.5px] border-[#333]"
-                  src={language.img}
-                  alt="language"
-                />
+                {language.img && (
+                  <Image
+                    className="w-[42px] h-[26px] object-cover border-[-0.5px] border-[#333]"
+                    src={language.img}
+                    alt="language"
+                  />
+                )}
 
                 <div className="flex items-center gap-3 text-[#333333]">
                   <span className="text-sm leading-6 tracking-[1px] uppercase ">

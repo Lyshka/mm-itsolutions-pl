@@ -9,7 +9,6 @@ export const languages = [
   },
   {
     id: 2,
-    img: flagRU,
     language: Locales.ru,
   },
 ];
