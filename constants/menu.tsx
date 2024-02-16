@@ -58,18 +58,8 @@ export const mainMenuPl = [
       },
       {
         id: 8,
-        title: "Usługa rezerwacji",
-        url: "booking-service",
-      },
-      {
-        id: 9,
         title: "Inne usługi",
         url: "other-services",
-      },
-      {
-        id: 10,
-        title: "Dział funkcjonalny marketingu",
-        url: "functional-marketing-department",
       },
     ],
   },
@@ -143,18 +133,8 @@ export const mainMenuRu = [
       },
       {
         id: 8,
-        title: "Booking service",
-        url: "booking-service",
-      },
-      {
-        id: 9,
         title: "Прочие услуги",
         url: "other-services",
-      },
-      {
-        id: 10,
-        title: "Функциональный отдел маркетинга",
-        url: "functional-marketing-department",
       },
     ],
   },
