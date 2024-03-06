@@ -32,6 +32,8 @@ import colabMiracle from "./colab/mirakle.webp";
 import colabPoseidonFish from "./colab/poseidon-fish.webp";
 import colabRembay from "./colab/rembay.webp";
 import colabT1 from "./colab/t1.webp";
+import colabTortbox from "./colab/tortbox.webp";
+import colabSolution from "./colab/solution.webp";
 
 import comment2 from "./comment/comment2.webp";
 import comment3 from "./comment/comment3.webp";
@@ -168,6 +170,8 @@ export {
   colabPoseidonFish,
   colabRembay,
   colabT1,
+  colabSolution,
+  colabTortbox,
   comment2,
   comment3,
   comment4,
