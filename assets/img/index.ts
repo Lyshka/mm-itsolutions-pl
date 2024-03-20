@@ -75,6 +75,8 @@ import project15_smm from "./projects/royal-park_smm.webp";
 import project16_smm from "./projects/star-food_smm.webp";
 import project17_site from "./projects/t1_site.webp";
 import project18_smm from "./projects/t1_smm.webp";
+import project19_smm from "./projects/remby_smm.webp";
+import project20_site from "./projects/tortbox_site.webp";
 
 import flagRU from "./flag/flagRU.webp";
 import flagPl from "./flag/flagPL.webp";
@@ -155,6 +157,8 @@ export {
   project16_smm,
   project17_site,
   project18_smm,
+  project19_smm,
+  project20_site,
   flagPl,
   flagRU,
   flagUA,

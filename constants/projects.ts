@@ -19,6 +19,8 @@ import {
   project16_smm,
   project17_site,
   project18_smm,
+  project19_smm,
+  project20_site,
 } from "@/assets/img";
 
 export enum CategoriesPl {
@@ -170,6 +172,16 @@ export const projectsPl = [
     img: project18_smm,
     category: CategoriesPl.smm,
   },
+  {
+    id: 19,
+    img: project19_smm,
+    category: CategoriesPl.smm,
+  },
+  {
+    id: 20,
+    img: project20_site,
+    category: CategoriesPl.sites,
+  },
 ];
 
 export const projectsRu = [
@@ -261,6 +273,16 @@ export const projectsRu = [
   {
     id: 18,
     img: project18_smm,
+    category: CategoriesRu.smm,
+  },
+  {
+    id: 19,
+    img: project19_smm,
+    category: CategoriesRu.smm,
+  },
+  {
+    id: 20,
+    img: project20_site,
     category: CategoriesRu.smm,
   },
 ];
